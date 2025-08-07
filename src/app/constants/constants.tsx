@@ -5,24 +5,24 @@ export const company = {
   favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'poznerautomoviles',
-  name: 'POZNER AUTOMOVILES',
-  adress: 'Av. Lope de vega 2362',
-  city: 'Devoto CABA',
-  email: 'poznerautomoviles@gmail.com',
-  instagram: 'pozner_automoviles',
-  facebook: null,
-  whatsapp: ['1162419076', '3413910634'],
-  googlemapsLink: 'https://maps.app.goo.gl/s1YSTg2RYJPhLLhT6',
+  id: 'carclassmultimarca',
+  name: 'Carclass Multimarca',
+  adress: 'Av. Nazca 2381',
+  city: 'CABA',
+  email: 'carclassmultimarca@gmail.com',
+  instagram: 'carclass.multimarca',
+  facebook: 'https://www.facebook.com/40Veinte/',
+  whatsapp: ['1133604677'],
+  googlemapsLink: 'https://maps.app.goo.gl/7MrApBS7C3eidfLo6',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.399705581421!2d-58.52087462339179!3d-34.61933815832487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6403e8afa75%3A0xe70084a0bc5854b1!2sPozner%20Automoviles!5e0!3m2!1sen!2sar!4v1754537488630!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8474949894794!2d-58.48420681824813!3d-34.60801769418156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc901c59019c9%3A0xf6532294fbb74dc!2sCarclass%20Multimarca!5e0!3m2!1sen!2sar!4v1754564886098!5m2!1sen!2sar',
   openDays: [
-    { day: 'Lunes', hours: ['10:00 a 18:00hs'] },
-    { day: 'Martes', hours: ['10:00 a 18:00hs'] },
-    { day: 'Miércoles', hours: ['10:00 a 18:00hs'] },
-    { day: 'Jueves', hours: ['10:00 a 18:00hs'] },
-    { day: 'Viernes', hours: ['10:00 a 18:00hs'] },
-    { day: 'Sábado', hours: ['10:00 a 16:00hs'] },
+    { day: 'Lunes', hours: ['10:00 a 18:30hs'] },
+    { day: 'Martes', hours: ['10:00 a 18:30hs'] },
+    { day: 'Miércoles', hours: ['10:00 a 18:30hs'] },
+    { day: 'Jueves', hours: ['10:00 a 18:30hs'] },
+    { day: 'Viernes', hours: ['10:00 a 18:30hs'] },
+    { day: 'Sábado', hours: ['10:00 a 14:00hs'] },
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -33,8 +33,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://poznerautomoviles.vercel.app/',
-  title: 'POZNER AUTOMOVILES - Compra y Venta de Autos',
+  metadataBase: 'https://carclassmultimarca.vercel.app/',
+  title: 'Carclass Multimarca - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
