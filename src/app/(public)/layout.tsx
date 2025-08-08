@@ -14,7 +14,7 @@ export default function PublicLayout({
 }) {
   return (
     <div
-      className='h-screen lg:min-h-screen w-full bg-fixed bg-cover bg-center bg-no-repeat'
+      className='min-h-screen w-full bg-fixed bg-cover bg-center bg-no-repeat'
       style={{
         backgroundImage: 'url(/assets/inicio/background.jpg)',
       }}
