@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ArrowIcon from '@/components/icons/ArrowIcon';
 import WhatsappIcon from '@/components/icons/WhatsappIcon';
-import { company } from '@/app/constants/constants';
+import { API_BASE_URL, company, TENANT } from '@/app/constants/constants';
 import ImageGalleryModal from '@/components/ImageGalleryModal';
 import useEmblaCarousel from 'embla-carousel-react';
 import DropDownIcon from '@/components/icons/DropDownIcon';
@@ -14,13 +14,23 @@ import CarrouselRelated from '@/components/CarrouselRelated';
 import { motion } from 'framer-motion';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import data from '@/data/data.json';
 import ShareMenu from '@/components/ShareMenu';
+
+interface Imagen {
+  thumbnailUrl: string;
+  imageUrl: string;
+}
+
+interface Categoria {
+  id: string;
+  name: string;
+}
 
 interface ApiCar {
   id: string;
   brand: string;
   model: string;
+  mlTitle: string;
   year: number;
   color: string;
   price: {
@@ -40,17 +50,8 @@ interface ApiCar {
   active: boolean;
   createdAt: string;
   updatedAt: string;
-  Category: {
-    id: string;
-    name: string;
-    createdAt: string;
-    updatedAt: string;
-  };
-  Images: {
-    thumbnailUrl: string;
-    imageUrl: string;
-    order: number;
-  }[];
+  Category: Categoria;
+  Images: Imagen[];
 }
 
 export default function AutoDetailPage() {
@@ -66,7 +67,7 @@ export default function AutoDetailPage() {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [modalStartIndex, setModalStartIndex] = useState(0);
-  const [orderedImages, setOrderedImages] = useState<ApiCar['Images']>([]);
+  const [orderedImages, setOrderedImages] = useState<Imagen[]>([]);
 
   const scrollPrev = useCallback(() => {
     if (embla) {
@@ -105,19 +106,27 @@ export default function AutoDetailPage() {
   }, [embla]);
 
   useEffect(() => {
-    const fetchCar = () => {
+    const fetchCar = async () => {
       try {
-        const carData = data.cars.find((car) => car.id === id);
+        const response = await fetch(
+          `${API_BASE_URL}/api/cars/${id}?tenant=${TENANT}`
+        );
 
-        if (!carData) {
-          throw new Error('Vehículo no encontrado');
+        if (!response.ok) {
+          if (response.status === 404) {
+            throw new Error('Vehículo no encontrado');
+          }
+          throw new Error(`Error ${response.status}: ${response.statusText}`);
         }
 
-        // Transformar los datos al formato esperado
+        const carData = await response.json();
+
+        // Transformar los datos al formato esperado por el diseño original
         const auto = {
           id: carData.id,
           brand: carData.brand,
           model: carData.mlTitle,
+          mlTitle: carData.mlTitle,
           year: carData.year,
           color: carData.color,
           price: {
@@ -127,7 +136,7 @@ export default function AutoDetailPage() {
           description: carData.description,
           categoryId: carData.categoryId,
           mileage: carData.mileage,
-          motor: carData.mlEngine || 'No especificado',
+          motor: carData.motor || 'No especificado',
           transmission: carData.transmission,
           fuel: carData.fuel,
           doors: carData.doors,
@@ -139,15 +148,13 @@ export default function AutoDetailPage() {
           updatedAt: carData.updatedAt,
           Category: {
             id: carData.Category.id,
-            name:
-              carData.Category.name.charAt(0).toUpperCase() +
-              carData.Category.name.slice(1).toLowerCase(),
+            name: carData.Category.name,
             createdAt: carData.createdAt,
             updatedAt: carData.updatedAt,
           },
-          Images: carData.images.map((img, index) => ({
+          Images: carData.images.map((img: Imagen, index: number) => ({
             thumbnailUrl: img.thumbnailUrl,
-            imageUrl: img.thumbnailUrl,
+            imageUrl: img.imageUrl,
             order: index,
           })),
         };
@@ -165,7 +172,9 @@ export default function AutoDetailPage() {
       }
     };
 
-    fetchCar();
+    if (id) {
+      fetchCar();
+    }
   }, [id]);
 
   const renderContent = () => {

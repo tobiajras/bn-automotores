@@ -5,32 +5,48 @@ export const company = {
   favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'trepatusados',
-  name: 'Trepat Usados',
-  adress: 'Av. Libertador 480',
-  city: 'Vicente López',
-  email: 'info@sergiotrepat.com.ar',
-  instagram: 'trepat_usados',
-  facebook: null,
-  whatsapp: ['1158652313'],
-  googlemapsLink: 'https://maps.app.goo.gl/1VEv7wSU4LH1PKjj9',
-  googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d52582.851502564234!2d-58.5104983!3d-34.5427117!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb792619a2faf%3A0xd57144bd33c3c5b6!2sTrepat%20usados!5e0!3m2!1sen!2sar!4v1754608475799!5m2!1sen!2sar',
-  openDays: [
-    { day: 'Lunes', hours: ['09:00 a 19:00hs'] },
-    { day: 'Martes', hours: ['09:00 a 19:00hs'] },
-    { day: 'Miércoles', hours: ['09:00 a 19:00hs'] },
-    { day: 'Jueves', hours: ['09:00 a 19:00hs'] },
-    { day: 'Viernes', hours: ['09:00 a 19:00hs'] },
-    { day: 'Sábado', hours: ['09:30 a 13:00hs'] },
-    // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
-  ],
+  id: 'carant',
+  name: 'CAR.ANT',
+  adress: null,
+  city: null,
+  email: 'carant.automotores@gmail.com',
+  instagram: 'carant.automotores',
+  facebook: 'https://www.facebook.com/automotorescarant',
+  whatsapp: ['1122993305'],
+  googlemapsLink: null,
+  googlemaps: null,
+  openDays: null,
   footer:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
 
-export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
-export const TENANT = 'accotto-automotores';
+export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
+export const TENANT = 'car-ant';
+
+export const sedes = [
+  {
+    id: 1,
+    title: 'CAR.ANT El Indio',
+    adress: 'El Indio 1668',
+    city: 'Villa Adelina',
+    tel: null,
+    whatsapp: '1127488775',
+    schedule: ['Lunes a Viernes 09:00 a 19:00hs', 'Sábados 09:00 a 13:00hs'],
+    appointment: 'https://maps.app.goo.gl/LoyJEfazGBUg6T1X7',
+    image: 'sede-1.webp',
+  },
+  {
+    id: 2,
+    title: 'CAR.ANT Los Platanos',
+    adress: 'Los Platanos 1516',
+    city: 'Villa Adelina',
+    tel: null,
+    whatsapp: '1147650425',
+    schedule: ['Lunes a Viernes 9 a 13 y 15 a 19hs', 'Sábados 9 a 13hs'],
+    appointment: 'https://maps.app.goo.gl/2twHoVod5RCryMvL6',
+    image: 'sede-2.webp',
+  },
+];
 
 export const metadataCompany = {
   metadataBase: 'https://trepatusados.vercel.app/',
