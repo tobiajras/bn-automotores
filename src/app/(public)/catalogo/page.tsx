@@ -81,19 +81,13 @@ const CatalogoPage = () => {
   const fetchMarcas = async () => {
     try {
       const response = await fetch(
-        `${API_BASE_URL}/api/cars?tenant=${TENANT}&limit=1000`
+        `${API_BASE_URL}/api/cars/brands?tenant=${TENANT}`
       );
       if (!response.ok) {
         throw new Error(`Error ${response.status}: ${response.statusText}`);
       }
       const data = await response.json();
-      const marcas = Array.from(
-        new Set(
-          data.cars
-            .filter((car: ApiCar) => car.brand && car.brand.trim() !== '')
-            .map((car: ApiCar) => car.brand)
-        )
-      ).sort() as string[];
+      const marcas = data.map((brand: string) => brand).sort();
       setTodasLasMarcas(marcas);
     } catch (error) {
       console.error('Error al cargar las marcas:', error);
@@ -104,26 +98,20 @@ const CatalogoPage = () => {
   const fetchCategories = async () => {
     try {
       const response = await fetch(
-        `${API_BASE_URL}/api/cars?tenant=${TENANT}&limit=1000`
+        `${API_BASE_URL}/api/categories?tenant=${TENANT}`
       );
       if (!response.ok) {
         throw new Error(`Error ${response.status}: ${response.statusText}`);
       }
       const data = await response.json();
-      const categoriasUnicas = Array.from(
-        new Set(
-          data.cars
-            .filter(
-              (car: ApiCar) =>
-                car.Category?.name && car.Category.name.trim() !== ''
-            )
-            .map((car: ApiCar) => car.Category.name)
-        )
-      ) as string[];
-      const categoriasProcesadas = categoriasUnicas.map((cat: string) => ({
-        id: cat.toLowerCase(),
-        name: cat,
-      }));
+      const categoriasProcesadas = data.map(
+        (category: { id?: string; name: string }) => ({
+          id: category.id || category.name.toLowerCase(),
+          name:
+            category.name.charAt(0).toUpperCase() +
+            category.name.slice(1).toLowerCase(),
+        })
+      );
       setCategorias(categoriasProcesadas);
     } catch (error) {
       console.error('Error al cargar las categorías:', error);
@@ -138,11 +126,10 @@ const CatalogoPage = () => {
     setLoading(true);
     try {
       // Construir query parameters
-      const params = new URLSearchParams({
-        tenant: TENANT,
-        page: page.toString(),
-        limit: ITEMS_PER_PAGE.toString(),
-      });
+      const params = new URLSearchParams();
+      params.append('tenant', TENANT);
+      params.append('page', page.toString());
+      params.append('limit', ITEMS_PER_PAGE.toString());
 
       // Agregar filtros si existen
       if (filters?.search) {
@@ -376,7 +363,7 @@ const CatalogoPage = () => {
                       {categorias.map((categoria) => (
                         <SelectItem
                           key={categoria.id}
-                          value={categoria.name}
+                          value={categoria.name.toLowerCase()}
                           className='hover:text-color-primary hover:bg-neutral-700'
                         >
                           {categoria.name}
@@ -485,7 +472,7 @@ const CatalogoPage = () => {
                           {categorias.map((categoria) => (
                             <SelectItem
                               key={categoria.id}
-                              value={categoria.name}
+                              value={categoria.name.toLowerCase()}
                               className={`${
                                 company.dark
                                   ? 'hover:text-color-primary-light'
@@ -676,7 +663,7 @@ const CatalogoPage = () => {
                               <div
                                 className={`${
                                   company.price ? '' : 'hidden'
-                                } text-color-primary text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
+                                } text-color-primary text-lg md:text-xl font-medium tracking-tight truncate md:mb-1 transition-colors duration-300`}
                               >
                                 {car.price && car.price > 0 ? (
                                   <>

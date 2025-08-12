@@ -136,7 +136,7 @@ export default function AutoDetailPage() {
           description: carData.description,
           categoryId: carData.categoryId,
           mileage: carData.mileage,
-          motor: carData.motor || 'No especificado',
+          motor: carData.mlEngine || 'No especificado',
           transmission: carData.transmission,
           fuel: carData.fuel,
           doors: carData.doors,
@@ -265,7 +265,8 @@ export default function AutoDetailPage() {
                 href={`/catalogo?categoria=${car.Category.name.toLowerCase()}`}
               >
                 <p className='text-color-text-light hover:text-color-primary transition-colors'>
-                  {car.Category.name}
+                  {car.Category.name.charAt(0).toUpperCase() +
+                    car.Category.name.slice(1)}
                 </p>
               </Link>
             </div>
@@ -465,7 +466,8 @@ export default function AutoDetailPage() {
                       </span>
                       <span className='text-color-primary'>•</span>
                       <span className='font-medium text-color-text-light'>
-                        {car.Category.name}
+                        {car.Category.name.charAt(0).toUpperCase() +
+                          car.Category.name.slice(1)}
                       </span>
                     </div>
                   </div>
@@ -517,14 +519,16 @@ export default function AutoDetailPage() {
                         {car.year}
                       </p>
                     </div>
-                    <div>
-                      <p className='text-color-text-light text-sm font-medium'>
-                        Transmisión
-                      </p>
-                      <p className='text-color-title-light font-medium'>
-                        {car.transmission}
-                      </p>
-                    </div>
+                    {car.transmission && (
+                      <div>
+                        <p className='text-color-text-light text-sm font-medium'>
+                          Transmisión
+                        </p>
+                        <p className='text-color-title-light font-medium'>
+                          {car.transmission}
+                        </p>
+                      </div>
+                    )}
                     <div>
                       <p className='text-color-text-light text-sm font-medium'>
                         Combustible
