@@ -5,7 +5,7 @@
 // import Link from 'next/link';
 // import { useSearchParams, useRouter } from 'next/navigation';
 // import { Suspense, useEffect, useState } from 'react';
-// import { company } from '@/app/constants/constants';
+// import { API_BASE_URL, company, TENANT } from '@/app/constants/constants';
 // import ArrowIcon from '@/components/icons/ArrowIcon';
 // import { motion, AnimatePresence } from 'framer-motion';
 // import {
@@ -16,17 +16,26 @@
 //   SelectItem,
 // } from '@/components/ui/select';
 // import CloseIcon from '@/components/icons/CloseIcon';
-// import { API_BASE_URL, TENANT } from '@/app/constants/constants';
 // import Footer from '@/components/Footer';
 // import Header from '@/components/Header';
+
+// interface Imagen {
+//   thumbnailUrl: string;
+// }
+
+// interface Categoria {
+//   id: string;
+//   name: string;
+// }
 
 // interface ApiCar {
 //   id: string;
 //   brand: string;
 //   model: string;
+//   mlTitle: string;
 //   year: number;
 //   color: string;
-//   price: string;
+//   price: number;
 //   currency: 'USD' | 'ARS';
 //   description: string;
 //   categoryId: string;
@@ -40,29 +49,13 @@
 //   active: boolean;
 //   createdAt: string;
 //   updatedAt: string;
-//   Category: {
-//     id: string;
-//     name: string;
-//     createdAt: string;
-//     updatedAt: string;
-//   };
-//   images: {
-//     thumbnailUrl: string;
-//   }[];
-// }
-
-// interface ApiResponse {
-//   total: number;
-//   totalPages: number;
-//   currentPage: number;
-//   cars: ApiCar[];
+//   Category: Categoria;
+//   images: Imagen[];
 // }
 
 // interface Category {
 //   id: string;
 //   name: string;
-//   createdAt: string;
-//   updatedAt: string;
 // }
 
 // const ITEMS_PER_PAGE = 12;
@@ -91,26 +84,35 @@
 //         `${API_BASE_URL}/api/cars/brands?tenant=${TENANT}`
 //       );
 //       if (!response.ok) {
-//         throw new Error('Error al cargar las marcas');
+//         throw new Error(`Error ${response.status}: ${response.statusText}`);
 //       }
-//       const data: string[] = await response.json();
-//       setTodasLasMarcas(data.sort());
+//       const data = await response.json();
+//       const marcas = data.map((brand: string) => brand).sort();
+//       setTodasLasMarcas(marcas);
 //     } catch (error) {
 //       console.error('Error al cargar las marcas:', error);
 //     }
 //   };
 
-//   // Función para obtener las categorías del API
+//   // Función para obtener las categorías
 //   const fetchCategories = async () => {
 //     try {
 //       const response = await fetch(
 //         `${API_BASE_URL}/api/categories?tenant=${TENANT}`
 //       );
 //       if (!response.ok) {
-//         throw new Error('Error al cargar las categorías');
+//         throw new Error(`Error ${response.status}: ${response.statusText}`);
 //       }
-//       const data: Category[] = await response.json();
-//       setCategorias(data);
+//       const data = await response.json();
+//       const categoriasProcesadas = data.map(
+//         (category: { id?: string; name: string }) => ({
+//           id: category.id || category.name.toLowerCase(),
+//           name:
+//             category.name.charAt(0).toUpperCase() +
+//             category.name.slice(1).toLowerCase(),
+//         })
+//       );
+//       setCategorias(categoriasProcesadas);
 //     } catch (error) {
 //       console.error('Error al cargar las categorías:', error);
 //     }
@@ -123,25 +125,33 @@
 //   ) => {
 //     setLoading(true);
 //     try {
-//       let url = `${API_BASE_URL}/api/cars?page=${page}&limit=${ITEMS_PER_PAGE}&sort=position:desc&tenant=${TENANT}`;
+//       // Construir query parameters
+//       const params = new URLSearchParams();
+//       params.append('tenant', TENANT);
+//       params.append('page', page.toString());
+//       params.append('limit', ITEMS_PER_PAGE.toString());
 
+//       // Agregar filtros si existen
 //       if (filters?.search) {
-//         url += `&model=${encodeURIComponent(filters.search)}`;
+//         params.append('search', filters.search);
 //       }
 //       if (filters?.marca) {
-//         url += `&brand=${encodeURIComponent(filters.marca)}`;
+//         params.append('brand', filters.marca);
 //       }
 //       if (filters?.categoria) {
-//         url += `&category=${encodeURIComponent(filters.categoria)}`;
+//         params.append('category', filters.categoria);
 //       }
 
-//       const response = await fetch(url);
+//       const response = await fetch(
+//         `${API_BASE_URL}/api/cars?${params.toString()}`
+//       );
 //       if (!response.ok) {
-//         throw new Error('Error al cargar los vehículos');
+//         throw new Error(`Error ${response.status}: ${response.statusText}`);
 //       }
-//       const data: ApiResponse = await response.json();
-//       setCars(data.cars);
-//       setTotalPages(data.totalPages);
+//       const data = await response.json();
+
+//       setCars(data.cars || []);
+//       setTotalPages(data.totalPages || 1);
 //     } catch (error) {
 //       console.error('Error al cargar los vehículos:', error);
 //     } finally {
@@ -238,7 +248,10 @@
 //   };
 
 //   const filteredProducts = cars.filter((car) => {
-//     const normalizedProductName = car.model
+//     // Validar que mlTitle no sea null o undefined
+//     if (!car.mlTitle) return false;
+
+//     const normalizedProductName = car.mlTitle
 //       .normalize('NFD')
 //       .replace(/[\u0300-\u036f]/g, '');
 
@@ -260,7 +273,7 @@
 //         <div className='w-full flex justify-center mt-8 md:mt-10'>
 //           <div className='max-w-md sm:max-w-2xl lg:max-w-7xl w-full mx-4 sm:mx-6 md:mx-8 lg:mx-10 xl:mx-0'>
 //             {/* Contenedor principal con fondo oscuro y sombra */}
-//             <div className='bg-gradient-to-b from-black to-neutral-900 border border-neutral-800 rounded-lg shadow-[0_8px_30px_-15px_rgba(0,0,0,0.7)] p-5'>
+//             <div className='bg-color-bg-secondary border border-neutral-600 rounded-lg shadow-[0_8px_30px_-15px_rgba(0,0,0,0.7)] p-5'>
 //               {/* Título de la sección de filtros */}
 //               <div className='mb-5 flex items-center justify-between'>
 //                 <div className='flex items-center'>
@@ -350,7 +363,7 @@
 //                       {categorias.map((categoria) => (
 //                         <SelectItem
 //                           key={categoria.id}
-//                           value={categoria.name}
+//                           value={categoria.name.toLowerCase()}
 //                           className='hover:text-color-primary hover:bg-neutral-700'
 //                         >
 //                           {categoria.name}
@@ -459,7 +472,7 @@
 //                           {categorias.map((categoria) => (
 //                             <SelectItem
 //                               key={categoria.id}
-//                               value={categoria.name}
+//                               value={categoria.name.toLowerCase()}
 //                               className={`${
 //                                 company.dark
 //                                   ? 'hover:text-color-primary-light'
@@ -518,7 +531,7 @@
 //                         setSearchValue('');
 //                         router.push('/catalogo');
 //                       }}
-//                       className='flex items-center gap-2 px-3 py-2 rounded-full bg-color-primary hover:bg-color-primary-dark text-white transition-colors'
+//                       className='flex items-center gap-2 px-3 py-2 rounded-full bg-color-primary hover:bg-color-primary/80 text-black transition-colors'
 //                     >
 //                       <span>Limpiar filtros</span>
 //                       <CloseIcon className='w-4 h-4 stroke-[2]' />
@@ -570,7 +583,7 @@
 //                           )}
 
 //                           {/* Contenedor de la imagen */}
-//                           <div className='relative overflow-hidden aspect-[4/3] rounded-xl group'>
+//                           <div className='relative overflow-hidden aspect-[4/3] rounded-xl group border border-neutral-600'>
 //                             <motion.div
 //                               initial={{ opacity: 0 }}
 //                               animate={{ opacity: 1 }}
@@ -582,11 +595,17 @@
 //                                 width={600}
 //                                 height={600}
 //                                 className='object-cover w-full h-full transition-transform duration-700'
+//                                 style={{
+//                                   objectPosition: `center ${company.objectCover}`,
+//                                 }}
 //                                 src={
-//                                   car.images[0]?.thumbnailUrl ||
-//                                   '/assets/placeholder.webp'
+//                                   car.images &&
+//                                   car.images.length > 0 &&
+//                                   car.images[0]?.thumbnailUrl
+//                                     ? car.images[0].thumbnailUrl
+//                                     : '/assets/placeholder.webp'
 //                                 }
-//                                 alt={`${car.model}`}
+//                                 alt={`${car.mlTitle || 'Vehículo'}`}
 //                               />
 //                             </motion.div>
 
@@ -624,73 +643,91 @@
 //                           </div>
 
 //                           {/* Información del vehículo */}
-//                           <div className='py-3 relative group'>
-//                             <h3
-//                               className={`${
-//                                 company.dark
-//                                   ? 'group-hover:text-color-primary'
-//                                   : 'group-hover:text-color-primary-dark'
-//                               } text-color-title text-lg md:text-xl font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
-//                             >
-//                               {car.model}
-//                             </h3>
-
-//                             <div
-//                               className={`${
-//                                 company.price ? '' : 'hidden'
-//                               } text-color-primary text-lg md:text-xl font-bold tracking-tight truncate md:mb-1 transition-colors duration-300`}
-//                             >
-//                               {car.currency === 'ARS' ? '$' : 'US$'}
-//                               {parseFloat(car.price).toLocaleString(
-//                                 car.currency === 'ARS' ? 'es-AR' : 'en-US'
-//                               )}
-//                             </div>
-
-//                             {/* Diseño minimalista con separadores tipo | */}
-//                             <div className='flex flex-wrap items-center text-color-text font-medium'>
-//                               <span className=''>{car.brand}</span>
-//                               <span
+//                           <div className='relative group'>
+//                             {/* Gradiente base */}
+//                             <div className='absolute inset-0 bg-gradient-to-b from-transparent to-color-primary/20 rounded-lg'></div>
+//                             {/* Gradiente hover */}
+//                             <div className='absolute inset-0 bg-gradient-to-b from-transparent to-color-primary/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out'></div>
+//                             {/* Contenido */}
+//                             <div className='relative z-10 p-4'>
+//                               <h3
 //                                 className={`${
 //                                   company.dark
-//                                     ? 'text-color-primary'
-//                                     : 'text-color-primary'
-//                                 } mx-2`}
+//                                     ? 'group-hover:text-color-primary'
+//                                     : 'group-hover:text-color-primary'
+//                                 } text-color-title-light text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
 //                               >
-//                                 |
-//                               </span>
-//                               <span>{car.year}</span>
-//                             </div>
+//                                 {car.mlTitle || 'Sin título'}
+//                               </h3>
 
-//                             {/* Precio o etiqueta destacada */}
-//                             <div className='flex justify-between items-center text-color-text mt-0.5'>
-//                               {car.mileage === 0 ? (
-//                                 <span className='text-sm font-semibold uppercase tracking-wider text-color-primary'>
-//                                   Nuevo{' '}
-//                                   <span className='text-color-primary'>•</span>{' '}
-//                                   {car.mileage.toLocaleString('es-ES')} km
-//                                 </span>
-//                               ) : (
-//                                 <span className='text-sm text-color-text font-medium uppercase tracking-wider'>
-//                                   Usado{' '}
-//                                   <span className='text-color-primary'>•</span>{' '}
-//                                   {car.mileage.toLocaleString('es-ES')} km
-//                                 </span>
-//                               )}
-//                             </div>
-
-//                             <div className='md:mt-1'>
-//                               <span
+//                               <div
 //                                 className={`${
-//                                   company.dark
-//                                     ? 'text-color-primary group-hover:text-color-primary-dark'
-//                                     : 'text-color-primary group-hover:text-color-primary-dark'
-//                                 } inline-flex items-center  transition-colors font-semibold`}
+//                                   company.price ? '' : 'hidden'
+//                                 } text-color-primary text-lg md:text-xl font-medium tracking-tight truncate md:mb-1 transition-colors duration-300`}
 //                               >
-//                                 Ver más
-//                                 <span className='inline-block transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300 ml-1'>
-//                                   →
+//                                 {car.price && car.price > 0 ? (
+//                                   <>
+//                                     {car.currency === 'ARS' ? '$' : 'US$'}
+//                                     {car.price.toLocaleString('es-ES')}
+//                                   </>
+//                                 ) : (
+//                                   'Consultar precio'
+//                                 )}
+//                               </div>
+
+//                               {/* Diseño minimalista con separadores tipo | */}
+//                               <div className='flex flex-wrap items-center text-color-text-light font-medium'>
+//                                 <span className=''>
+//                                   {car.brand || 'Sin marca'}
 //                                 </span>
-//                               </span>
+//                                 <span
+//                                   className={`${
+//                                     company.dark
+//                                       ? 'text-color-primary'
+//                                       : 'text-color-primary'
+//                                   } mx-2`}
+//                                 >
+//                                   |
+//                                 </span>
+//                                 <span>{car.year || 'Sin año'}</span>
+//                               </div>
+
+//                               {/* Precio o etiqueta destacada */}
+//                               <div className='flex justify-between items-center text-color-text-light mt-0.5'>
+//                                 {car.mileage === 0 ? (
+//                                   <span className='text-sm font-semibold uppercase tracking-wider text-color-primary'>
+//                                     Nuevo{' '}
+//                                     <span className='text-color-primary'>
+//                                       •
+//                                     </span>{' '}
+//                                     {car.mileage.toLocaleString('es-ES')} km
+//                                   </span>
+//                                 ) : (
+//                                   <span className='text-sm text-color-text-light font-medium uppercase tracking-wider'>
+//                                     Usado{' '}
+//                                     <span className='text-color-primary'>
+//                                       •
+//                                     </span>{' '}
+//                                     {(car.mileage || 0).toLocaleString('es-ES')}{' '}
+//                                     km
+//                                   </span>
+//                                 )}
+//                               </div>
+
+//                               <div className='md:mt-1'>
+//                                 <span
+//                                   className={`${
+//                                     company.dark
+//                                       ? 'text-color-primary-light'
+//                                       : 'text-color-primary-light'
+//                                   } inline-flex items-center  transition-colors font-medium`}
+//                                 >
+//                                   Ver más
+//                                   <span className='inline-block transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300 ml-1'>
+//                                     →
+//                                   </span>
+//                                 </span>
+//                               </div>
 //                             </div>
 //                           </div>
 //                         </div>
@@ -708,21 +745,23 @@
 //                       handlePageChange(Math.max(1, currentPage - 1))
 //                     }
 //                     disabled={currentPage === 1}
-//                     className={`px-4 py-2 rounded ${
+//                     className={`px-4 py-2 rounded relative overflow-hidden transition-all duration-300 ease-in-out ${
 //                       currentPage === 1
-//                         ? 'bg-color-primary/50 text-color-title-light cursor-not-allowed'
-//                         : 'bg-color-primary text-color-title-light hover:bg-color-primary-dark hover:text-color-title'
-//                     } transition-colors`}
+//                         ? 'bg-color-primary/50 text-color-title-light cursor-not-allowed opacity-50'
+//                         : 'bg-gradient-to-l from-neutral-800 to-neutral-700 text-color-title-light'
+//                     }`}
 //                   >
+//                     {/* Overlay para hover */}
+//                     {currentPage !== 1 && (
+//                       <div className='absolute inset-0 bg-gradient-to-l from-neutral-600 to-neutral-500 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out'></div>
+//                     )}
 //                     <ArrowIcon
-//                       className={`w-4 h-4 rotate-180 ${
-//                         company.dark
-//                           ? 'text-color-title-light'
-//                           : 'text-color-title-light'
+//                       className={`w-4 h-4 rotate-180 text-color-title-light transition-opacity duration-300 relative z-10 ${
+//                         currentPage === 1 ? 'opacity-50' : 'opacity-100'
 //                       }`}
 //                     />
 //                   </button>
-//                   <span className='text-color-text'>
+//                   <span className='text-color-text-light'>
 //                     Página {currentPage} de {totalPages}
 //                   </span>
 //                   <button
@@ -730,17 +769,21 @@
 //                       handlePageChange(Math.min(totalPages, currentPage + 1))
 //                     }
 //                     disabled={currentPage === totalPages}
-//                     className={`px-4 py-2 rounded ${
+//                     className={`px-4 py-2 rounded relative overflow-hidden transition-all duration-300 ease-in-out ${
 //                       currentPage === totalPages
-//                         ? 'bg-color-primary/50 text-color-title-light cursor-not-allowed'
-//                         : 'bg-color-primary text-color-title-light hover:bg-color-primary-dark hover:text-color-title'
-//                     } transition-colors`}
+//                         ? 'bg-color-primary/50 text-color-title-light cursor-not-allowed opacity-50'
+//                         : 'bg-gradient-to-l from-neutral-800 to-neutral-700 text-color-title-light'
+//                     }`}
 //                   >
+//                     {/* Overlay para hover */}
+//                     {currentPage !== totalPages && (
+//                       <div className='absolute inset-0 bg-gradient-to-l from-neutral-600 to-neutral-500 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in-out'></div>
+//                     )}
 //                     <ArrowIcon
-//                       className={`w-4 h-4 ${
-//                         company.dark
-//                           ? 'text-color-title-light'
-//                           : 'text-color-title-light'
+//                       className={`w-4 h-4 text-color-title-light transition-opacity duration-300 relative z-10 ${
+//                         currentPage === totalPages
+//                           ? 'opacity-50'
+//                           : 'opacity-100'
 //                       }`}
 //                     />
 //                   </button>
@@ -749,11 +792,11 @@
 //             </>
 //           ) : (
 //             <div className='flex flex-col items-center min-h-[600px] my-8 md:my-16'>
-//               <div className='col-span-2 md:col-span-3 lg:col-span-4 text-center text-lg text-color-text'>
+//               <div className='col-span-2 md:col-span-3 lg:col-span-4 text-center text-lg text-color-text-light'>
 //                 {searchFilter ? (
 //                   <>
 //                     No se encontraron resultados para la búsqueda{' '}
-//                     <span className='text-color-title font-semibold'>
+//                     <span className='text-color-title-light font-semibold'>
 //                       &quot;{searchFilter}&quot;
 //                     </span>
 //                     {(marcaFilter || categoriaFilter) &&
@@ -763,11 +806,11 @@
 //                 ) : marcaFilter && categoriaFilter ? (
 //                   <>
 //                     No hay vehículos de la marca{' '}
-//                     <span className='text-color-title font-semibold'>
+//                     <span className='text-color-title-light font-semibold'>
 //                       {marcaFilter}
 //                     </span>{' '}
 //                     en la categoría{' '}
-//                     <span className='text-color-title font-semibold'>
+//                     <span className='text-color-title-light font-semibold'>
 //                       {categoriaFilter}
 //                     </span>
 //                     .
@@ -775,7 +818,7 @@
 //                 ) : marcaFilter ? (
 //                   <>
 //                     No hay vehículos disponibles de la marca{' '}
-//                     <span className='text-color-title font-semibold'>
+//                     <span className='text-color-title-light font-semibold'>
 //                       {marcaFilter}
 //                     </span>
 //                     .
@@ -783,7 +826,7 @@
 //                 ) : categoriaFilter ? (
 //                   <>
 //                     No hay vehículos disponibles en la categoría{' '}
-//                     <span className='text-color-title font-semibold'>
+//                     <span className='text-color-title-light font-semibold'>
 //                       {categoriaFilter}
 //                     </span>
 //                     .
@@ -793,7 +836,7 @@
 //                 )}
 //               </div>
 //               <Link
-//                 className='mt-5 border-2 border-transparent bg-color-primary hover:bg-color-primary-dark transition-colors px-4 md:px-6 py-3 text-color-title-light rounded'
+//                 className='mt-5 border-2 border-transparent bg-color-primary hover:bg-color-primary/80 transition-colors px-4 md:px-6 py-3 text-color-title font-semibold rounded'
 //                 href='/catalogo'
 //                 onClick={(e) => {
 //                   e.preventDefault();

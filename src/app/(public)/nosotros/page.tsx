@@ -31,7 +31,7 @@ const NosotrosPage = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className='text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6'
+            className='text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3 md:mb-4 lg:mb-6'
           >
             Sobre <span className='text-color-primary'>{company.name}</span>
           </motion.h1>
@@ -96,10 +96,10 @@ const NosotrosPage = () => {
               </div>
               <div className='bg-color-bg-primary rounded-2xl p-6 text-center border border-color-border'>
                 <div className='text-3xl md:text-4xl font-bold text-color-primary mb-2'>
-                  1000+
+                  30+
                 </div>
                 <div className='text-color-text-light font-medium'>
-                  Vehículos Vendidos
+                  Vehículos en Stock
                 </div>
               </div>
             </motion.div>

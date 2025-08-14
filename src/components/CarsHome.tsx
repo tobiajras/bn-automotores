@@ -5,7 +5,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { API_BASE_URL, company, TENANT } from '@/app/constants/constants';
+import { company } from '@/app/constants/constants';
+import data from '@/data/data.json';
 import CarStrokeIcon from './icons/CarStrokeIcon';
 
 interface Imagen {
@@ -25,7 +26,7 @@ interface Auto {
   year: number;
   color: string;
   price: number;
-  currency: 'USD' | 'ARS';
+  currency: string;
   description: string;
   position: number;
   featured: boolean;
@@ -54,26 +55,48 @@ const CarsHome = ({ title }: CarsHomeProps) => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchVehiculos = async () => {
+    const loadVehiculos = () => {
       setLoading(true);
       try {
-        const response = await fetch(
-          `${API_BASE_URL}/api/cars?tenant=${TENANT}&limit=6`
-        );
-        if (!response.ok) {
-          throw new Error(`Error ${response.status}: ${response.statusText}`);
-        }
-        const data = await response.json();
-        setVehiculos(data.cars || []);
+        // Obtener los primeros 6 vehículos activos
+        const vehiculosProcesados = data.cars
+          .filter((auto) => auto.active) // Solo vehículos activos
+          .slice(0, 6) // Máximo 6 vehículos
+          .map((auto) => ({
+            id: auto.id,
+            brand: auto.brand,
+            model: auto.mlTitle,
+            mlTitle: auto.mlTitle,
+            year: auto.year,
+            color: auto.color,
+            price: auto.price,
+            currency: auto.currency,
+            description: auto.description,
+            position: auto.position,
+            featured: auto.featured,
+            favorite: auto.favorite,
+            active: auto.active,
+            categoryId: auto.categoryId,
+            mileage: auto.mileage,
+            transmission: auto.transmission,
+            fuel: auto.fuel,
+            doors: auto.doors,
+            createdAt: auto.createdAt,
+            updatedAt: auto.updatedAt,
+            images: auto.images,
+            Category: auto.Category,
+          }));
+
+        setVehiculos(vehiculosProcesados);
       } catch (err) {
-        console.error('Error al obtener vehículos:', err);
+        console.error('Error al cargar vehículos:', err);
         setError('No se pudieron cargar los vehículos');
       } finally {
         setLoading(false);
       }
     };
 
-    fetchVehiculos();
+    loadVehiculos();
   }, []);
 
   if (loading) {

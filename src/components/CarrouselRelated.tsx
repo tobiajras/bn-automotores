@@ -5,7 +5,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { API_BASE_URL, company, TENANT } from '@/app/constants/constants';
+import { company } from '@/app/constants/constants';
+import data from '@/data/data.json';
 
 interface Imagen {
   thumbnailUrl: string;
@@ -24,7 +25,7 @@ interface Auto {
   year: number;
   color: string;
   price: number;
-  currency: 'USD' | 'ARS';
+  currency: string;
   description: string;
   position: number;
   featured: boolean;
@@ -55,30 +56,46 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const obtenerRelacionados = async () => {
+    const obtenerRelacionados = () => {
       setCargando(true);
       try {
-        const response = await fetch(
-          `${API_BASE_URL}/api/cars/${currentCarId}/recommended?tenant=${TENANT}`
-        );
-
-        if (!response.ok) {
-          throw new Error(`Error ${response.status}: ${response.statusText}`);
+        // Encontrar el auto actual y su categoría
+        const autoActual = data.cars.find((auto) => auto.id === currentCarId);
+        if (!autoActual) {
+          throw new Error('Auto no encontrado');
         }
 
-        const data = await response.json();
-        setRelatedCars(data || []);
+        // Función para mezclar array aleatoriamente (Fisher-Yates shuffle)
+        const shuffleArray = <T,>(array: T[]): T[] => {
+          const shuffled = [...array];
+          for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+          }
+          return shuffled;
+        };
+
+        // Obtener todos los autos excepto el actual
+        const autosDisponibles = data.cars.filter(
+          (auto) => auto.id !== currentCarId && auto.active
+        );
+
+        // Mezclar aleatoriamente y tomar máximo 10
+        const autosAleatorios = shuffleArray(autosDisponibles).slice(0, 10);
+
+        setRelatedCars(autosAleatorios as Auto[]);
       } catch (err) {
-        console.error('Error al obtener vehículos relacionados:', err);
+        console.error(
+          'Error al cargar vehículos relacionados del catálogo:',
+          err
+        );
         setError('No se pudieron cargar los vehículos relacionados');
       } finally {
         setCargando(false);
       }
     };
 
-    if (currentCarId) {
-      obtenerRelacionados();
-    }
+    obtenerRelacionados();
   }, [currentCarId]);
 
   if (cargando) {

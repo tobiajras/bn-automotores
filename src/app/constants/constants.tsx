@@ -5,55 +5,35 @@ export const company = {
   favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'carant',
-  name: 'CAR.ANT',
-  adress: null,
-  city: null,
-  email: 'carant.automotores@gmail.com',
-  instagram: 'carant.automotores',
-  facebook: 'https://www.facebook.com/automotorescarant',
-  whatsapp: ['1122993305'],
-  googlemapsLink: null,
-  googlemaps: null,
-  openDays: null,
+  id: 'garage54',
+  name: 'Garage 54',
+  adress: 'Ruta 9-Km 54',
+  city: 'Loma Verde-Escobar',
+  email: 'elcencerroautos@gmail.com',
+  instagram: 'garagekm54',
+  facebook: 'https://www.facebook.com/elcencerroautos/',
+  whatsapp: ['1132825081'],
+  googlemapsLink: 'https://maps.app.goo.gl/CA8xp7Jjstg4w1GW9',
+  googlemaps:
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1647.389470206953!2d-58.8330205!3d-34.3306487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb63dec865a6ab%3A0x71c3530d95be6b57!2sEl%20Cencerro%20autos%20y%20camionetas!5e0!3m2!1sen!2sar!4v1754615239690!5m2!1sen!2sar',
+  openDays: [
+    'Lunes a Viernes 08:30 a 18:00hs',
+    'Sábados 09:00 a 13:00hs',
+    // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
+  ],
   footer:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
 
 export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
-export const TENANT = 'car-ant';
+export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://carant.vercel.app/',
-  title: 'CAR.ANT - Compra y Venta de Autos',
+  metadataBase: 'https://garage54.vercel.app/',
+  title: 'Garage 54 - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
-
-export const sedes = [
-  {
-    id: 1,
-    title: 'CAR.ANT El Indio',
-    adress: 'El Indio 1668',
-    city: 'Villa Adelina',
-    tel: null,
-    whatsapp: '1127488775',
-    schedule: ['Lunes a Viernes 09:00 a 19:00hs', 'Sábados 09:00 a 13:00hs'],
-    appointment: 'https://maps.app.goo.gl/LoyJEfazGBUg6T1X7',
-    image: 'sede-1.webp',
-  },
-  {
-    id: 2,
-    title: 'CAR.ANT Los Platanos',
-    adress: 'Los Platanos 1516',
-    city: 'Villa Adelina',
-    tel: null,
-    whatsapp: '1147650425',
-    schedule: ['Lunes a Viernes 9 a 13 y 15 a 19hs', 'Sábados 9 a 13hs'],
-    appointment: 'https://maps.app.goo.gl/2twHoVod5RCryMvL6',
-    image: 'sede-2.webp',
-  },
-];
 
 // Cambie el archivo data.json, necesito que actualices la informacion de catalogo.json. Las images tomalas de images de data.json, la descripcion tomala de caption de data.json, pero necesito que el texto este parseado, que no este todo junto sin espacios y saltos de linea. En name pone la marca y el modelo del vehiculo en title case, marca, marcaId todo esto acorde a la informacion de caption. Si en caption no se dice kilometraje o precio pone 999999, categoria estimala para el vehiculo (categorias tipicas de vehiculos en argentina. como utilitario, deportivo, suv, hatchback, etc). Transmision, motor, combustible y puertas estimalas acorde al vehiculo. La cantidad de vehiculos tiene que ser la de data.json, si en catalogo.json hay otros vehiculos removelos, los vehiclos de catalogo json tienen que ser los mismos que en data.json. No hagas un script, simplemente actualizalo con ia.
 
