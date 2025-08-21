@@ -22,7 +22,7 @@ const NosotrosPage = () => {
             className='object-cover'
             priority
           />
-          <div className='absolute inset-0 bg-gradient-to-r from-black/90 via-black/60 to-black/50'></div>
+          <div className='absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/80'></div>
         </div>
 
         {/* Contenido centrado */}
@@ -33,7 +33,7 @@ const NosotrosPage = () => {
             transition={{ duration: 0.6 }}
             className='text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3 md:mb-4 lg:mb-6'
           >
-            Sobre <span className='text-color-primary'>{company.name}</span>
+            Sobre Nosotros
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -41,7 +41,7 @@ const NosotrosPage = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className='text-xl md:text-2xl text-white/90 font-medium leading-relaxed'
           >
-            Más de una década transformando sueños en realidad sobre ruedas
+            Conectando personas con sus vehículos ideales
           </motion.p>
         </div>
       </section>
@@ -49,13 +49,32 @@ const NosotrosPage = () => {
       {/* Sección de historia */}
       <section className='py-10 md:py-16'>
         <div className='max-w-6xl mx-auto px-4'>
-          <div className='grid lg:grid-cols-2 gap-12 lg:gap-16 items-center'>
-            {/* Texto */}
+          <div className='grid lg:grid-cols-2 gap-8 lg:gap-10 xl:gap-16 items-center justify-center'>
+            {/* Imagen */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
+              className='relative'
+            >
+              <div className='mx-auto relative max-w-md lg:max-w-full rounded-md md:rounded-lg overflow-hidden shadow-lg aspect-[4/3]'>
+                <Image
+                  src='/assets/nosotros/nosotros-1.webp'
+                  alt={`Equipo de ${company.name}`}
+                  fill
+                  className='object-cover w-full h-full'
+                />
+              </div>
+            </motion.div>
+
+            {/* Texto */}
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className='max-w-lg flex flex-col items-center lg:items-start justify-center text-center lg:text-left'
             >
               <h2 className='text-3xl md:text-4xl font-bold text-color-title-light mb-6'>
                 Nuestra Historia
@@ -75,32 +94,6 @@ const NosotrosPage = () => {
                   reconocidos por nuestra transparencia, profesionalismo y el
                   acompañamiento integral que brindamos a cada cliente.
                 </p>
-              </div>
-            </motion.div>
-
-            {/* Estadísticas */}
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className='grid grid-cols-1 gap-6'
-            >
-              <div className='bg-color-bg-primary rounded-2xl p-6 text-center border border-color-border'>
-                <div className='text-3xl md:text-4xl font-bold text-color-primary mb-2'>
-                  10+
-                </div>
-                <div className='text-color-text-light font-medium'>
-                  Años de Experiencia
-                </div>
-              </div>
-              <div className='bg-color-bg-primary rounded-2xl p-6 text-center border border-color-border'>
-                <div className='text-3xl md:text-4xl font-bold text-color-primary mb-2'>
-                  30+
-                </div>
-                <div className='text-color-text-light font-medium'>
-                  Vehículos en Stock
-                </div>
               </div>
             </motion.div>
           </div>

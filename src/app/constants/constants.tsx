@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'garage54',
-  name: 'Garage 54',
-  adress: 'Ruta 9-Km 54',
-  city: 'Loma Verde-Escobar',
-  email: 'elcencerroautos@gmail.com',
-  instagram: 'garagekm54',
-  facebook: 'https://www.facebook.com/elcencerroautos/',
-  whatsapp: ['1132825081'],
-  googlemapsLink: 'https://maps.app.goo.gl/CA8xp7Jjstg4w1GW9',
+  id: 'imsmultimarca',
+  name: 'IMS Multimarca',
+  adress: 'Av. Maipú 4182',
+  city: 'La Lucila',
+  email: 'imsmultimarca@gmail.com',
+  instagram: 'ims.multimarca',
+  facebook: null,
+  whatsapp: ['1157044287'],
+  googlemapsLink: 'https://maps.app.goo.gl/2kFbU2zYVstX4ujf6',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1647.389470206953!2d-58.8330205!3d-34.3306487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb63dec865a6ab%3A0x71c3530d95be6b57!2sEl%20Cencerro%20autos%20y%20camionetas!5e0!3m2!1sen!2sar!4v1754615239690!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.1874927490144!2d-58.4975509!3d-34.4981307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb14d43077743%3A0x29b6551ce7961035!2sIMS%20Multimarca!5e0!3m2!1sen!2sar!4v1755777675402!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 08:30 a 18:00hs',
-    'Sábados 09:00 a 13:00hs',
+    'Lunes a Viernes 9:30 a 13 y 14 a 18hs',
+    'Sábados 9:30 a 13hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://garage54.vercel.app/',
-  title: 'Garage 54 - Compra y Venta de Autos',
+  metadataBase: 'https://imsmultimarca.vercel.app/',
+  title: 'IMS Multimarca - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
