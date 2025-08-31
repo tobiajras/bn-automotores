@@ -31,7 +31,7 @@ const HeroHome = () => {
                 <motion.h1
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.1 }}
+                  transition={{ duration: 0.5 }}
                   className='text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold'
                 >
                   <span className='bg-gradient-to-r from-white  to-neutral-300 bg-clip-text text-transparent'>
@@ -42,7 +42,7 @@ const HeroHome = () => {
                 <motion.h2
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.2 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
                   className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold'
                 >
                   <span className='bg-gradient-to-r from-white  to-neutral-300 bg-clip-text text-transparent'>
@@ -53,7 +53,7 @@ const HeroHome = () => {
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.3 }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
                   className='flex items-center justify-center gap-2 sm:gap-3 text-xl sm:text-2xl md:text-3xl font-semibold md:mt-1'
                 >
                   <span className='text-color-text-light'>Usados</span>
@@ -66,7 +66,7 @@ const HeroHome = () => {
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.5 }}
+                transition={{ duration: 0.5, delay: 0.3 }}
                 className='flex items-center justify-center gap-4 sm:gap-6 mt-2 md:mt-4'
               >
                 <Link
@@ -89,7 +89,7 @@ const HeroHome = () => {
               <motion.p
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.4 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
                 className='text-lg sm:text-xl md:text-2xl text-color-text-light max-w-3xl mx-auto leading-relaxed mt-3 md:mt-5 px-3'
               >
                 En {company.name} encontrás el auto que buscas. Vehículos
