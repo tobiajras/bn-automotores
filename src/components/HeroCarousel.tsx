@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const HeroCarousel = () => {
   return (
-    <div className='absolute inset-0 -z-30 bg-black'>
+    <div className='absolute inset-0 z-0 bg-black'>
       <div className='h-full'>
         <div className='relative h-full overflow-hidden'>
           {/* Imagen para mobile */}

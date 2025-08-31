@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { company } from '@/app/constants/constants';
 import data from '@/data/data.json';
-import CarStrokeIcon from './icons/CarStrokeIcon';
+import AutoScroll from 'embla-carousel-auto-scroll';
 
 interface Imagen {
   thumbnailUrl: string;
@@ -26,7 +26,7 @@ interface Auto {
   year: number;
   color: string;
   price: number;
-  currency: string;
+  currency: 'USD' | 'ARS';
   description: string;
   position: number;
   featured: boolean;
@@ -48,7 +48,14 @@ interface CarsHomeProps {
 }
 
 const CarsHome = ({ title }: CarsHomeProps) => {
-  const [emblaRef] = useEmblaCarousel({ dragFree: true });
+  const [emblaRef] = useEmblaCarousel({ dragFree: true, loop: true }, [
+    AutoScroll({
+      speed: 1,
+      stopOnInteraction: false,
+      startDelay: 0,
+      stopOnFocusIn: false,
+    }),
+  ]);
   const [clicked, setClicked] = useState(false);
   const [vehiculos, setVehiculos] = useState<Auto[]>([]);
   const [loading, setLoading] = useState(true);
@@ -61,7 +68,7 @@ const CarsHome = ({ title }: CarsHomeProps) => {
         // Obtener los primeros 6 vehículos activos
         const vehiculosProcesados = data.cars
           .filter((auto) => auto.active) // Solo vehículos activos
-          .slice(0, 6) // Máximo 6 vehículos
+          .slice(0, 10) // Máximo 6 vehículos
           .map((auto) => ({
             id: auto.id,
             brand: auto.brand,
@@ -87,7 +94,7 @@ const CarsHome = ({ title }: CarsHomeProps) => {
             Category: auto.Category,
           }));
 
-        setVehiculos(vehiculosProcesados);
+        setVehiculos(vehiculosProcesados as Auto[]);
       } catch (err) {
         console.error('Error al cargar vehículos:', err);
         setError('No se pudieron cargar los vehículos');
@@ -165,18 +172,20 @@ const CarsHome = ({ title }: CarsHomeProps) => {
           onMouseUp={() => setClicked(false)}
           onMouseDown={() => setClicked(true)}
           ref={emblaRef}
-          className={`${clicked ? 'cursor-grabbing' : 'cursor-grab'}`}
+          className={`${
+            clicked ? 'cursor-grabbing' : 'cursor-grab'
+          } select-none`}
         >
-          <div className='flex gap-6 sm:gap-7 md:gap-8'>
+          <div className='flex'>
             {/* Vehículos */}
             {vehiculos.map((auto) => (
               <Link
                 href={`/catalogo/${auto.id}`}
-                className='w-full relative overflow-hidden flex-[0_0_75%] min-[500px]:flex-[0_0_55%] sm:flex-[0_0_40%] lg:flex-[0_0_30%] xl:flex-[0_0_26%]'
+                className='w-full relative overflow-hidden flex-[0_0_75%] min-[500px]:flex-[0_0_55%] sm:flex-[0_0_40%] lg:flex-[0_0_30%] xl:flex-[0_0_26%] ml-6 sm:ml-7 md:ml-8'
                 key={auto.id}
               >
                 {/* Card container con borde que se ilumina */}
-                <div className='relative overflow-hidden group-hover:border-color-primary transition-all duration-500 h-full shadow-[0_8px_30px_-15px_rgba(0,0,0,0.7)] group-hover:shadow-[0_8px_30px_-10px_rgba(233,0,2,0.2)]'>
+                <div className='relative overflow-hidden group-hover:border-color-primary transition-all duration-500 h-full shadow-[0_8px_30px_-15px_rgba(0,0,0,0.7)] group-hover:shadow-[0_8px_30px_-10px_rgba(233,0,2,0.2)] select-none'>
                   {!auto.active && (
                     <div className='absolute top-0 left-0 w-full h-full bg-black/70 flex items-center justify-center z-20'>
                       <span className='bg-red-500 text-white text-sm font-medium px-3 py-1.5 rounded'>
@@ -197,7 +206,7 @@ const CarsHome = ({ title }: CarsHomeProps) => {
                         priority
                         width={600}
                         height={600}
-                        className='object-cover w-full h-full transition-transform duration-700'
+                        className='object-cover w-full h-full transition-transform duration-700 select-none pointer-events-none'
                         style={{
                           objectPosition: `center ${company.objectCover}`,
                         }}
@@ -253,8 +262,8 @@ const CarsHome = ({ title }: CarsHomeProps) => {
                       <h3
                         className={`${
                           company.dark
-                            ? 'group-hover:text-color-primary'
-                            : 'group-hover:text-color-primary'
+                            ? 'group-hover:text-color-title-light'
+                            : 'group-hover:text-color-title-light'
                         } text-color-title-light text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                       >
                         {auto.mlTitle}
@@ -263,7 +272,7 @@ const CarsHome = ({ title }: CarsHomeProps) => {
                       <div
                         className={`${
                           company.price ? '' : 'hidden'
-                        } text-color-primary text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
+                        } text-color-title-light text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                       >
                         {auto.currency === 'ARS' ? '$' : 'US$'}
                         {auto.price.toLocaleString('es-ES')}
@@ -303,8 +312,8 @@ const CarsHome = ({ title }: CarsHomeProps) => {
                         <span
                           className={`${
                             company.dark
-                              ? 'text-color-primary-light'
-                              : 'text-color-primary-light'
+                              ? 'text-color-title-light'
+                              : 'text-color-title-light'
                           } inline-flex items-center  transition-colors font-medium`}
                         >
                           Ver más
@@ -318,42 +327,6 @@ const CarsHome = ({ title }: CarsHomeProps) => {
                 </div>
               </Link>
             ))}
-
-            {/* Card "Ver todos" */}
-            <div className='w-full relative overflow-hidden flex-[0_0_75%] min-[500px]:flex-[0_0_55%] sm:flex-[0_0_40%] lg:flex-[0_0_30%] xl:flex-[0_0_26%]'>
-              <div className='relative overflow-hidden group-hover:border-color-primary transition-all duration-500 h-full shadow-[0_8px_30px_-15px_rgba(0,0,0,0.7)] group-hover:shadow-[0_8px_30px_-10px_rgba(233,0,2,0.2)]'>
-                {/* Contenedor de la imagen de fondo */}
-                <Link href='/catalogo'>
-                  <div className='relative overflow-hidden aspect-[4/3] rounded-xl hover:bg-color-primary/5 border border-color-border group transition-colors'>
-                    {/* Contenido centrado */}
-                    <div className='absolute inset-0 flex flex-col items-center justify-center p-6 '>
-                      <div className='text-center'>
-                        {/* Icono de auto */}
-                        <div className='w-20 h-20 rounded-full bg-color-primary/10 flex items-center justify-center mb-6 mx-auto'>
-                          <CarStrokeIcon className='w-12 h-12 text-color-primary' />
-                        </div>
-
-                        {/* Título con flecha */}
-                        <div className='md:mt-1'>
-                          <span
-                            className={`${
-                              company.dark
-                                ? 'text-color-primary group-hover:text-color-primary-dark'
-                                : 'text-color-primary group-hover:text-color-primary-dark'
-                            } inline-flex items-center text-lg transition-colors font-semibold`}
-                          >
-                            Ver catálogo
-                            <span className='inline-block transform translate-x-0 text-xl group-hover:translate-x-1 transition-transform duration-300 ml-1.5 font-bold'>
-                              →
-                            </span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </div>

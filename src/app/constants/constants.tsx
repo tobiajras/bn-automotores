@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: false,
+  favicon: true,
   price: true,
   objectCover: '50%',
-  id: 'imsmultimarca',
-  name: 'IMS Multimarca',
-  adress: 'Av. Maipú 4182',
-  city: 'La Lucila',
-  email: 'imsmultimarca@gmail.com',
-  instagram: 'ims.multimarca',
+  id: 'ingarage',
+  name: 'In Garage',
+  adress: 'Calle 146 n1076 e/ 10 y 11',
+  city: 'Berazategui',
+  email: 'ingarage@gmail.com',
+  instagram: 'ingarage.ar',
   facebook: null,
-  whatsapp: ['1157044287'],
-  googlemapsLink: 'https://maps.app.goo.gl/2kFbU2zYVstX4ujf6',
+  whatsapp: ['1156180001'],
+  googlemapsLink: 'https://maps.app.goo.gl/WPrRkssPK7mA8n479',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.1874927490144!2d-58.4975509!3d-34.4981307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb14d43077743%3A0x29b6551ce7961035!2sIMS%20Multimarca!5e0!3m2!1sen!2sar!4v1755777675402!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.833206669576!2d-58.21431519999999!3d-34.7597942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f06cedc587f%3A0x6595ba8588a5d436!2sIn%20Garage!5e0!3m2!1sen!2sar!4v1756668308650!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 9:30 a 13 y 14 a 18hs',
-    'Sábados 9:30 a 13hs',
+    'Lunes a Lunes',
+    'Con cita previa',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://imsmultimarca.vercel.app/',
-  title: 'IMS Multimarca - Compra y Venta de Autos',
+  metadataBase: 'https://ingarage.vercel.app/',
+  title: 'In Garage - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

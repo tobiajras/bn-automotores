@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { company } from '@/app/constants/constants';
 import data from '@/data/data.json';
+import AutoScroll from 'embla-carousel-auto-scroll';
 
 interface Imagen {
   thumbnailUrl: string;
@@ -25,7 +26,7 @@ interface Auto {
   year: number;
   color: string;
   price: number;
-  currency: string;
+  currency: 'USD' | 'ARS';
   description: string;
   position: number;
   featured: boolean;
@@ -49,7 +50,14 @@ interface CarrouselRelatedProps {
 }
 
 const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
-  const [emblaRef] = useEmblaCarousel({ dragFree: true });
+  const [emblaRef] = useEmblaCarousel({ dragFree: true, loop: true }, [
+    AutoScroll({
+      speed: 1,
+      stopOnInteraction: false,
+      startDelay: 0,
+      stopOnFocusIn: false,
+    }),
+  ]);
   const [clicked, setClicked] = useState(false);
   const [relatedCars, setRelatedCars] = useState<Auto[]>([]);
   const [cargando, setCargando] = useState(true);
@@ -164,17 +172,17 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
           onMouseUp={() => setClicked(false)}
           onMouseDown={() => setClicked(true)}
           ref={emblaRef}
-          className={`${clicked ? 'cursor-grabbing' : 'cursor-grab'}`}
+          className={`${clicked ? 'cursor-grabbing' : 'cursor-grab'} select-none`}
         >
-          <div className='flex gap-6 sm:gap-7 md:gap-8'>
+          <div className='flex'>
             {relatedCars.map((auto) => (
               <Link
                 href={`/catalogo/${auto.id}`}
-                className='w-full relative overflow-hidden flex-[0_0_75%] min-[500px]:flex-[0_0_55%] sm:flex-[0_0_40%] lg:flex-[0_0_30%] xl:flex-[0_0_26%]'
+                className='w-full relative overflow-hidden flex-[0_0_75%] min-[500px]:flex-[0_0_55%] sm:flex-[0_0_40%] lg:flex-[0_0_30%] xl:flex-[0_0_26%] ml-6 sm:ml-7 md:ml-8'
                 key={auto.id}
               >
                 {/* Card container con borde que se ilumina */}
-                <div className='relative overflow-hidden group-hover:border-color-primary transition-all duration-500 h-full shadow-[0_8px_30px_-15px_rgba(0,0,0,0.7)] group-hover:shadow-[0_8px_30px_-10px_rgba(233,0,2,0.2)]'>
+                <div className='relative overflow-hidden group-hover:border-color-primary transition-all duration-500 h-full shadow-[0_8px_30px_-15px_rgba(0,0,0,0.7)] group-hover:shadow-[0_8px_30px_-10px_rgba(233,0,2,0.2)] select-none'>
                   {!auto.active && (
                     <div className='absolute top-0 left-0 w-full h-full bg-black/70 flex items-center justify-center z-20'>
                       <span className='bg-red-500 text-white text-sm font-medium px-3 py-1.5 rounded'>
@@ -195,7 +203,7 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                         priority
                         width={600}
                         height={600}
-                        className='object-cover w-full h-full transition-transform duration-700'
+                        className='object-cover w-full h-full transition-transform duration-700 select-none pointer-events-none'
                         style={{
                           objectPosition: `center ${company.objectCover}`,
                         }}
@@ -251,8 +259,8 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                       <h3
                         className={`${
                           company.dark
-                            ? 'group-hover:text-color-primary'
-                            : 'group-hover:text-color-primary'
+                            ? 'group-hover:text-color-title-light'
+                            : 'group-hover:text-color-title-light'
                         } text-color-title-light text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                       >
                         {auto.mlTitle}
@@ -261,7 +269,7 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                       <div
                         className={`${
                           company.price ? '' : 'hidden'
-                        } text-color-primary text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
+                        } text-color-title-light text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                       >
                         {auto.currency === 'ARS' ? '$' : 'US$'}
                         {auto.price.toLocaleString('es-ES')}
@@ -301,8 +309,8 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                         <span
                           className={`${
                             company.dark
-                              ? 'text-color-primary-light'
-                              : 'text-color-primary-light'
+                              ? 'text-color-title-light'
+                              : 'text-color-title-light'
                           } inline-flex items-center  transition-colors font-semibold`}
                         >
                           Ver más
