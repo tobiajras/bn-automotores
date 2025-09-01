@@ -80,16 +80,17 @@ const NosotrosPage = () => {
                 {company.name}
               </h2>
               <div className='space-y-4 text-color-text-light text-lg leading-relaxed'>
-                <p>Somos apasionados por los autos y por nuestros clientes. </p>
                 <p>
-                  Desde nuestros inicios, nos hemos dedicado a seleccionar
-                  cuidadosamente cada vehículo, garantizando que cumpla con los
-                  más altos estándares de calidad y seguridad.
+                  Somos una concesionaria comprometida con ofrecer la mejor
+                  experiencia en la compra y venta de vehículos. Nuestro equipo
+                  trabaja día a día para brindar un servicio personalizado y de
+                  calidad a cada uno de nuestros clientes.
                 </p>
                 <p>
-                  Hoy, somos referentes en el mercado de autos usados,
-                  reconocidos por nuestra transparencia, profesionalismo y el
-                  acompañamiento integral que brindamos a cada cliente.
+                  Con años de experiencia en el mercado automotriz, nos hemos
+                  consolidado como una empresa confiable que prioriza la
+                  satisfacción del cliente, ofreciendo una amplia variedad de
+                  vehículos con opciones de financiamiento.
                 </p>
               </div>
             </motion.div>
