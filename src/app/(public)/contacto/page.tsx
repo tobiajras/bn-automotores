@@ -17,17 +17,17 @@ const ContactoPage = () => {
       <Header />
       <div className=''>
         {/* Hero Section con imagen de fondo */}
-        <section className='relative h-72 flex items-center justify-center overflow-hidden'>
+        <section className='relative h-44 md:h-60 lg:h-72 flex items-center justify-center overflow-hidden'>
           {/* Imagen de fondo con overlay */}
           <div className='absolute inset-0 z-0'>
             <Image
-              src='/assets/contacto/contacto-banner.webp'
+              src='/assets/nosotros/nosotros-banner.webp'
               alt={`Equipo de ${company.name}`}
               fill
               className='object-cover'
               priority
             />
-            <div className='absolute inset-0 bg-black/80'></div>
+            <div className='absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/80'></div>
           </div>
 
           {/* Contenido centrado */}
@@ -36,9 +36,9 @@ const ContactoPage = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className='text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3 md:mb-4 lg:mb-6'
+              className='text-2xl md:text-3xl lg:text-4xl font-semibold text-color-primary-light mb-3 md:mb-4 lg:mb-6'
             >
-              Contacto
+              Sobre Nosotros
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
