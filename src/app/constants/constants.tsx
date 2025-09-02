@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: true,
+  favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'ingarage',
-  name: 'In Garage',
-  adress: 'Calle 146 n1076 e/ 10 y 11',
-  city: 'Berazategui',
-  email: 'ingarage@gmail.com',
-  instagram: 'ingarage.ar',
-  facebook: null,
-  whatsapp: ['1156180001'],
-  googlemapsLink: 'https://maps.app.goo.gl/WPrRkssPK7mA8n479',
+  id: 'landaautomotores',
+  name: 'Landa Automotores',
+  adress: 'Av. Nazca 3155',
+  city: 'Villa del Parque',
+  email: 'info@landautos.com.ar',
+  instagram: 'landaautomotores_',
+  facebook: 'https://www.facebook.com/automotoreslanda/',
+  whatsapp: ['1158316841'],
+  googlemapsLink: 'https://maps.app.goo.gl/gwgS4ohNTmMXxaQKA',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.833206669576!2d-58.21431519999999!3d-34.7597942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f06cedc587f%3A0x6595ba8588a5d436!2sIn%20Garage!5e0!3m2!1sen!2sar!4v1756668308650!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.168848516343!2d-58.49095762815597!3d-34.59989162925896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6235abd5639%3A0x1fef8d0f4f036719!2sLanda%20Automotores!5e0!3m2!1sen!2sar!4v1756166971317!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Lunes',
-    'Con cita previa',
+    'Lunes a Viernes 10:00 a 19:00hs',
+    'Sábados 10:00 a 16:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://ingarage.vercel.app/',
-  title: 'In Garage - Compra y Venta de Autos',
+  metadataBase: 'https://landaautomotores.vercel.app/',
+  title: 'Landa Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
