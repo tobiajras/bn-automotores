@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'landaautomotores',
-  name: 'Landa Automotores',
-  adress: 'Av. Nazca 3155',
-  city: 'Villa del Parque',
-  email: 'info@landautos.com.ar',
-  instagram: 'landaautomotores_',
-  facebook: 'https://www.facebook.com/automotoreslanda/',
-  whatsapp: ['1158316841'],
-  googlemapsLink: 'https://maps.app.goo.gl/gwgS4ohNTmMXxaQKA',
+  id: 'funesexclusivos',
+  name: 'Funes Exclusivos',
+  adress: 'San Martín 190',
+  city: 'Funes',
+  email: 'funesexclusivos@gmail.com',
+  instagram: 'funes_exclusivos',
+  facebook: 'https://www.facebook.com/funesexclusivos/',
+  whatsapp: ['3413239818'],
+  googlemapsLink: 'https://maps.app.goo.gl/o4uj5yXw5DNpYWY16',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.168848516343!2d-58.49095762815597!3d-34.59989162925896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6235abd5639%3A0x1fef8d0f4f036719!2sLanda%20Automotores!5e0!3m2!1sen!2sar!4v1756166971317!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.0554106315262!2d-60.79217244673959!3d-32.92313423224225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b64d0b2782c583%3A0xf35f24ab3b435e61!2sFunes%20Exclusivos!5e0!3m2!1sen!2sar!4v1756936921825!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 10:00 a 19:00hs',
-    'Sábados 10:00 a 16:00hs',
+    'Lunes a Viernes 09:00 a 19:00hs',
+    'Sábados 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://landaautomotores.vercel.app/',
-  title: 'Landa Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://funesexclusivos.vercel.app/',
+  title: 'Funes Exclusivos - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

@@ -7,7 +7,7 @@
       "price": 35900000,
       "position": 1000,
       "downPayment": null,
-      "id": "generated-1756937627521-0",
+      "id": "generated-1756928432269-0",
       "brand": "Peugeot",
       "model": "2008",
       "year": 2025,
@@ -15,7 +15,7 @@
       "currency": "ARS",
       "description": "/////////////////// Funes exclusivo san Martín 190 funes provincia de santa fe. Peugeot 2008 active okm entrega inmediata consulta por financiación tasa 0% permutas",
       "categoryId": "suv",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 0,
       "transmission": "Automática",
       "fuel": "Nafta",
@@ -27,7 +27,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301708498",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301708498-peugeot-2008-10t-active-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Peugeot 2008 1.0t Active",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -58,83 +58,83 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-0",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-0",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432269-0",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432269-0",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "suv",
         "name": "suv"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_674716-MLA86031861810_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_674716-MLA86031861810_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_674716-MLA86031861810_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_674716-MLA86031861810_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_728604-MLA86032565176_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_728604-MLA86032565176_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_728604-MLA86032565176_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_728604-MLA86032565176_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_726098-MLA86032386560_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_726098-MLA86032386560_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_726098-MLA86032386560_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_726098-MLA86032386560_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_978034-MLA86346852093_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_978034-MLA86346852093_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_978034-MLA86346852093_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_978034-MLA86346852093_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_880727-MLA86347485193_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_880727-MLA86347485193_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_880727-MLA86347485193_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_880727-MLA86347485193_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_942710-MLA86032148782_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_942710-MLA86032148782_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_942710-MLA86032148782_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_942710-MLA86032148782_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_998924-MLA86347386601_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_998924-MLA86347386601_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_998924-MLA86347386601_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_998924-MLA86347386601_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_909423-MLA86347485249_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_909423-MLA86347485249_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_909423-MLA86347485249_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_909423-MLA86347485249_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_703559-MLA86032119046_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_703559-MLA86032119046_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_703559-MLA86032119046_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_703559-MLA86032119046_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_782240-MLA86032386722_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_782240-MLA86032386722_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_782240-MLA86032386722_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_782240-MLA86032386722_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_874568-MLA86032565352_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_874568-MLA86032565352_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_874568-MLA86032565352_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_874568-MLA86032565352_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_692178-MLA86346822361_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_692178-MLA86346822361_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_692178-MLA86346822361_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_692178-MLA86346822361_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_706380-MLA86346852261_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_706380-MLA86346852261_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_706380-MLA86346852261_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_706380-MLA86346852261_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_883808-MLA86347337275_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_883808-MLA86347337275_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_883808-MLA86347337275_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_883808-MLA86347337275_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_663812-MLA86346832297_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_663812-MLA86346832297_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_663812-MLA86346832297_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_663812-MLA86346832297_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_653755-MLA86031723830_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_653755-MLA86031723830_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_653755-MLA86031723830_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_653755-MLA86031723830_062025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_712953-MLA86346852283_062025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_712953-MLA86346852283_062025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_712953-MLA86346852283_062025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_712953-MLA86346852283_062025-F.webp"
         }
       ]
     },
@@ -142,7 +142,7 @@
       "price": 17900000,
       "position": 2000,
       "downPayment": null,
-      "id": "generated-1756937627521-1",
+      "id": "generated-1756928432269-1",
       "brand": "Nissan",
       "model": "Note",
       "year": 2017,
@@ -150,7 +150,7 @@
       "currency": "ARS",
       "description": "////////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Nissan note 2017 80.000 km impecable amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 83000,
       "transmission": "Automática",
       "fuel": "Nafta",
@@ -162,7 +162,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1517457893",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-1517457893-nissan-note-16-exclusive-110cv-cvt-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Nissan Note 1.6 Exclusive 110cv Cvt",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -193,11 +193,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-1",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-1",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432269-1",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432269-1",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -273,19 +273,19 @@
       "price": 41600000,
       "position": 3000,
       "downPayment": null,
-      "id": "generated-1756937627521-2",
+      "id": "generated-1756928432269-2",
       "brand": "Peugeot",
       "model": "2008",
       "year": 2025,
-      "color": "Negro",
+      "color": "No especificado",
       "currency": "ARS",
-      "description": "///////////////// Funes exclusivos san Martín 190 funes provincia de santa fe. Peugeot 2008 GT okm entrega inmediata permutas financiación tasa o% hasta en 18 cuotas consulta",
-      "categoryId": "suv",
-      "dealershipId": "dealership-funes-2",
+      "description": "",
+      "categoryId": "autos",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 0,
-      "transmission": "Automática",
+      "transmission": "Manual",
       "fuel": "Nafta",
-      "doors": 5,
+      "doors": 4,
       "active": true,
       "featured": false,
       "favorite": false,
@@ -293,14 +293,14 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301721384",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301721384-peugeot-2008-12-gt-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Peugeot 2008 1.2 Gt",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": "SUV",
-      "mlEngine": "1.2",
+      "mlBodyType": null,
+      "mlEngine": null,
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -324,79 +324,22 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-2",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-2",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432269-2",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432269-2",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
-        "id": "suv",
-        "name": "suv"
+        "id": "autos",
+        "name": "autos"
       },
-      "images": [
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_840045-MLA83043372664_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_840045-MLA83043372664_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_997346-MLA83333371505_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_997346-MLA83333371505_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_782857-MLA83333351903_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_782857-MLA83333351903_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_958123-MLA83043450908_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_958123-MLA83043450908_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_805148-MLA83333606847_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_805148-MLA83333606847_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_693965-MLA83043450876_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_693965-MLA83043450876_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_746217-MLA83333557037_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_746217-MLA83333557037_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_779856-MLA83333596973_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_779856-MLA83333596973_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_727782-MLA83333371507_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_727782-MLA83333371507_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_717272-MLA83043597674_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_717272-MLA83043597674_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_855572-MLA83043705400_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_855572-MLA83043705400_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_855605-MLA83043470652_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_855605-MLA83043470652_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_777520-MLA83333715783_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_777520-MLA83333715783_032025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_814415-MLA83043372702_032025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_814415-MLA83043372702_032025-F.webp"
-        }
-      ]
+      "images": []
     },
     {
       "price": 15900000,
       "position": 4000,
       "downPayment": null,
-      "id": "generated-1756937627521-3",
+      "id": "generated-1756928432269-3",
       "brand": "Ford",
       "model": "Ecosport",
       "year": 2016,
@@ -404,7 +347,7 @@
       "currency": "ARS",
       "description": "///////////////////funes exclusivos san Martín 190funes provincia de santa fe. Ford Ecosport 2016 1.6 Titanium 4x2 150.000 km impecable amplia financiación permutas",
       "categoryId": "suv",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 150000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -416,7 +359,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301682422",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301682422-ford-ecosport-16-titanium-110cv-4x2-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Ford Ecosport 1.6 Titanium 110cv 4x2",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -447,11 +390,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-3",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-3",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432269-3",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432269-3",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "suv",
         "name": "suv"
@@ -519,7 +462,7 @@
       "price": 34300000,
       "position": 5000,
       "downPayment": null,
-      "id": "generated-1756937627521-4",
+      "id": "generated-1756928432269-4",
       "brand": "Peugeot",
       "model": "208",
       "year": 2024,
@@ -527,7 +470,7 @@
       "currency": "ARS",
       "description": "///////////// Funes exclusivos san Martín 190 funes provincia de santa fe . Peugeot 208 GT 2024 1.0 turbo okm entrega inmediata permutas financiación",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 0,
       "transmission": "Automática",
       "fuel": "Nafta",
@@ -539,7 +482,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301708484",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301708484-peugeot-208-10t-gt-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Peugeot 208 1.0t Gt",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -570,11 +513,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-4",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-4",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432269-4",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432269-4",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -642,7 +585,7 @@
       "price": 13900000,
       "position": 6000,
       "downPayment": null,
-      "id": "generated-1756937627521-5",
+      "id": "generated-1756928432269-5",
       "brand": "Volkswagen",
       "model": "Gol",
       "year": 2016,
@@ -650,7 +593,7 @@
       "currency": "ARS",
       "description": "//////////////////////// Funes exclusivo san Martín 190 funes provincia de santa fe. Volkswagen gol trend 2016 1.6 Sportline 110.000 km impecable amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 110000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -662,7 +605,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1517469349",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-1517469349-volkswagen-gol-trend-16-sportline-101cv-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Volkswagen Gol Trend 1.6 Sportline 101cv",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -693,11 +636,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-5",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-5",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432269-5",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432269-5",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -761,7 +704,7 @@
       "price": 16200000,
       "position": 7000,
       "downPayment": null,
-      "id": "generated-1756937627521-6",
+      "id": "generated-1756928432269-6",
       "brand": "Volkswagen",
       "model": "Suran",
       "year": 2017,
@@ -769,7 +712,7 @@
       "currency": "ARS",
       "description": "/////////////////// Funes exclusivos san Martín 190 funes provincia de santa fe. Volkswagen Suran 2017 1.6 track 85.000 km impecable amplia financiación permutas",
       "categoryId": "monovolumen",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 85000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -781,7 +724,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301695620",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301695620-volkswagen-suran-16-track-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Volkswagen Suran 1.6 Track",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -812,67 +755,67 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-6",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-6",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432269-6",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432269-6",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "monovolumen",
         "name": "monovolumen"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_960417-MLA82103725429_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_960417-MLA82103725429_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_960417-MLA82103725429_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_960417-MLA82103725429_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_809823-MLA82103193325_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_809823-MLA82103193325_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_809823-MLA82103193325_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_809823-MLA82103193325_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_826334-MLA82103124439_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_826334-MLA82103124439_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_826334-MLA82103124439_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_826334-MLA82103124439_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_661155-MLA82103409821_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_661155-MLA82103409821_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_661155-MLA82103409821_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_661155-MLA82103409821_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_911370-MLA82103124451_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_911370-MLA82103124451_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_911370-MLA82103124451_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_911370-MLA82103124451_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_792712-MLA82103291251_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_792712-MLA82103291251_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_792712-MLA82103291251_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_792712-MLA82103291251_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_974971-MLA82103233117_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_974971-MLA82103233117_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_974971-MLA82103233117_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_974971-MLA82103233117_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_603569-MLA81823944882_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_603569-MLA81823944882_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_603569-MLA81823944882_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_603569-MLA81823944882_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_921288-MLA82103311103_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_921288-MLA82103311103_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_921288-MLA82103311103_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_921288-MLA82103311103_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_622641-MLA82103390509_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_622641-MLA82103390509_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_622641-MLA82103390509_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_622641-MLA82103390509_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_939099-MLA82103193651_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_939099-MLA82103193651_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_939099-MLA82103193651_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_939099-MLA82103193651_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_940073-MLA82103243331_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_940073-MLA82103243331_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_940073-MLA82103243331_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_940073-MLA82103243331_012025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_797137-MLA82103243341_012025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_797137-MLA82103243341_012025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_797137-MLA82103243341_012025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_797137-MLA82103243341_012025-F.webp"
         }
       ]
     },
@@ -880,19 +823,19 @@
       "price": 12100000,
       "position": 8000,
       "downPayment": null,
-      "id": "generated-1756937627521-7",
+      "id": "generated-1756928432269-7",
       "brand": "Renault",
       "model": "Clio",
       "year": 2016,
-      "color": "No especificado",
+      "color": "Plateado",
       "currency": "ARS",
-      "description": "",
-      "categoryId": "autos",
-      "dealershipId": "dealership-funes-2",
+      "description": "/////////////////// Funes exclusivos San Martín 190 funes provincia de santa fe. Renault Clío mio 2016 1.216v confort 100.000 km impecable amplia financiación permutas",
+      "categoryId": "hatchback",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 100000,
       "transmission": "Manual",
       "fuel": "Nafta",
-      "doors": 4,
+      "doors": 5,
       "active": true,
       "featured": false,
       "favorite": false,
@@ -900,14 +843,14 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1518893311",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-1518893311-renault-clio-12-mio-confort-pack-5p-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Renault Clio 1.2 Mio Confort Pack 5p",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
+      "mlBodyType": "Hatchback",
+      "mlEngine": "1.2",
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -931,14 +874,14 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-7",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-7",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432269-7",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432269-7",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
-        "id": "autos",
-        "name": "autos"
+        "id": "hatchback",
+        "name": "hatchback"
       },
       "images": [
         {
@@ -991,12 +934,11 @@
         }
       ]
     },
-
     {
       "price": 19900000,
       "position": 9000,
       "downPayment": null,
-      "id": "generated-1756937627521-8",
+      "id": "generated-1756928432270-8",
       "brand": "Volkswagen",
       "model": "Amarok",
       "year": 2011,
@@ -1004,7 +946,7 @@
       "currency": "ARS",
       "description": "////////////////// Funes exclusivos san Martín 190 Funes provincia de santa fe. Volkswagen Amarok 2011 4x2 trendline 163cv 215.000 km impecable amplia financiación permutas",
       "categoryId": "pick-up",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 215000,
       "transmission": "Manual",
       "fuel": "Diésel",
@@ -1016,7 +958,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301785896",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301785896-volkswagen-amarok-20-cd-tdi-163cv-4x2-trendline-1t2-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Volkswagen Amarok 2.0 Cd Tdi 163cv 4x2 Trendline 1t2",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -1047,11 +989,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-8",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-8",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-8",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-8",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "pick-up",
         "name": "pick-up"
@@ -1111,7 +1053,7 @@
       "price": 15300000,
       "position": 10000,
       "downPayment": null,
-      "id": "generated-1756937627521-9",
+      "id": "generated-1756928432270-9",
       "brand": "Citroën",
       "model": "C3",
       "year": 2017,
@@ -1119,7 +1061,7 @@
       "currency": "ARS",
       "description": "////////////////Funes exclusivos san Martín 190 Funes provincia de santa fe. Citroen c3 Aircross 2017 1.6 vti feel 91.000 km impecable amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 91000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -1131,7 +1073,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1517457993",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-1517457993-citron-c3-aircross-16-vti-115-feel-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Citroën C3 Aircross 1.6 Vti 115 Feel",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -1162,63 +1104,63 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-9",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-9",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-9",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-9",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_700180-MLA83671613644_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_700180-MLA83671613644_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_700180-MLA83671613644_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_700180-MLA83671613644_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_915819-MLA83965020269_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_915819-MLA83965020269_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_915819-MLA83965020269_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_915819-MLA83965020269_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_820488-MLA83965020253_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_820488-MLA83965020253_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_820488-MLA83965020253_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_820488-MLA83965020253_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_679548-MLA83965058209_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_679548-MLA83965058209_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_679548-MLA83965058209_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_679548-MLA83965058209_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_792875-MLA83671876846_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_792875-MLA83671876846_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_792875-MLA83671876846_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_792875-MLA83671876846_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_831543-MLA83671876856_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_831543-MLA83671876856_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_831543-MLA83671876856_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_831543-MLA83671876856_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_711965-MLA83964952193_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_711965-MLA83964952193_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_711965-MLA83964952193_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_711965-MLA83964952193_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_861764-MLA83671613682_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_861764-MLA83671613682_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_861764-MLA83671613682_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_861764-MLA83671613682_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_873956-MLA83671613688_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_873956-MLA83671613688_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_873956-MLA83671613688_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_873956-MLA83671613688_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_885752-MLA83965087897_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_885752-MLA83965087897_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_885752-MLA83965087897_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_885752-MLA83965087897_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_603638-MLA83964952237_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_603638-MLA83964952237_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_603638-MLA83964952237_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_603638-MLA83964952237_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_940813-MLA83671613712_042025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_940813-MLA83671613712_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_940813-MLA83671613712_042025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_940813-MLA83671613712_042025-OO.jpg"
         }
       ]
     },
@@ -1226,7 +1168,7 @@
       "price": 28600000,
       "position": 11000,
       "downPayment": null,
-      "id": "generated-1756937627521-10",
+      "id": "generated-1756928432270-10",
       "brand": "Toyota",
       "model": "Yaris",
       "year": 2025,
@@ -1234,7 +1176,7 @@
       "currency": "ARS",
       "description": "//////////////////// Funes exclusivos san Martín 190 Funes provincia de santa fe. Toyota Yaris xs 2025 okm entrega inmediata permutas financiación",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 0,
       "transmission": "Automática",
       "fuel": "Nafta",
@@ -1246,7 +1188,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301630810",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301630810-toyota-yaris-xs-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Toyota Yaris 1.5 Xs",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -1277,63 +1219,63 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-10",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-10",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-10",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-10",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_692479-MLA83249160584_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_692479-MLA83249160584_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_692479-MLA83249160584_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_692479-MLA83249160584_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_831145-MLA83540909769_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_831145-MLA83540909769_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_831145-MLA83540909769_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_831145-MLA83540909769_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_657397-MLA83249190546_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_657397-MLA83249190546_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_657397-MLA83249190546_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_657397-MLA83249190546_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_966141-MLA83540752001_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_966141-MLA83540752001_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_966141-MLA83540752001_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_966141-MLA83540752001_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_811640-MLA83540712589_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_811640-MLA83540712589_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_811640-MLA83540712589_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_811640-MLA83540712589_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_957569-MLA83541008379_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_957569-MLA83541008379_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_957569-MLA83541008379_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_957569-MLA83541008379_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_864542-MLA83249239852_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_864542-MLA83249239852_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_864542-MLA83249239852_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_864542-MLA83249239852_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_814250-MLA83540879749_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_814250-MLA83540879749_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_814250-MLA83540879749_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_814250-MLA83540879749_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_722520-MLA83249348886_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_722520-MLA83249348886_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_722520-MLA83249348886_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_722520-MLA83249348886_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_901336-MLA83540771849_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_901336-MLA83540771849_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_901336-MLA83540771849_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_901336-MLA83540771849_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_808689-MLA83249160814_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_808689-MLA83249160814_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_808689-MLA83249160814_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_808689-MLA83249160814_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_650474-MLA83540939851_042025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_650474-MLA83540939851_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_650474-MLA83540939851_042025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_650474-MLA83540939851_042025-F.webp"
         }
       ]
     },
@@ -1341,7 +1283,7 @@
       "price": 21900000,
       "position": 12000,
       "downPayment": null,
-      "id": "generated-1756937627521-11",
+      "id": "generated-1756928432270-11",
       "brand": "Renault",
       "model": "Duster",
       "year": 2020,
@@ -1349,7 +1291,7 @@
       "currency": "ARS",
       "description": "/////////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Renaul duster 2020 1.6 dynamique 30.000 km impecable amplia financiación permutas",
       "categoryId": "suv",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 31000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -1361,7 +1303,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301747282",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301747282-renault-duster-16-ph2-4x2-dynamique-110cv-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Renault Duster 1.6 Ph2 4x2 Dynamique 110cv",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -1392,11 +1334,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-11",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-11",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-11",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-11",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "suv",
         "name": "suv"
@@ -1452,7 +1394,7 @@
       "price": 23300000,
       "position": 13000,
       "downPayment": null,
-      "id": "generated-1756937627521-12",
+      "id": "generated-1756928432270-12",
       "brand": "Renault",
       "model": "Sandero",
       "year": 2023,
@@ -1460,7 +1402,7 @@
       "currency": "ARS",
       "description": "////////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Renault Sandero stepway 2023 1.6 intenso 19.000 km impecable amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 19000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -1472,7 +1414,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301656592",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301656592-renault-sandero-stepway-16-16v-intense-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Renault Sandero Stepway 1.6 16v Intense",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -1503,11 +1445,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-12",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-12",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-12",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-12",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -1563,7 +1505,7 @@
       "price": 34300000,
       "position": 14000,
       "downPayment": null,
-      "id": "generated-1756937627521-13",
+      "id": "generated-1756928432270-13",
       "brand": "Peugeot",
       "model": "208",
       "year": 2025,
@@ -1571,7 +1513,7 @@
       "currency": "ARS",
       "description": "////////////////- Funes exclusivos san Martín 190 Funes provincia de santa fe. Peugeot 208GT 2025 okm entrega inmediata permutas financiación tasa 0% directo de fabrica hasta 18cuotas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 0,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -1583,7 +1525,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301617574",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301617574-peugeot-208-12t-gt-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Peugeot 208 1.2t Gt",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -1614,11 +1556,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-13",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-13",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-13",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-13",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -1674,7 +1616,7 @@
       "price": 23800000,
       "position": 15000,
       "downPayment": null,
-      "id": "generated-1756937627521-14",
+      "id": "generated-1756928432270-14",
       "brand": "Renault",
       "model": "Sandero",
       "year": 2023,
@@ -1682,7 +1624,7 @@
       "currency": "ARS",
       "description": "/////////////// Funes exclusivos san Martín 190 Funes provincia de santa fe. Renault Sandero stepway 2023 1.6 cvt intens 20.000 km nueva amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 20000,
       "transmission": "Automática",
       "fuel": "Nafta",
@@ -1694,7 +1636,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301721416",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301721416-renault-sandero-stepway-16-16v-intense-cvt-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Renault Sandero Stepway 1.6 16v Intense Cvt",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -1725,11 +1667,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-14",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-14",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-14",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-14",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -1781,7 +1723,7 @@
       "price": 8000000,
       "position": 16000,
       "downPayment": null,
-      "id": "generated-1756937627521-15",
+      "id": "generated-1756928432270-15",
       "brand": "Fiat",
       "model": "Palio",
       "year": 2011,
@@ -1789,7 +1731,7 @@
       "currency": "ARS",
       "description": "/////////////////////// Funes exclusivos San Martín 190 Funes provincia de santa fe. Ofertón Fiat palio 2011 1.4 attractive 180.000 km en las condiciones que se encuentra posibilidad de financiación no permutas precio oferta contado",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 180000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -1801,7 +1743,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2313906908",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2313906908-fiat-palio-14-attractive-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Fiat Palio 1.4 Attractive",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -1832,11 +1774,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-15",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-15",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-15",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-15",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -1880,7 +1822,7 @@
       "price": 15900,
       "position": 17000,
       "downPayment": null,
-      "id": "generated-1756937627521-16",
+      "id": "generated-1756928432270-16",
       "brand": "Fiat",
       "model": "1500",
       "year": 1967,
@@ -1888,7 +1830,7 @@
       "currency": "USD",
       "description": "//////////////// Funes exclusivos San Martín 190 Funes provincia de santa fe. Fiat 1500 coupe vigniale 1967 impecable estado restaurada a nueva nada para hacerle única",
       "categoryId": "autos",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 50500,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -1900,7 +1842,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1517458041",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-1517458041-fiat-1500-coupe-vigniale-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Fiat 1500 Coupe Vigniale",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -1931,11 +1873,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-16",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-16",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-16",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-16",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "autos",
         "name": "autos"
@@ -2003,7 +1945,7 @@
       "price": 180000,
       "position": 18000,
       "downPayment": null,
-      "id": "generated-1756937627521-17",
+      "id": "generated-1756928432270-17",
       "brand": "Porsche",
       "model": "912",
       "year": 1966,
@@ -2011,7 +1953,7 @@
       "currency": "USD",
       "description": "//////////////////// Funes exclusivo san Martín 190 provincia de santa fe. Porsche 912 1966 motor 2.7 6 cilindros 2 carburadores impecable estado",
       "categoryId": "autos",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 50000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -2023,7 +1965,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301695434",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301695434-porsche-912-1966-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Porsche 912 1966",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -2054,11 +1996,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-17",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-17",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-17",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-17",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "autos",
         "name": "autos"
@@ -2122,7 +2064,7 @@
       "price": 69000,
       "position": 19000,
       "downPayment": null,
-      "id": "generated-1756937627521-18",
+      "id": "generated-1756928432270-18",
       "brand": "Chevrolet",
       "model": "Corvette",
       "year": 1982,
@@ -2130,7 +2072,7 @@
       "currency": "USD",
       "description": "////////////////// Funes exclusivos san Martín 199 funes provincia de santa fe. Chevrolet Corvette stingray 1982 inyección 76.000 millas permutas.\n\nV8 350 pulgadas cubicas\n\n Techo tip top \n\nEscapes Magnaflow\n\nImportado en 2019 de EEUU \n\nUnidad restaurada en su totalidad\n\nListo para transferir \n\nUnidad exhibida en nuestro salón de ventas tomamos permutas",
       "categoryId": "autos",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 86000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -2142,7 +2084,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1517469443",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-1517469443-chevrolet-corvette-stingray-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Chevrolet Corvette Stingray ",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -2173,11 +2115,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-18",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-18",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-18",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-18",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "autos",
         "name": "autos"
@@ -2241,7 +2183,7 @@
       "price": 29200000,
       "position": 20000,
       "downPayment": null,
-      "id": "generated-1756937627521-19",
+      "id": "generated-1756928432270-19",
       "brand": "Nissan",
       "model": "Kicks",
       "year": 2022,
@@ -2249,7 +2191,7 @@
       "currency": "ARS",
       "description": "////////////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Nissan kicks 2022 1.6 nafta caja manual Advance 23.000km impecable amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 23000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -2261,7 +2203,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301032990",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301032990-nissan-kicks-16-advance-120cv-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Nissan Kicks 1.6 Advance 120cv",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -2292,11 +2234,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-19",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-19",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-19",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-19",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -2380,7 +2322,7 @@
       "price": 17600000,
       "position": 21000,
       "downPayment": null,
-      "id": "generated-1756937627521-20",
+      "id": "generated-1756928432270-20",
       "brand": "Peugeot",
       "model": "208",
       "year": 2020,
@@ -2388,7 +2330,7 @@
       "currency": "ARS",
       "description": "///////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Peugeot 208 1.6 active 2020 42.000km impecable amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 42000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -2400,7 +2342,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301721542",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301721542-peugeot-208-16-active-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Peugeot 208 1.6 Active",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -2431,79 +2373,79 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-20",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-20",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-20",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-20",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_627957-MLA89638207453_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_627957-MLA89638207453_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_627957-MLA89638207453_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_627957-MLA89638207453_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_985230-MLA89638107761_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_985230-MLA89638107761_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_985230-MLA89638107761_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_985230-MLA89638107761_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_684694-MLA89637374361_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_684694-MLA89637374361_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_684694-MLA89637374361_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_684694-MLA89637374361_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_762254-MLA89637452891_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_762254-MLA89637452891_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_762254-MLA89637452891_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_762254-MLA89637452891_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_729105-MLA89638326567_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_729105-MLA89638326567_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_729105-MLA89638326567_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_729105-MLA89638326567_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_707499-MLA89638207355_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_707499-MLA89638207355_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_707499-MLA89638207355_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_707499-MLA89638207355_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_640120-MLA89637581991_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_640120-MLA89637581991_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_640120-MLA89637581991_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_640120-MLA89637581991_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_708504-MLA89638386463_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_708504-MLA89638386463_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_708504-MLA89638386463_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_708504-MLA89638386463_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_938754-MLA89638535201_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_938754-MLA89638535201_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_938754-MLA89638535201_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_938754-MLA89638535201_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_719801-MLA89638535385_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_719801-MLA89638535385_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_719801-MLA89638535385_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_719801-MLA89638535385_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_834037-MLA89638167657_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_834037-MLA89638167657_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_834037-MLA89638167657_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_834037-MLA89638167657_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_701856-MLA89637711377_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_701856-MLA89637711377_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_701856-MLA89637711377_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_701856-MLA89637711377_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_618136-MLA89638535419_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_618136-MLA89638535419_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_618136-MLA89638535419_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_618136-MLA89638535419_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_844175-MLA89638366613_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_844175-MLA89638366613_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_844175-MLA89638366613_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_844175-MLA89638366613_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_770404-MLA89638207479_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_770404-MLA89638207479_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_770404-MLA89638207479_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_770404-MLA89638207479_082025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_918162-MLA89638366627_082025-O.webp",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_918162-MLA89638366627_082025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_918162-MLA89638366627_082025-OO.jpg",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_918162-MLA89638366627_082025-OO.jpg"
         }
       ]
     },
@@ -2511,7 +2453,7 @@
       "price": 15400000,
       "position": 22000,
       "downPayment": null,
-      "id": "generated-1756937627521-21",
+      "id": "generated-1756928432270-21",
       "brand": "Ford",
       "model": "Focus",
       "year": 2015,
@@ -2519,7 +2461,7 @@
       "currency": "ARS",
       "description": "/////////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Ford focus 2015 SE 2.0 manual 120.000 km impecable estado amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 120000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -2531,7 +2473,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301695742",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301695742-ford-focus-iii-20-se-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Ford Focus Iii 2.0 Se",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -2562,11 +2504,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-21",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-21",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-21",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-21",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -2634,18 +2576,18 @@
       "price": 43900000,
       "position": 23000,
       "downPayment": null,
-      "id": "generated-1756937627521-22",
+      "id": "generated-1756928432270-22",
       "brand": "Nissan",
       "model": "Frontier",
       "year": 2022,
-      "color": "Gris",
+      "color": "No especificado",
       "currency": "ARS",
-      "description": "////////////// funes exclusivos san Martín 190 funes provincia de santa fe. Nissan frontier 2022 platinum 4x4 AT 80.000 km impecable todos los servicios oficiales impecable amplia financiación permutas",
-      "categoryId": "pick-up",
-      "dealershipId": "dealership-funes-2",
+      "description": "",
+      "categoryId": "autos",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 80000,
-      "transmission": "Automática",
-      "fuel": "Diésel",
+      "transmission": "Manual",
+      "fuel": "Nafta",
       "doors": 4,
       "active": true,
       "featured": false,
@@ -2654,14 +2596,14 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301786110",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301786110-nissan-frontier-23t-platinum-4x4-at-l22-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Nissan Frontier 2.3t Platinum 4x4 At L22",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": "Pick-Up",
-      "mlEngine": "2.3",
+      "mlBodyType": null,
+      "mlEngine": null,
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -2685,79 +2627,22 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-22",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-22",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-22",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-22",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
-        "id": "pick-up",
-        "name": "pick-up"
+        "id": "autos",
+        "name": "autos"
       },
-      "images": [
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_913796-MLA80361568550_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_913796-MLA80361568550_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_995751-MLA80361578326_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_995751-MLA80361578326_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_801907-MLA80619633517_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_801907-MLA80619633517_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_849663-MLA80619534231_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_849663-MLA80619534231_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_601601-MLA80619781333_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_601601-MLA80619781333_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_639043-MLA80619938183_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_639043-MLA80619938183_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_791535-MLA80619947987_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_791535-MLA80619947987_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_989907-MLA80620006871_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_989907-MLA80620006871_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_620819-MLA80619947993_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_620819-MLA80619947993_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_819179-MLA80619534247_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_819179-MLA80619534247_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_687055-MLA80361568578_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_687055-MLA80361568578_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_677563-MLA80619967683_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_677563-MLA80619967683_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_987140-MLA80619633555_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_987140-MLA80619633555_112024-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_790172-MLA80619938201_112024-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_790172-MLA80619938201_112024-OO.jpg"
-        }
-      ]
+      "images": []
     },
     {
       "price": 10300000,
       "position": 24000,
       "downPayment": null,
-      "id": "generated-1756937627521-23",
+      "id": "generated-1756928432270-23",
       "brand": "Ford",
       "model": "Ecosport",
       "year": 2012,
@@ -2765,7 +2650,7 @@
       "currency": "ARS",
       "description": "////////////////////// Funes exclusivos san Martín 190 Funes provincia de santa fe. Ford Ecosport 2012 1.6 XL plus 180.000 km impecable amplia financiación permutas",
       "categoryId": "suv",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 180000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -2777,7 +2662,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1517458263",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-1517458263-ford-ecosport-16-my10-xl-plus-mp3-4x2-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Ford Ecosport 1.6 My10 Xl Plus Mp3 4x2",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -2808,67 +2693,67 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-23",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-23",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-23",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-23",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "suv",
         "name": "suv"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_631024-MLA90627367812_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_631024-MLA90627367812_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_631024-MLA90627367812_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_631024-MLA90627367812_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_639843-MLA90627916476_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_639843-MLA90627916476_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_639843-MLA90627916476_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_639843-MLA90627916476_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_972577-MLA90627307984_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_972577-MLA90627307984_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_972577-MLA90627307984_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_972577-MLA90627307984_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_607460-MLA91011104701_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_607460-MLA91011104701_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_607460-MLA91011104701_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_607460-MLA91011104701_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_743454-MLA90627367872_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_743454-MLA90627367872_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_743454-MLA90627367872_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_743454-MLA90627367872_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_883570-MLA90625181804_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_883570-MLA90625181804_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_883570-MLA90625181804_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_883570-MLA90625181804_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_782086-MLA90626170562_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_782086-MLA90626170562_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_782086-MLA90626170562_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_782086-MLA90626170562_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_862135-MLA90627308060_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_862135-MLA90627308060_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_862135-MLA90627308060_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_862135-MLA90627308060_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_695890-MLA90627367928_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_695890-MLA90627367928_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_695890-MLA90627367928_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_695890-MLA90627367928_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_689902-MLA90628494774_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_689902-MLA90628494774_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_689902-MLA90628494774_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_689902-MLA90628494774_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_713000-MLA91015706217_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_713000-MLA91015706217_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_713000-MLA91015706217_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_713000-MLA91015706217_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_673923-MLA90627367970_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_673923-MLA90627367970_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_673923-MLA90627367970_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_673923-MLA90627367970_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_952625-MLA90625801028_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_952625-MLA90625801028_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_952625-MLA90625801028_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_952625-MLA90625801028_082025-F.webp"
         }
       ]
     },
@@ -2876,7 +2761,7 @@
       "price": 11300000,
       "position": 25000,
       "downPayment": null,
-      "id": "generated-1756937627521-24",
+      "id": "generated-1756928432270-24",
       "brand": "Renault",
       "model": "Sandero",
       "year": 2015,
@@ -2884,7 +2769,7 @@
       "currency": "ARS",
       "description": "//////////////////// Funes exclusivos San Martín 190 funes provincia de santa fe. Renaul Sandero 2015 1.6 16v privilege GNC 145.000km impecable amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 145000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -2896,7 +2781,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301721626",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301721626-renault-sandero-16-privilege-nav-105cv-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Renault Sandero 1.6 Privilege Nav 105cv",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -2927,11 +2812,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-24",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-24",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-24",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-24",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -2995,7 +2880,7 @@
       "price": 13400000,
       "position": 26000,
       "downPayment": null,
-      "id": "generated-1756937627521-25",
+      "id": "generated-1756928432270-25",
       "brand": "Fiat",
       "model": "Punto",
       "year": 2014,
@@ -3003,7 +2888,7 @@
       "currency": "ARS",
       "description": "/////////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Fiat Punto 2014 1.6 16v essence impecable 105.000 km amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 105000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -3015,7 +2900,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1517458209",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-1517458209-fiat-punto-16-essence-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Fiat Punto 1.6 Essence",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -3046,67 +2931,67 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-25",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-25",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-25",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-25",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_749701-MLA90061613348_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_749701-MLA90061613348_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_749701-MLA90061613348_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_749701-MLA90061613348_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_782171-MLA90061998572_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_782171-MLA90061998572_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_782171-MLA90061998572_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_782171-MLA90061998572_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_793318-MLA90062167070_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_793318-MLA90062167070_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_793318-MLA90062167070_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_793318-MLA90062167070_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_705784-MLA90061711918_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_705784-MLA90061711918_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_705784-MLA90061711918_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_705784-MLA90061711918_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_734482-MLA90442203849_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_734482-MLA90442203849_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_734482-MLA90442203849_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_734482-MLA90442203849_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_905201-MLA90061702284_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_905201-MLA90061702284_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_905201-MLA90061702284_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_905201-MLA90061702284_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_918747-MLA90442827621_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_918747-MLA90442827621_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_918747-MLA90442827621_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_918747-MLA90442827621_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_914678-MLA90061711972_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_914678-MLA90061711972_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_914678-MLA90061711972_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_914678-MLA90061711972_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_814573-MLA90442867419_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_814573-MLA90442867419_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_814573-MLA90442867419_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_814573-MLA90442867419_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_762186-MLA90442600205_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_762186-MLA90442600205_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_762186-MLA90442600205_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_762186-MLA90442600205_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_624996-MLA90062505158_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_624996-MLA90062505158_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_624996-MLA90062505158_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_624996-MLA90062505158_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_769746-MLA90061573496_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_769746-MLA90061573496_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_769746-MLA90061573496_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_769746-MLA90061573496_082025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_888139-MLA90062505084_082025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_888139-MLA90062505084_082025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_888139-MLA90062505084_082025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_888139-MLA90062505084_082025-F.webp"
         }
       ]
     },
@@ -3114,19 +2999,19 @@
       "price": 180000,
       "position": 27000,
       "downPayment": null,
-      "id": "generated-1756937627521-26",
+      "id": "generated-1756928432270-26",
       "brand": "Porsche",
       "model": "911",
       "year": 1987,
-      "color": "Rojo",
+      "color": "No especificado",
       "currency": "USD",
-      "description": "//////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Porsche 912 1966 motor 2.7litros 6 cilindros 2 carburadores impecable estado oportunidad",
-      "categoryId": "cabriolet",
-      "dealershipId": "dealership-funes-2",
+      "description": "",
+      "categoryId": "autos",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 5000,
-      "transmission": "Automática",
+      "transmission": "Manual",
       "fuel": "Nafta",
-      "doors": 2,
+      "doors": 4,
       "active": true,
       "featured": false,
       "favorite": false,
@@ -3134,14 +3019,14 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301630900",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301630900-porsche-911-38-carrera-2-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Porsche 911 3.8 Carrera 2",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": "Cabriolet",
-      "mlEngine": "3.8",
+      "mlBodyType": null,
+      "mlEngine": null,
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -3165,75 +3050,22 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-26",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-26",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-26",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-26",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
-        "id": "cabriolet",
-        "name": "cabriolet"
+        "id": "autos",
+        "name": "autos"
       },
-      "images": [
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_973462-MLA88034013533_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_973462-MLA88034013533_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_968207-MLA88034729235_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_968207-MLA88034729235_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_668523-MLA88034579713_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_668523-MLA88034579713_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_901722-MLA88034063475_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_901722-MLA88034063475_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_713329-MLA88034779121_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_713329-MLA88034779121_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_813918-MLA88034063507_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_813918-MLA88034063507_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_688698-MLA87701235802_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_688698-MLA87701235802_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_669040-MLA88034063525_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_669040-MLA88034063525_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_973074-MLA88034331275_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_973074-MLA88034331275_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_926567-MLA88034301749_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_926567-MLA88034301749_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_788026-MLA88034540277_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_788026-MLA88034540277_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_657841-MLA88034729533_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_657841-MLA88034729533_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_997728-MLA88034897657_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_997728-MLA88034897657_072025-OO.jpg"
-        }
-      ]
+      "images": []
     },
     {
       "price": 22900000,
       "position": 28000,
       "downPayment": null,
-      "id": "generated-1756937627521-27",
+      "id": "generated-1756928432270-27",
       "brand": "Renault",
       "model": "Captur",
       "year": 2019,
@@ -3241,7 +3073,7 @@
       "currency": "ARS",
       "description": "///////////////// Funes exclusivo san Martín 190 funes provincia de santa fe. Renault captura 2019 2.0 zen 80.000 impecable amplia financiación permutas",
       "categoryId": "suv",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 80000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -3253,7 +3085,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1517458095",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-1517458095-renault-captur-20-zen-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Renault Captur 2.0 Zen",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -3284,67 +3116,67 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-27",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-27",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-27",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-27",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "suv",
         "name": "suv"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_864680-MLA87277964575_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_864680-MLA87277964575_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_864680-MLA87277964575_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_864680-MLA87277964575_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_847366-MLA86954924844_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_847366-MLA86954924844_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_847366-MLA86954924844_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_847366-MLA86954924844_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_768798-MLA86954209542_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_768798-MLA86954209542_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_768798-MLA86954209542_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_768798-MLA86954209542_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_637183-MLA86954209550_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_637183-MLA86954209550_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_637183-MLA86954209550_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_637183-MLA86954209550_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_803602-MLA87278451591_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_803602-MLA87278451591_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_803602-MLA87278451591_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_803602-MLA87278451591_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_780321-MLA86954150052_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_780321-MLA86954150052_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_780321-MLA86954150052_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_780321-MLA86954150052_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_755373-MLA86954924890_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_755373-MLA86954924890_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_755373-MLA86954924890_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_755373-MLA86954924890_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_838020-MLA86954209582_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_838020-MLA86954209582_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_838020-MLA86954209582_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_838020-MLA86954209582_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_885948-MLA87279167147_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_885948-MLA87279167147_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_885948-MLA87279167147_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_885948-MLA87279167147_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_701960-MLA87278451625_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_701960-MLA87278451625_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_701960-MLA87278451625_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_701960-MLA87278451625_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_811582-MLA87279167151_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_811582-MLA87279167151_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_811582-MLA87279167151_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_811582-MLA87279167151_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_899563-MLA86954835444_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_899563-MLA86954835444_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_899563-MLA86954835444_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_899563-MLA86954835444_072025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_866261-MLA86954249080_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_866261-MLA86954249080_072025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_866261-MLA86954249080_072025-O.webp",
+          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_866261-MLA86954249080_072025-F.webp"
         }
       ]
     },
@@ -3352,7 +3184,7 @@
       "price": 14700000,
       "position": 29000,
       "downPayment": null,
-      "id": "generated-1756937627521-28",
+      "id": "generated-1756928432270-28",
       "brand": "Fiat",
       "model": "Palio",
       "year": 2017,
@@ -3360,7 +3192,7 @@
       "currency": "ARS",
       "description": "//////////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Fiat palio 2017 1.6 16v essence AT 80.000 km GNC impecable amplia financiación permutas",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 80000,
       "transmission": "Automática",
       "fuel": "Nafta",
@@ -3372,7 +3204,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301682776",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301682776-fiat-palio-16-nuevo-essence-115cv-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Fiat Palio 1.6 Nuevo Essence 115cv",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -3403,11 +3235,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-28",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-28",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-28",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-28",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -3467,7 +3299,7 @@
       "price": 12500000,
       "position": 30000,
       "downPayment": null,
-      "id": "generated-1756937627521-29",
+      "id": "generated-1756928432270-29",
       "brand": "Chevrolet",
       "model": "Cruze",
       "year": 2013,
@@ -3475,7 +3307,7 @@
       "currency": "ARS",
       "description": "/////////////////////////Funes exclusivo san Martín 190 Funes provincia de santa fe. Chevrolet Cruze 2013 1.8 LTZ manual 5 puertas 170.000 km impecable amplia financiación permutas",
       "categoryId": "sedán",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 170000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -3487,7 +3319,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301656948",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301656948-chevrolet-cruze-18-ltz-mt-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Chevrolet Cruze 1.8 Ltz Mt",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -3518,11 +3350,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-29",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-29",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-29",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-29",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "sedán",
         "name": "sedán"
@@ -3578,7 +3410,7 @@
       "price": 10000000,
       "position": 31000,
       "downPayment": null,
-      "id": "generated-1756937627521-30",
+      "id": "generated-1756928432270-30",
       "brand": "Fiat",
       "model": "Punto",
       "year": 2013,
@@ -3586,7 +3418,7 @@
       "currency": "ARS",
       "description": "/////////////////////// Funes exclusivos San Martín 190 Funes provincia de santa fe. Ofertón Fiat Punto 2013 1.4 attractive GNC 177.000 km en las condiciones de uso que se encuentran posibilidad de financiación no permutas oportunidad",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 177000,
       "transmission": "Manual",
       "fuel": "Nafta/GNC",
@@ -3598,7 +3430,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2313958982",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2313958982-fiat-punto-14-attractive-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Fiat Punto 1.4 Attractive",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -3629,11 +3461,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-30",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-30",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-30",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-30",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -3681,7 +3513,7 @@
       "price": 12500000,
       "position": 32000,
       "downPayment": null,
-      "id": "generated-1756937627521-31",
+      "id": "generated-1756928432270-31",
       "brand": "Peugeot",
       "model": "3008",
       "year": 2013,
@@ -3689,7 +3521,7 @@
       "currency": "ARS",
       "description": "////////////////// Funes exclusivos san Martín 190 Funes provincia de santa fe. Peugeot 3008 2013 1.6 feline 165.000 km impecable amplia financiación permutas",
       "categoryId": "monovolumen",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 165000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -3701,7 +3533,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301747458",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301747458-peugeot-3008-16-feline-thp-156cv-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Peugeot 3008 1.6 Feline Thp 156cv",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -3732,11 +3564,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-31",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-31",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-31",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-31",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "monovolumen",
         "name": "monovolumen"
@@ -3784,18 +3616,18 @@
       "price": 6500000,
       "position": 33000,
       "downPayment": null,
-      "id": "generated-1756937627521-32",
+      "id": "generated-1756928432270-32",
       "brand": "Peugeot",
       "model": "207",
       "year": 2010,
-      "color": "Plateado",
+      "color": "No especificado",
       "currency": "ARS",
-      "description": "//////////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Peugeot 207 1.9 diesel xs 2010 170.000 km impecable amplia oportunidad",
-      "categoryId": "sedán",
-      "dealershipId": "dealership-funes-2",
+      "description": "",
+      "categoryId": "autos",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 170000,
       "transmission": "Manual",
-      "fuel": "Diésel",
+      "fuel": "Nafta",
       "doors": 4,
       "active": true,
       "featured": false,
@@ -3804,14 +3636,14 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2301773522",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2301773522-peugeot-207-19-sedan-xs-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Peugeot 207 1.9 Sedan Xs",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": "Sedán",
-      "mlEngine": "1.9",
+      "mlBodyType": null,
+      "mlEngine": null,
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -3835,51 +3667,22 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-32",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-32",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-32",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-32",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
-        "id": "sedán",
-        "name": "sedán"
+        "id": "autos",
+        "name": "autos"
       },
-      "images": [
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_960748-MLA87778251148_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_960748-MLA87778251148_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_987191-MLA88113745369_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_987191-MLA88113745369_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_953609-MLA88113775413_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_953609-MLA88113775413_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_747356-MLA87778677462_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_747356-MLA87778677462_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_693768-MLA87778251164_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_693768-MLA87778251164_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_895064-MLA88113527839_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_895064-MLA88113527839_072025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_946318-MLA88113478307_072025-OO.jpg",
-          "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_946318-MLA88113478307_072025-OO.jpg"
-        }
-      ]
+      "images": []
     },
     {
       "price": 7900000,
       "position": 34000,
       "downPayment": null,
-      "id": "generated-1756937627521-33",
+      "id": "generated-1756928432270-33",
       "brand": "Fiat",
       "model": "Punto",
       "year": 2008,
@@ -3887,7 +3690,7 @@
       "currency": "ARS",
       "description": "/////////////////// Funes exclusivos San Martín 190 Funes provincia de santa fe. Ofertón Fiat Punto 2008 1.8 hlx 177.000 km en las condiciones que se encuentra posibilidad de financiación no tomamos permutas oportunidad",
       "categoryId": "hatchback",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 177000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -3899,7 +3702,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2313830688",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2313830688-fiat-punto-18-hlx-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Fiat Punto 1.8 Hlx",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -3930,11 +3733,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-33",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-33",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-33",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-33",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "hatchback",
         "name": "hatchback"
@@ -3970,15 +3773,15 @@
       "price": 7500000,
       "position": 35000,
       "downPayment": null,
-      "id": "generated-1756937627521-34",
+      "id": "generated-1756928432270-34",
       "brand": "Peugeot",
       "model": "207",
       "year": 2010,
-      "color": "No especificado",
+      "color": "Negro",
       "currency": "ARS",
-      "description": "",
-      "categoryId": "autos",
-      "dealershipId": "dealership-funes-2",
+      "description": "///////////////////////// Funes exclusivos San Martín 190 Funes provincia de santa fe. Ofertón Peugeot 207 xr 1.4 nafta 145.000 km en las condiciones que se encuentra precio oferta posibilidad de financiación no permuto",
+      "categoryId": "hatchback",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 145000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -3990,14 +3793,14 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2313766868",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2313766868-peugeot-207-14-xr-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Peugeot 207 1.4 Xr",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
+      "mlBodyType": "Hatchback",
+      "mlEngine": "1.4",
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -4021,14 +3824,14 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-34",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-34",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-34",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-34",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
-        "id": "autos",
-        "name": "autos"
+        "id": "hatchback",
+        "name": "hatchback"
       },
       "images": [
         {
@@ -4057,7 +3860,7 @@
       "price": 11500000,
       "position": 36000,
       "downPayment": null,
-      "id": "generated-1756937627521-35",
+      "id": "generated-1756928432270-35",
       "brand": "Peugeot",
       "model": "Partner",
       "year": 2013,
@@ -4065,7 +3868,7 @@
       "currency": "ARS",
       "description": "/////////////////////// Funes exclusivos San Martín 190 Funes provincia de santa fe. Ofertón Peugeot partner 2013 1.6 hdi patagónica 186.000 km en las condiciones que se encuentran posibilidad de financiación no permutas oportunidad precio oferta",
       "categoryId": "monovolumen",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 186000,
       "transmission": "Manual",
       "fuel": "Diésel",
@@ -4077,7 +3880,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2313894366",
       "mlUrl": "https://auto.mercadolibre.com.ar/MLA-2313894366-peugeot-partner-patagonica-16-hdi-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Peugeot Partner Patagónica 1.6 Hdi",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -4108,11 +3911,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-35",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-35",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-35",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-35",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "monovolumen",
         "name": "monovolumen"
@@ -4144,7 +3947,7 @@
       "price": 30900,
       "position": 37000,
       "downPayment": null,
-      "id": "generated-1756937627521-36",
+      "id": "generated-1756928432270-36",
       "brand": "BMW",
       "model": "Gs1200",
       "year": 2017,
@@ -4152,7 +3955,7 @@
       "currency": "USD",
       "description": "///////////////// Funes exclusivo san Martín 190 Funes provincia de santa fe. Bmw GS 1200 cc año 2017 10.000 km impecable oportunidad",
       "categoryId": "enduro",
-      "dealershipId": "dealership-funes-2",
+      "dealershipId": "dealership-funes-exclusivos",
       "mileage": 10000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -4164,7 +3967,7 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1517469509",
       "mlUrl": "https://moto.mercadolibre.com.ar/MLA-1517469509-bmw-gs1200-_JM",
-      "mlScrapedAt": "2025-09-03T22:13:47.520Z",
+      "mlScrapedAt": "2025-09-03T19:40:32.269Z",
       "mlTitle": "Bmw Gs1200",
       "mlCleanPrice": null,
       "mlLocation": null,
@@ -4195,11 +3998,11 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1756937627521-36",
-      "mlImagesLastUpdated": "2025-09-03T22:13:47.520Z",
-      "catalogChecksum": "checksum-1756937627521-36",
-      "createdAt": "2025-09-03T22:13:47.520Z",
-      "updatedAt": "2025-09-03T22:13:47.520Z",
+      "mlImagesHash": "hash-1756928432270-36",
+      "mlImagesLastUpdated": "2025-09-03T19:40:32.269Z",
+      "catalogChecksum": "checksum-1756928432270-36",
+      "createdAt": "2025-09-03T19:40:32.269Z",
+      "updatedAt": "2025-09-03T19:40:32.269Z",
       "Category": {
         "id": "enduro",
         "name": "enduro"
