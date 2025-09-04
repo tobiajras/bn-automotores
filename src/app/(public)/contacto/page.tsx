@@ -21,8 +21,8 @@ const ContactoPage = () => {
           {/* Imagen de fondo con overlay */}
           <div className='absolute inset-0 z-0'>
             <Image
-              src='/assets/nosotros/nosotros-banner.webp'
-              alt={`Equipo de ${company.name}`}
+              src='/assets/contacto/contacto-banner.webp'
+              alt={`Contacto de ${company.name}`}
               fill
               className='object-cover'
               priority
