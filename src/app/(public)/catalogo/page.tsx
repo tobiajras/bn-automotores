@@ -18,26 +18,18 @@ import {
 import CloseIcon from '@/components/icons/CloseIcon';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import data from '@/data/data.json';
-
-interface Imagen {
-  thumbnailUrl: string;
-}
-
-interface Categoria {
-  id: string;
-  name: string;
-}
+import catalogo from '@/data/catalogo.json';
 
 interface ApiCar {
   id: string;
   brand: string;
   model: string;
-  mlTitle: string;
   year: number;
   color: string;
-  price: number;
-  currency: string;
+  price: {
+    valor: number;
+    moneda: string;
+  };
   description: string;
   categoryId: string;
   mileage: number;
@@ -50,8 +42,17 @@ interface ApiCar {
   active: boolean;
   createdAt: string;
   updatedAt: string;
-  Category: Categoria;
-  images: Imagen[];
+  Category: {
+    id: string;
+    name: string;
+    createdAt: string;
+    updatedAt: string;
+  };
+  Images: {
+    thumbnailUrl: string;
+    imageUrl: string;
+    order: number;
+  }[];
 }
 
 interface Category {
@@ -78,11 +79,12 @@ const CatalogoPage = () => {
   const [todasLasMarcas, setTodasLasMarcas] = useState<string[]>([]);
   const [categorias, setCategorias] = useState<Category[]>([]);
 
-  // Función para obtener todas las marcas disponibles desde data.json
+  // Función para obtener todas las marcas disponibles
   const fetchMarcas = () => {
     try {
+      // Obtener marcas únicas del catálogo
       const marcas = Array.from(
-        new Set(data.cars.map((car) => car.brand))
+        new Set(catalogo.map((car) => car.marca))
       ).sort();
       setTodasLasMarcas(marcas);
     } catch (error) {
@@ -90,71 +92,99 @@ const CatalogoPage = () => {
     }
   };
 
-  // Función para obtener las categorías desde data.json
+  // Función para obtener las categorías del catálogo
   const fetchCategories = () => {
     try {
-      const categoriasUnicas = data.cars.reduce((acc: Category[], car) => {
-        const categoria = car.Category;
-        if (!acc.find((cat) => cat.id === categoria.id)) {
-          acc.push(categoria);
-        }
-        return acc;
-      }, []);
-
-      const categoriasProcesadas = categoriasUnicas.map((category) => ({
-        id: category.id,
-        name:
-          category.name.charAt(0).toUpperCase() +
-          category.name.slice(1).toLowerCase(),
+      // Obtener categorías únicas del catálogo
+      const categoriasUnicas = Array.from(
+        new Set(catalogo.map((car) => car.categoria))
+      );
+      const categoriasProcesadas = categoriasUnicas.map((cat) => ({
+        id: cat.toLowerCase(),
+        name: cat,
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
       }));
-
       setCategorias(categoriasProcesadas);
     } catch (error) {
       console.error('Error al cargar las categorías:', error);
     }
   };
 
-  // Función para obtener los autos con filtros desde data.json
+  // Función para obtener los autos con filtros
   const fetchCars = (
     page: number,
     filters?: { search?: string; marca?: string; categoria?: string }
   ) => {
     setLoading(true);
     try {
-      let filteredCars = [...data.cars];
+      let filteredCars = [...catalogo];
 
       // Aplicar filtros
       if (filters?.search) {
         const searchTerm = filters.search.toLowerCase();
         filteredCars = filteredCars.filter(
           (car) =>
-            car.mlTitle?.toLowerCase().includes(searchTerm) ||
-            car.brand?.toLowerCase().includes(searchTerm) ||
-            car.model?.toLowerCase().includes(searchTerm)
+            car.name.toLowerCase().includes(searchTerm) ||
+            car.marca.toLowerCase().includes(searchTerm)
         );
       }
-
       if (filters?.marca) {
         filteredCars = filteredCars.filter(
-          (car) => car.brand === filters.marca
+          (car) => car.marca.toLowerCase() === filters.marca?.toLowerCase()
         );
       }
-
       if (filters?.categoria) {
         filteredCars = filteredCars.filter(
-          (car) =>
-            car.Category.name.toLowerCase() === filters.categoria?.toLowerCase()
+          (car) => car.categoria === filters.categoria
         );
       }
 
       // Calcular paginación
-      const totalItems = filteredCars.length;
-      const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
-      const startIndex = (page - 1) * ITEMS_PER_PAGE;
-      const endIndex = startIndex + ITEMS_PER_PAGE;
-      const paginatedCars = filteredCars.slice(startIndex, endIndex);
+      const total = filteredCars.length;
+      const totalPages = Math.ceil(total / ITEMS_PER_PAGE);
+      const start = (page - 1) * ITEMS_PER_PAGE;
+      const end = start + ITEMS_PER_PAGE;
 
-      setCars(paginatedCars as ApiCar[]);
+      // Obtener autos de la página actual
+      const paginatedCars: ApiCar[] = filteredCars
+        .slice(start, end)
+        .map((car) => ({
+          id: car.id,
+          brand: car.marca,
+          model: car.name,
+          year: car.ano,
+          color: '',
+          price: {
+            valor: car.precio.valor,
+            moneda: car.precio.moneda,
+          },
+          description: car.descripcion,
+          categoryId: car.categoria,
+          mileage: car.kilometraje,
+          transmission: car.transmision,
+          fuel: car.combustible,
+          doors: car.puertas,
+          position: 0,
+          featured: false,
+          favorite: false,
+          active: true,
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+          Category: {
+            id: car.categoria.toLowerCase(),
+            name: car.categoria,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
+          },
+          Images: car.images.map((img, index) => ({
+            thumbnailUrl: `/assets/catalogo/${img}`,
+            imageUrl: `/assets/catalogo/${img}`,
+            order: index,
+          })),
+        }));
+
+      setCars(paginatedCars);
       setTotalPages(totalPages);
     } catch (error) {
       console.error('Error al cargar los vehículos:', error);
@@ -252,10 +282,7 @@ const CatalogoPage = () => {
   };
 
   const filteredProducts = cars.filter((car) => {
-    // Validar que mlTitle no sea null o undefined
-    if (!car.mlTitle) return false;
-
-    const normalizedProductName = car.mlTitle
+    const normalizedProductName = car.model
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '');
 
@@ -367,7 +394,7 @@ const CatalogoPage = () => {
                       {categorias.map((categoria) => (
                         <SelectItem
                           key={categoria.id}
-                          value={categoria.name.toLowerCase()}
+                          value={categoria.name}
                           className='hover:text-color-primary hover:bg-neutral-700'
                         >
                           {categoria.name}
@@ -476,7 +503,7 @@ const CatalogoPage = () => {
                           {categorias.map((categoria) => (
                             <SelectItem
                               key={categoria.id}
-                              value={categoria.name.toLowerCase()}
+                              value={categoria.name}
                               className={`${
                                 company.dark
                                   ? 'hover:text-color-primary-light'
@@ -603,13 +630,12 @@ const CatalogoPage = () => {
                                   objectPosition: `center ${company.objectCover}`,
                                 }}
                                 src={
-                                  car.images &&
-                                  car.images.length > 0 &&
-                                  car.images[0]?.thumbnailUrl
-                                    ? car.images[0].thumbnailUrl
-                                    : '/assets/placeholder.webp'
+                                  car.Images.sort(
+                                    (a, b) => a.order - b.order
+                                  )[0]?.thumbnailUrl ||
+                                  '/assets/placeholder.webp'
                                 }
-                                alt={`${car.mlTitle || 'Vehículo'}`}
+                                alt={`${car.model}`}
                               />
                             </motion.div>
 
@@ -661,7 +687,7 @@ const CatalogoPage = () => {
                                     : 'group-hover:text-color-primary'
                                 } text-color-title-light text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                               >
-                                {car.mlTitle || 'Sin título'}
+                                {car.model || 'Sin título'}
                               </h3>
 
                               <div
@@ -669,10 +695,10 @@ const CatalogoPage = () => {
                                   company.price ? '' : 'hidden'
                                 } text-color-primary text-lg md:text-xl font-medium tracking-tight truncate md:mb-1 transition-colors duration-300`}
                               >
-                                {car.price && car.price > 0 ? (
+                                {car.price && car.price.valor > 0 ? (
                                   <>
-                                    {car.currency === 'ARS' ? '$' : 'US$'}
-                                    {car.price.toLocaleString('es-ES')}
+                                    {car.price.moneda === 'ARS' ? '$' : 'US$'}
+                                    {car.price.valor.toLocaleString('es-ES')}
                                   </>
                                 ) : (
                                   'Consultar precio'

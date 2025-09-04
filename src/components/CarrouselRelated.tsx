@@ -6,27 +6,36 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { company } from '@/app/constants/constants';
-import data from '@/data/data.json';
+import catalogo from '@/data/catalogo.json';
 import AutoScroll from 'embla-carousel-auto-scroll';
 
 interface Imagen {
+  id: string;
+  carId: string;
+  imageUrl: string;
   thumbnailUrl: string;
+  order: number;
+  createdAt: string;
+  updatedAt: string;
 }
 
 interface Categoria {
   id: string;
   name: string;
+  createdAt: string;
+  updatedAt: string;
 }
 
 interface Auto {
   id: string;
   brand: string;
   model: string;
-  mlTitle: string;
   year: number;
   color: string;
-  price: number;
-  currency: 'USD' | 'ARS';
+  price: {
+    valor: number;
+    moneda: string;
+  };
   description: string;
   position: number;
   featured: boolean;
@@ -39,7 +48,7 @@ interface Auto {
   doors: number;
   createdAt: string;
   updatedAt: string;
-  images: Imagen[];
+  Images: Imagen[];
   Category: Categoria;
 }
 
@@ -68,7 +77,7 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
       setCargando(true);
       try {
         // Encontrar el auto actual y su categoría
-        const autoActual = data.cars.find((auto) => auto.id === currentCarId);
+        const autoActual = catalogo.find((auto) => auto.id === currentCarId);
         if (!autoActual) {
           throw new Error('Auto no encontrado');
         }
@@ -84,14 +93,53 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
         };
 
         // Obtener todos los autos excepto el actual
-        const autosDisponibles = data.cars.filter(
-          (auto) => auto.id !== currentCarId && auto.active
+        const autosDisponibles = catalogo.filter(
+          (auto) => auto.id !== currentCarId
         );
 
         // Mezclar aleatoriamente y tomar máximo 10
         const autosAleatorios = shuffleArray(autosDisponibles).slice(0, 10);
 
-        setRelatedCars(autosAleatorios as Auto[]);
+        const autosRelacionados = autosAleatorios.map((auto) => ({
+          id: auto.id,
+          brand: auto.marca,
+          model: auto.name,
+          year: auto.ano,
+          color: '',
+          price: {
+            valor: auto.precio.valor,
+            moneda: auto.precio.moneda,
+          },
+          description: auto.descripcion,
+          position: 0,
+          featured: false,
+          favorite: false,
+          active: true,
+          categoryId: auto.categoria,
+          mileage: auto.kilometraje,
+          transmission: auto.transmision,
+          fuel: auto.combustible,
+          doors: auto.puertas,
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+          Images: auto.images.map((img: string, index: number) => ({
+            id: `${auto.id}-img-${index}`,
+            carId: auto.id,
+            imageUrl: `/assets/catalogo/${img}`,
+            thumbnailUrl: `/assets/catalogo/${img}`,
+            order: index,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
+          })),
+          Category: {
+            id: auto.categoria.toLowerCase(),
+            name: auto.categoria,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
+          },
+        }));
+
+        setRelatedCars(autosRelacionados);
       } catch (err) {
         console.error(
           'Error al cargar vehículos relacionados del catálogo:',
@@ -172,7 +220,9 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
           onMouseUp={() => setClicked(false)}
           onMouseDown={() => setClicked(true)}
           ref={emblaRef}
-          className={`${clicked ? 'cursor-grabbing' : 'cursor-grab'} select-none`}
+          className={`${
+            clicked ? 'cursor-grabbing' : 'cursor-grab'
+          } select-none`}
         >
           <div className='flex'>
             {relatedCars.map((auto) => (
@@ -208,8 +258,8 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                           objectPosition: `center ${company.objectCover}`,
                         }}
                         src={
-                          auto.images[0]?.thumbnailUrl ||
-                          '/assets/placeholder.webp'
+                          auto.Images.sort((a, b) => a.order - b.order)[0]
+                            ?.thumbnailUrl || '/assets/placeholder.webp'
                         }
                         alt={`${auto.model}`}
                       />
@@ -263,7 +313,7 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                             : 'group-hover:text-color-title-light'
                         } text-color-title-light text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                       >
-                        {auto.mlTitle}
+                        {auto.model}
                       </h3>
 
                       <div
@@ -271,8 +321,8 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                           company.price ? '' : 'hidden'
                         } text-color-title-light text-lg md:text-xl font-semibold tracking-tight truncate md:mb-1 transition-colors duration-300`}
                       >
-                        {auto.currency === 'ARS' ? '$' : 'US$'}
-                        {auto.price.toLocaleString('es-ES')}
+                        {auto.price.moneda === 'ARS' ? '$' : 'US$'}
+                        {auto.price.valor.toLocaleString('es-ES')}
                       </div>
 
                       {/* Diseño minimalista con separadores tipo | */}

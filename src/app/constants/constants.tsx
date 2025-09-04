@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'funesexclusivos',
-  name: 'Funes Exclusivos',
-  adress: 'San Martín 190',
-  city: 'Funes',
-  email: 'funesexclusivos@gmail.com',
-  instagram: 'funes_exclusivos',
-  facebook: 'https://www.facebook.com/funesexclusivos/',
-  whatsapp: ['3413239818'],
-  googlemapsLink: 'https://maps.app.goo.gl/o4uj5yXw5DNpYWY16',
+  id: 'diamondcars',
+  name: 'Diamond Cars',
+  adress: 'Av. Dardo Rocha 2716',
+  city: 'El Jagüel',
+  email: null,
+  instagram: 'diamondcars2716',
+  facebook: 'https://www.facebook.com/profile.php?id=61576900685106',
+  whatsapp: ['1123386816', '1135869922', '1159053449', '1144273133'],
+  googlemapsLink: 'https://maps.app.goo.gl/RdgVRyEycUYMpYFU7',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.0554106315262!2d-60.79217244673959!3d-32.92313423224225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b64d0b2782c583%3A0xf35f24ab3b435e61!2sFunes%20Exclusivos!5e0!3m2!1sen!2sar!4v1756936921825!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.9191455569326!2d-58.497577622889715!3d-34.83312536965228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd100784d31cb%3A0x48d89e2c74efb02!2sDiamond%20Cars!5e0!3m2!1sen!2sar!4v1756951781620!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 19:00hs',
-    'Sábados 09:00 a 13:00hs',
+    'Lunes a Sábados 09:00 a 19:00hs',
+    'Domingos Cerrado',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://funesexclusivos.vercel.app/',
-  title: 'Funes Exclusivos - Compra y Venta de Autos',
+  metadataBase: 'https://diamondcars.vercel.app/',
+  title: 'Diamond Cars - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
@@ -42,7 +42,7 @@ export const preguntas = [
     id: 'preg-1',
     question: '¿Qué opciones de pago ofrecen?',
     answer:
-      'Ofrecemos diferentes opciones de pago para adaptarnos a tus necesidades. Consultanos sobre las alternativas disponibles y te asesoramos para encontrar la mejor opción para ti.',
+      'Ofrecemos diferentes opciones de pago para adaptarnos a tus necesidades. Consultanos sobre las alternativas disponibles y te asesoramos para encontrar la mejor opción.',
   },
   {
     id: 'preg-2',

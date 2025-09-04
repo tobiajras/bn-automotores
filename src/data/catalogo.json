@@ -1,0 +1,366 @@
+[
+  {
+    "id": "1",
+    "name": "Ford F-150 Raptor",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2022,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "V6 3.5L",
+    "combustible": "Gasolina",
+    "puertas": 4,
+    "images": [
+      "1-1.webp",
+      "1-2.webp",
+      "1-3.webp",
+      "1-4.webp",
+      "1-5.webp",
+      "1-6.webp",
+      "1-7.webp",
+      "1-8.webp"
+    ],
+    "descripcion": "Ford F-150 Raptor 2022🔥🏁\n\nLa bestia del desierto. Nacida para dominar.\n\n⚙️ Motor y Performance\nMotor: V6\nPotencia: 450 hp\nTorque: 691 Nm\nTransmisión: Automática\nTracción: 4x4 con modos de manejo Terrain Management System\n\n🛠️ Chasis y Suspensión\nSuspensión delantera y trasera: Independiente con amortiguadores FOX Live Valve de 3.1\"\n\n🚀 Recorrido de suspensión:\nDelantera: 14\"\nTrasera: 15\"\n\n🎮 Tecnología y Seguridad\nPantalla táctil de 12\" con SYNC 4\nCámara 360° y visión off-road\n\n🛡️ Asistencias:\nControl de descenso\nFrenado automático de emergencia\nDetección de peatones\nControl crucero adaptativo\n\n📍Av Dardo Rocha 2716"
+  },
+  {
+    "id": "2",
+    "name": "Honda CR-V EX 4WD",
+    "marca": "Honda",
+    "marcaId": "honda",
+    "ano": 2010,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.4L i-VTEC",
+    "combustible": "Gasolina",
+    "puertas": 5,
+    "images": [
+      "2-1.webp",
+      "2-2.webp",
+      "2-3.webp",
+      "2-4.webp",
+      "2-5.webp",
+      "2-6.webp",
+      "2-7.webp",
+      "2-8.webp",
+      "2-9.webp",
+      "2-10.webp"
+    ],
+    "descripcion": "Honda CR-V EX 4WD – 2010\n\nDisponible en la agencia! ✅️\n\nEspacio, confort y tracción total para cualquier camino.\n\nEspecificaciones Técnicas:\n⚙️ Motor: 2.4L i-VTEC – 170 CV\n⚡ Torque: 218 Nm\n🧠 Transmisión: Automática de 5 velocidades\n🛞 Tracción: Integral (4WD)\n\nConfort y seguridad:\n❄️ Climatizador automático\n🔊 Sistema de audio con 6 parlantes y CD/MP3/AUX\n🛡️ 6 airbags\n⚙️ Frenos ABS + EBD\nControl de estabilidad (VSA)\n\nVersátil, confiable y lista para todo tipo de aventuras!\n\n📍Visitanos en Av Dardo Rocha 2716, frente a la estación de trenes \"el Jagüel\""
+  },
+  {
+    "id": "3",
+    "name": "Toyota Etios XLS 1.5",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2020,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Automática",
+    "motor": "1.5L",
+    "combustible": "Gasolina",
+    "puertas": 5,
+    "images": [
+      "3-1.webp",
+      "3-2.webp",
+      "3-3.webp",
+      "3-4.webp",
+      "3-5.webp",
+      "3-6.webp",
+      "3-7.webp",
+      "3-8.webp",
+      "3-9.webp"
+    ],
+    "descripcion": "Toyota Etios XLS 1.5 – 2020\n\nDisponible en la agencia! ✅️\n\nEspecificaciones Técnicas:\n⚙️ Motor: 1.5L 103 CV\n⚡ Torque: 137 Nm\n🧠 Transmicion : Automática\n🛞 Tracción: Delantera (FWD)\n\nConfort y seguridad:\n❄️ Aire acondicionado\n🎶 Pantalla táctil con Bluetooth y USB\n🛡️ Doble airbag frontal\n🛑 Frenos ABS + EBD\n🌀 Control de estabilidad (ESP) y tracción (TRC)\n🔑 Cierre centralizado y alarma\n\nIdeal para ciudad, excelente para viajes. Confiable, ágil y económico.\n\n📍Visitanos en Av Dardo Rocha 2716, frente a la estación de trenes \"el Jagüel\""
+  },
+  {
+    "id": "4",
+    "name": "Volkswagen Vento GLI 2.0 TSI DSG",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2018,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Sedán",
+    "transmision": "DSG",
+    "motor": "2.0L TSI Turbo",
+    "combustible": "Gasolina",
+    "puertas": 4,
+    "images": [
+      "4-1.webp",
+      "4-2.webp",
+      "4-3.webp",
+      "4-4.webp",
+      "4-5.webp",
+      "4-6.webp",
+      "4-7.webp",
+      "4-8.webp",
+      "4-9.webp",
+      "4-10.webp",
+      "4-11.webp",
+      "4-12.webp",
+      "4-13.webp",
+      "4-14.webp"
+    ],
+    "descripcion": "Volkswagen Vento GLI 2.0 TSI DSG – 2018\n\nEspecificaciones Técnicas:\n⚙️ Motor: 2.0L TSI Turbo – 210 HP\n⚡ Torque: 280 Nm\n⚡ 0-100 km/h: 6.8 segundos\n🧠 Transmisión: DSG de 6 velocidades\n🛞 Tracción: Delantera (FWD)\n\nConfort y seguridad:\n❄️ Climatizador bizona\n🎶 Sistema de audio premium\n🛡️ 6 airbags\n🛑 Frenos a disco en las 4 ruedas con ABS\n🌀 Control de estabilidad y tracción\n\nDiseño que impone, tecnología que sorprende.\n\n¿Te gustaría tenerlo?\n\n📍Visitanos en Av Dardo Rocha 2716, frente a la estación de trenes \"el Jagüel\""
+  },
+  {
+    "id": "5",
+    "name": "Volkswagen Amarok V6 Extreme",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 999999,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "V6",
+    "combustible": "Gasolina",
+    "puertas": 4,
+    "images": [
+      "5-1.webp",
+      "5-2.webp",
+      "5-3.webp",
+      "5-4.webp",
+      "5-5.webp",
+      "5-6.webp",
+      "5-7.webp",
+      "5-8.webp",
+      "5-9.webp",
+      "5-10.webp",
+      "5-11.webp",
+      "5-12.webp"
+    ],
+    "descripcion": "𝘝𝘰𝘭𝘬𝘴𝘸𝘢𝘨𝘦𝘯 𝘈𝘮𝘢𝘳𝘰𝘬 𝘝6 𝘌𝘹𝘵𝘳𝘦𝘮𝘦 disponible en la agencia ✅️🔥\n\n••\n\n📍Av Dardo Rocha 2716, frente a la estación de trenes \"el Jagüel\""
+  },
+  {
+    "id": "6",
+    "name": "Ford Ranger Limited",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 999999,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "2.0L Bi-Turbo",
+    "combustible": "Diesel",
+    "puertas": 4,
+    "images": [
+      "6-1.webp",
+      "6-2.webp",
+      "6-3.webp",
+      "6-4.webp",
+      "6-5.webp",
+      "6-6.webp",
+      "6-7.webp",
+      "6-8.webp",
+      "6-9.webp",
+      "6-10.webp",
+      "6-11.webp"
+    ],
+    "descripcion": "𝙁𝙤𝙧𝙙 ��𝙖𝙣𝙜𝙚𝙧 𝙇𝙞𝙢𝙞�� 𝙙𝙞𝙨𝙥𝙤𝙣𝙞𝙗𝙡𝙚 disponible en la agencia ✅️🔥\n\n••\n\n📍Av Dardo Rocha 2716, frente a la estación de trenes \"el Jagüel\""
+  },
+  {
+    "id": "7",
+    "name": "Audi Q5",
+    "marca": "Audi",
+    "marcaId": "audi",
+    "ano": 999999,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.0L TFSI",
+    "combustible": "Gasolina",
+    "puertas": 5,
+    "images": [
+      "7-1.webp",
+      "7-2.webp",
+      "7-3.webp",
+      "7-4.webp",
+      "7-5.webp",
+      "7-6.webp",
+      "7-7.webp",
+      "7-8.webp",
+      "7-9.webp",
+      "7-10.webp"
+    ],
+    "descripcion": "𝗔𝘂𝗱𝗶 𝗤𝟱 disponible en la agencia ✅️🔥\n\n••\n\n📍Av Dardo Rocha 2716, frente a la estación de trenes \"el Jagüel\""
+  },
+  {
+    "id": "8",
+    "name": "BMW Z4 Pack M Coupe Cabriolet",
+    "marca": "BMW",
+    "marcaId": "bmw",
+    "ano": 2011,
+    "kilometraje": 60000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Deportivo",
+    "transmision": "Automática",
+    "motor": "3.0L 6 cilindros en línea",
+    "combustible": "Gasolina",
+    "puertas": 2,
+    "images": [
+      "8-1.webp",
+      "8-2.webp",
+      "8-3.webp",
+      "8-4.webp",
+      "8-5.webp",
+      "8-6.webp",
+      "8-7.webp",
+      "8-8.webp",
+      "8-9.webp",
+      "8-10.webp",
+      "8-11.webp"
+    ],
+    "descripcion": "Bmw Z4 Pack M Coupe Cabriolet - 2011 🏁\n\nPack M: Suspensión deportiva, diseño agresivo y detalles exclusivos M\n\n⚙️ Motor: 3.0L 6 cilindros en línea\n⚡ Potencia: 258 hp\n🔁 Transmisión: Automática\n⛅ Versión: Cabriolet – techo duro retráctil\n📷 Sensores de estacionamiento\n✨ Detalles exclusivos\n⚫ Interior: Cuero negro y rojo con acabados deportivos\n\nKilometraje:\n✅ Solo 60.000km\n\n📍 Ubicación:\nAv. Dardo Rocha 2716 – ¡Te esperamos!\n\nDiamond Cars – Brilla como un diamante 💎\n\n..#bmwlife #bmwz4 #z4 #z4coupe #z4cabriolet"
+  },
+  {
+    "id": "9",
+    "name": "BMW M240i M Package",
+    "marca": "BMW",
+    "marcaId": "bmw",
+    "ano": 2021,
+    "kilometraje": 70000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "Deportivo",
+    "transmision": "Automática",
+    "motor": "3.0L TwinPower Turbo",
+    "combustible": "Gasolina",
+    "puertas": 2,
+    "images": [
+      "9-1.webp",
+      "9-2.webp",
+      "9-3.webp",
+      "9-4.webp",
+      "9-5.webp",
+      "9-6.webp",
+      "9-7.webp",
+      "9-8.webp",
+      "9-9.webp",
+      "9-10.webp",
+      "9-11.webp"
+    ],
+    "descripcion": "BMW M240i M Package – Modelo 2021\n\nCaracterísticas destacadas:\n⚙️ Motor: 3.0L TwinPower Turbo – 387 CV\n⚡ Caja automática deportiva con levas al volante\n🏁 Pack M: Suspensión adaptativa, frenos M, diseño exclusivo\n🖤 Diseño coupé deportivo: Equilibrio perfecto entre elegancia y agresividad\n🛞 Llantas M Performance\n📷 Cámara y sensores\n\nKilometraje:\n✅ 70.000 km\n\n📍 Ubicación:\nAv. Dardo Rocha 2716 – ¡Pasá a verlo y enamorate!\n\n..#bmwm240i #bmwlife #bmwlove #bmwm240"
+  },
+  {
+    "id": "10",
+    "name": "Mercedes Benz GLA 250 AMG Line",
+    "marca": "Mercedes Benz",
+    "marcaId": "mercedes-benz",
+    "ano": 999999,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.0L Turbo",
+    "combustible": "Gasolina",
+    "puertas": 5,
+    "images": [
+      "10-1.webp",
+      "10-2.webp",
+      "10-3.webp",
+      "10-4.webp",
+      "10-5.webp",
+      "10-6.webp",
+      "10-7.webp",
+      "10-8.webp",
+      "10-9.webp",
+      "10-10.webp",
+      "10-11.webp"
+    ],
+    "descripcion": "𝐌𝐞𝐫𝐜𝐞𝐝𝐞𝐬 𝐁𝐞𝐧𝐳 𝐆𝐋𝐀 𝟐𝟓𝟎 𝐀𝐌𝐆 𝐋𝐢𝐧𝐞 disponible en la agencia ✅️🔥\n\n••\n\n📍Av Dardo Rocha 2716, frente a la estación de trenes \"el Jagüel\""
+  },
+  {
+    "id": "11",
+    "name": "Jeep Grand Cherokee",
+    "marca": "Jeep",
+    "marcaId": "jeep",
+    "ano": 999999,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "3.6L V6",
+    "combustible": "Gasolina",
+    "puertas": 5,
+    "images": [
+      "11-1.webp",
+      "11-2.webp",
+      "11-3.webp",
+      "11-4.webp",
+      "11-5.webp",
+      "11-6.webp",
+      "11-7.webp",
+      "11-8.webp",
+      "11-9.webp"
+    ],
+    "descripcion": "𝙅𝙚𝙚𝙥 𝙂𝙧𝙖𝙣𝙙 𝘾𝙝𝙚𝙧𝙤𝙠𝙚𝙚 disponible en la agencia ✅️🔥\n\n••\n\n📍Av Dardo Rocha 2716, frente a la estación de trenes \"el Jagüel\""
+  },
+  {
+    "id": "12",
+    "name": "Jeep Grand Cherokee",
+    "marca": "Jeep",
+    "marcaId": "jeep",
+    "ano": 999999,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "USD"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "3.6L V6",
+    "combustible": "Gasolina",
+    "puertas": 5,
+    "images": [
+      "12-1.webp",
+      "12-2.webp",
+      "12-3.webp",
+      "12-4.webp",
+      "12-5.webp",
+      "12-6.webp",
+      "12-7.webp",
+      "12-8.webp"
+    ],
+    "descripcion": "𝙅𝙚𝙚𝙥 𝙂𝙧𝙖𝙣𝙙 𝘾𝙝𝙚𝙧𝙤𝙠𝙚𝙚 disponible en la agencia ✅️🔥\n\n••\n\n📍Av Dardo Rocha 2716, frente a la estación de trenes \"el Jagüel\""
+  }
+]

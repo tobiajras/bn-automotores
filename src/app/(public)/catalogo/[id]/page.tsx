@@ -15,23 +15,12 @@ import { motion } from 'framer-motion';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ShareMenu from '@/components/ShareMenu';
-import data from '@/data/data.json';
-
-interface Imagen {
-  thumbnailUrl: string;
-  imageUrl: string;
-}
-
-interface Categoria {
-  id: string;
-  name: string;
-}
+import catalogo from '@/data/catalogo.json';
 
 interface ApiCar {
   id: string;
   brand: string;
   model: string;
-  mlTitle: string;
   year: number;
   color: string;
   price: {
@@ -51,8 +40,17 @@ interface ApiCar {
   active: boolean;
   createdAt: string;
   updatedAt: string;
-  Category: Categoria;
-  Images: Imagen[];
+  Category: {
+    id: string;
+    name: string;
+    createdAt: string;
+    updatedAt: string;
+  };
+  Images: {
+    thumbnailUrl: string;
+    imageUrl: string;
+    order: number;
+  }[];
 }
 
 export default function AutoDetailPage() {
@@ -68,7 +66,7 @@ export default function AutoDetailPage() {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [modalStartIndex, setModalStartIndex] = useState(0);
-  const [orderedImages, setOrderedImages] = useState<Imagen[]>([]);
+  const [orderedImages, setOrderedImages] = useState<ApiCar['Images']>([]);
 
   const scrollPrev = useCallback(() => {
     if (embla) {
@@ -109,44 +107,45 @@ export default function AutoDetailPage() {
   useEffect(() => {
     const fetchCar = () => {
       try {
-        const carData = data.cars.find((car) => car.id === id);
+        const carData = catalogo.find((car) => car.id === id);
 
         if (!carData) {
           throw new Error('Vehículo no encontrado');
         }
 
-        // Transformar los datos al formato esperado por el diseño original
+        // Transformar los datos al formato esperado
         const auto = {
           id: carData.id,
-          brand: carData.brand,
-          model: carData.mlTitle,
-          mlTitle: carData.mlTitle,
-          year: carData.year,
-          color: carData.color,
+          brand: carData.marca,
+          model: carData.name,
+          year: carData.ano,
+          color: '',
           price: {
-            valor: carData.price,
-            moneda: carData.currency,
+            valor: carData.precio.valor,
+            moneda: carData.precio.moneda,
           },
-          description: carData.description,
-          categoryId: carData.categoryId,
-          mileage: carData.mileage,
-          motor: carData.mlEngine || 'No especificado',
-          transmission: carData.transmission,
-          fuel: carData.fuel,
-          doors: carData.doors,
-          position: carData.position,
-          featured: carData.featured,
-          favorite: carData.favorite,
-          active: carData.active,
-          createdAt: carData.createdAt,
-          updatedAt: carData.updatedAt,
+          description: carData.descripcion,
+          categoryId: carData.categoria,
+          mileage: carData.kilometraje,
+          motor: carData.motor,
+          transmission: carData.transmision,
+          fuel: carData.combustible,
+          doors: carData.puertas,
+          position: 0,
+          featured: false,
+          favorite: false,
+          active: true,
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
           Category: {
-            id: carData.Category.id,
-            name: carData.Category.name,
+            id: carData.categoria.toLowerCase(),
+            name: carData.categoria,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
           },
-          Images: carData.images.map((img: Imagen, index: number) => ({
-            thumbnailUrl: img.thumbnailUrl,
-            imageUrl: img.imageUrl, // Usar thumbnailUrl como imageUrl ya que no hay imageUrl en data.json
+          Images: carData.images.map((img, index) => ({
+            thumbnailUrl: `/assets/catalogo/${img}`,
+            imageUrl: `/assets/catalogo/${img}`,
             order: index,
           })),
         };

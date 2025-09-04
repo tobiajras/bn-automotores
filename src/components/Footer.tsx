@@ -137,7 +137,7 @@ const Footer = () => {
 
                   {/* WhatsApp */}
                   {company.whatsapp && (
-                    <div className=''>
+                    <div className='flex flex-col gap-3'>
                       {company.whatsapp.map((whatsappNumber, idx) => (
                         <a
                           key={idx}

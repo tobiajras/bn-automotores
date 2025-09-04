@@ -14,16 +14,21 @@ export default function PublicLayout({
 }) {
   return (
     <div className='relative min-h-screen w-full'>
-      {/* Fondo fijo */}
+      {/* Fondo fijo para mobile */}
       <div
-        className='fixed inset-0 w-full h-screen bg-center'
+        className='fixed inset-0 w-full h-screen bg-cover bg-center bg-no-repeat md:hidden'
         style={{
-          backgroundImage: 'url(/assets/inicio/background.webp)',
+          backgroundImage: 'url(/assets/inicio/background.jpg)',
         }}
       />
 
-      {/* Overlay negro con opacidad */}
-      <div className='fixed inset-0 w-full h-screen bg-black/70' />
+      {/* Fondo para desktop */}
+      <div
+        className='hidden md:block fixed inset-0 w-full h-screen bg-cover bg-center bg-no-repeat'
+        style={{
+          backgroundImage: 'url(/assets/inicio/background.jpg)',
+        }}
+      />
 
       {/* Contenido */}
       <div className='relative z-10'>
