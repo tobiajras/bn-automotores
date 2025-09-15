@@ -3,22 +3,22 @@ export const company = {
   darkmode: true,
   shortAdress: true,
   favicon: true,
-  price: false,
+  price: true,
   objectCover: '50%',
-  id: 'tapiaautomotores',
-  name: 'Tapia Automotores',
-  adress: 'Blvd. Centenario 1763',
-  city: 'Santa Fe',
-  email: 'cristiantapia85@hotmail.com',
-  instagram: 'tapia_automotores',
-  facebook: 'https://www.facebook.com/profile.php?id=100063855420115',
-  whatsapp: ['3471562190', '3471585617'],
-  googlemapsLink: 'https://maps.app.goo.gl/wJwDrV9qyqHvTYR59',
+  id: 'shelbyautomotores',
+  name: 'Shelby Automotores',
+  adress: 'Santa Fe 3802',
+  city: 'Rosario',
+  email: 'gastonbarbarach@hotmail.com',
+  instagram: 'shelbyautomotores',
+  facebook: 'https://www.facebook.com/shelby3071/',
+  whatsapp: ['3415156089', '3416391160'],
+  googlemapsLink: 'https://maps.app.goo.gl/cfgnwBvbEHU3h3j97',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3353.2436919337974!2d-61.4060293!3d-32.8123075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c9de4493e1b601%3A0xb8be1724ae6f4925!2sTapia%20Automotores!5e0!3m2!1sen!2sar!4v1757827007917!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.732390223438!2d-60.674792548883296!3d-32.93835398082649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab262431ebcd%3A0x249dad27ee22a241!2sShelby%20Automotores!5e0!3m2!1sen!2sar!4v1757877891819!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 8 a 12 y 15 a 19hs',
-    'Sábados 8:30 a 12:30hs',
+    'Lunes a Viernes 09:00 a 17:00hs',
+    'Sábados 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://tapiaautomotores.vercel.app/',
-  title: 'Tapia Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://shelbyautomotores.vercel.app/',
+  title: 'Shelby Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

@@ -1,18 +1,18 @@
 [
   {
     "id": "1",
-    "name": "Chevrolet Cruze Premier At",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2020,
-    "kilometraje": 40200,
+    "name": "Ford Focus Se Plus At",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2015,
+    "kilometraje": 81000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 16500000,
+      "moneda": "ARS"
     },
     "categoria": "Sedán",
     "transmision": "Automática",
-    "motor": "1.4L Turbo",
+    "motor": "2.0L",
     "combustible": "Gasolina",
     "puertas": 4,
     "images": [
@@ -24,27 +24,26 @@
       "1-6.webp",
       "1-7.webp",
       "1-8.webp",
-      "1-9.webp",
-      "1-10.webp"
+      "1-9.webp"
     ],
-    "descripcion": "🚗 CRUZE PREMIER AT 1.4L 4P 2020 🚗\n\n📆 2023\n🆗 40.200 Kms\n✅ Excelente estado\n🔰 Documentación al día\n👑 Única mano\n👑 Listo para transferir\n\n⚙️ Caja automática de 6 velocidades\n💣 Motor 1.4L Turbo de 153CV\n\n➖ Equipamiento:\n✅ ABS con EBD\n✅ Airbags frontales\n✅ Airbags laterales\n✅ Airbags de cortina\n✅ Alarma\n✅ Control de tracción\n✅ Control de estabilidad\n✅ Faros antiniebla\n✅ Luz alta con control automático de anti-encandilamiento\n✅ Frenado autónomo de emergencia (AEB) con detección de peatón\n✅ Sistema de alerta en punto ciego\n✅ Sistema de mantenimiento de conducción dentro del carril\n✅ Sistema de medición de distancia al vehículo delantero\n✅ Espejos eléctricos\n✅ Llantas de aleación de 17\" diamantadas\n✅ Asiento de conductor con regulación eléctrica\n✅ Sistema de encendido de motor remoto \"remote start system\" con encendido de aire acondicionado\n✅ Sistema de acceso y arranque sin llave\n✅ Climatizador automático\n✅ Control de velocidad crucero\n✅ Espejo interior fotocromático\n✅ Sistema de monitoreo de presión de neumáticos en las 4 ruedas\n✅ Techo interior negro\n✅ Interior bitono Jet Black / Umber\n✅ Accionamiento automático de limpiaparabrisas (Sensor de lluvia)\n✅ Sensores de estacionamiento traseros y delanteros\n✅ Sistema de asistencia avanzada de estacionamiento\n✅ Pantalla táctil de 8\", Bluetooth, USB, compatible con Android auto y Apple Carplay\n✅ Cargador de batería de celular inalámbrico de nueva generación\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTE POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0 KM ❗️❗️❗️\n\n📲 Consultas 3471-562190 (Cristian)\n📲 Consultas 3471-585617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nNos encontras en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez"
+    "descripcion": "FORD FOCUS SE PLUS AT 2015\n\nMOTOR 2.0 CON 81.000KM.\n\nTAPIZADO CUERO, CLIMATIZADOR BIZONA, TECHO SOLAR ELÉCTRICO, PANTALLA Y CONTROL POR VOZ, CONTROL DE VELOCIDAD CRUCERO, 7 AIRBAGS, SENSORES TRASEROS DE ESTACIONAMIENTO, 4 CUBIERTAS NUEVAS.\n\nNADA POR HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$16.500.000 EFECTIVO CONTADO\n$17.300.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "2",
-    "name": "Renault Oroch Dynamique",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2022,
-    "kilometraje": 40200,
+    "name": "Volkswagen Gol Trend Msi",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2018,
+    "kilometraje": 49000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 15500000,
+      "moneda": "ARS"
     },
-    "categoria": "Utilitario",
+    "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.6L",
     "combustible": "Gasolina",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -54,27 +53,26 @@
       "2-6.webp",
       "2-7.webp",
       "2-8.webp",
-      "2-9.webp",
-      "2-10.webp"
+      "2-9.webp"
     ],
-    "descripcion": "🚗 OROCH DYNAMIQUE 1.6L 4X2 2022 🚗\n\n📆 2022\n🆗 40.200 Kms\n✅ Impecable estado\n👑 Única mano\n🔰 Documentación al día\n🆗 VTV al día\n\n⚙️ Caja manual de 5 velocidades\n💣 Motor 1.6L de 115CV\n\n➖ Equipamiento:\n✅ Llantas de aleación de 16\"\n✅ Aire acondicionado\n✅ Alzacristales en las cuatro puertas\n✅ Asiento regulable en altura\n✅ Indicador de cambio de marcha (GSI)\n✅ Equipo de audio con CD, MP3, USB, Auxiliar y Bluetooth\n✅ Airbags para el conductor y el acompañante\n✅ Alarma periférica\n✅ Frenos ABS con EBD y AFU\n✅ Proyectores antiniebla delanteros\n✅ Protector de piso de caja de carga\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTE POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0 KM ❗️❗️❗️\n\n📲 Consultas 3471-562190 (Cristian)\n📲 Consultas 3471-585617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nPodés encontrarnos en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez."
+    "descripcion": "VOLKSWAGEN GOL TREND MSI. AÑO 2018 CON 49.000KM.\n\nMOTOR 1.6, AIRE ACONDICIONADO, DIRECCIÓN, CIERRE CENTRALIZADO, 4 CUBIERTAS MUY BUENAS.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$15.500.000 EFECTIVO\n$16.000.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "3",
-    "name": "Toyota Hilux Srv 4X4 At",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2024,
-    "kilometraje": 0,
+    "name": "Renault Clio Mio",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2013,
+    "kilometraje": 88000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 10500000,
+      "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "2.8L",
-    "combustible": "Diesel",
-    "puertas": 4,
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.2L",
+    "combustible": "Gasolina",
+    "puertas": 5,
     "images": [
       "3-1.webp",
       "3-2.webp",
@@ -84,25 +82,24 @@
       "3-6.webp",
       "3-7.webp",
       "3-8.webp",
-      "3-9.webp",
-      "3-10.webp"
+      "3-9.webp"
     ],
-    "descripcion": "🚗 HILUX SRV 2.8L 4X4 AT 2024 🚗\n\n📆 2024\n🆗 Unidad 0km ya patentada\n\n⚙️ Automática de 6 velocidades\n💣 Motor 2.8L de 204CV\n\n➖ Equipamiento:\n✅ Aire acondicionado con climatizador automático digital y salidas para plazas traseras\n✅ Audio con pantalla táctil de 9\" con USB y Bluetooth®\n✅ Conectividad inalámbrica**: Android Auto® y Apple CarPlay®\n✅ Cargador inalámbrico para smartphones que soporten carga inalámbrica\n✅ Airbags frontales (conductor y acompañante) y de rodilla (conductor) airbags laterales (x2) y de cortina (x2)\n✅ ABS, con distribución electrónica de la fuerza de frenado (EBD), asistente de frenado de emergencia (BA) y Luces de frenado de emergencia (EBS)\n✅ Control de estabilidad (VSC) y Control de balanceo de tráiler (TSC)\n✅ Control de tracción (TRC)\n✅ Asistente de arranque en pendientes (HAC)\n✅ Faros antiniebla delanteros de LED y luz antiniebla trasera\n✅ Cinturones de seguridad delanteros de 3 puntos regulables en altura con pretensionador y limitador de fuerza (x2)\n✅ Anclajes ISOFIX (x2) y anclaje para correa superior (x2)\n✅ Sistema de alarma e Inmovilizador de motor\n✅ Sensores de estacionamiento delanteros (x2) y traseros (x4)\n✅ Cierre centralizado de puertas con comando a distancia\n✅ Control de velocidad crucero\n✅ ECO y Power Mode\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTE POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0 KM ❗️❗️❗️\n\n📲 Consultas 3471-562190 (Cristian)\n📲 Consultas 3471-585617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nNos encontras en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez."
+    "descripcion": "RENAULT CLIO MIO. AÑO 2013 CON 88.000KM.\n\nMOTOR 1.2, AIRE ACONDICIONADO, DIRECCIÓN, LEVANTA CRISTALES, ALARMA, CIERRE CENTRALIZADO, MUY BUENAS CUBIERTAS.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$10.500.000 EFECTIVO\n$11.000.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "4",
-    "name": "Peugeot 208 Feline",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2019,
-    "kilometraje": 86000,
+    "name": "Fiat 500 X Pop",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2018,
+    "kilometraje": 74000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 20000000,
+      "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.6L",
+    "motor": "1.4L Turbo",
     "combustible": "Gasolina",
     "puertas": 5,
     "images": [
@@ -113,26 +110,24 @@
       "4-5.webp",
       "4-6.webp",
       "4-7.webp",
-      "4-8.webp",
-      "4-9.webp",
-      "4-10.webp"
+      "4-8.webp"
     ],
-    "descripcion": "🚗 PEUGEOT 208 FELINE 1.6L MT 5P 2019 🚗\n\n📆 2019\n🆗 86.000 Kms\n✅ Excelente estado\n🔰 Documentación al día\n👑 Listo para transferir\n\n⚙️ Caja manual de 5 velocidades\n💣 Motor 1.6L de 115CV\n\n➖ Equipamiento:\n✅ Control de velocidad crucero\n✅ Climatizador automático bi-zona\n✅ Airbags delanteros y de torax\n✅ Tapizados de cuero\n✅ Alzacristales eléctricos en todas las ventanas\n✅ Sensores de estacionamiento delanteros\n✅ Apoyabrazo central\n✅ Espejos exteriores eléctricos\n✅ Computadora de a bordo\n✅ Volante con ajuste vertical y profundidad\n✅ Asientos traseros rebatibles 60/40\n✅ Techo traslúcido panorámico\n✅ Faros traseros tipo LED\n✅ Pantalla táctil\n✅ Contenidos del smartphone en pantalla multifunción\n✅ Salida caño de escape cromada\n✅ Frenos ABS (antibloqueo)\n✅ EBD (distribución de la fuerza del frenado electrónicamente)\n✅ Dirección asistida adaptable a la velocidad.\n✅ Faros antiniebla delanteros y traseros\n✅ Luces de posición tipo LED\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTE POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0 KM ❗️❗️❗️\n\n📲 Consultas 3471-562190 (Cristian)\n📲 Consultas 3471-585617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nNos encontras en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez."
+    "descripcion": "FIAT 500 X POP. AÑO 2018 CON 74.000KM.\n\nMOTOR 1.4 TURBO, CLIMATIZADOR AUTOMÁTICO, TRACCIÓN DELANTERA, SENSORES DE ESTACIONAMIENTO, CÁMARA TRACERA, VELOCIDAD CRUCERO, PANTALLA TÁCTIL, 6 AIRBAGS.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$20.000.000 EFECTIVO\n$20.800.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "5",
-    "name": "Mercedes Benz Glc 300 4Matic",
-    "marca": "Mercedes Benz",
-    "marcaId": "mercedes-benz",
-    "ano": 2021,
-    "kilometraje": 76000,
+    "name": "Chery Tiggo 2 Luxury",
+    "marca": "Chery",
+    "marcaId": "chery",
+    "ano": 2019,
+    "kilometraje": 42000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 19000000,
+      "moneda": "ARS"
     },
     "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.0L Turbo",
+    "transmision": "Manual",
+    "motor": "1.5L",
     "combustible": "Gasolina",
     "puertas": 5,
     "images": [
@@ -143,22 +138,20 @@
       "5-5.webp",
       "5-6.webp",
       "5-7.webp",
-      "5-8.webp",
-      "5-9.webp",
-      "5-10.webp"
+      "5-8.webp"
     ],
-    "descripcion": "💣🔥 NUEVO INGRESO 🔥💣\n\n🚗 MERCEDES BENZ GLC 300 4MATIC 2021 🚗\n\n📆 2021\n🆗 76.000 Kms\n✅ Excelente estado, pintura original de fábrica\n🔰 Única mano\n👑 Listo para transferir\n\n⚙️ Automática 9G-TRONIC (9 velocidades)\n⚙️ Tracción integral permanente (4MATIC)\n💣 Motor 2.0L con turbocompresor de 254CV\n\n➖ Equipamiento:\n✅ Sistema de frenos Adaptive Brake con función HOLD, ayuda al arranque en pendientes, llenado anticipado, y frenos secos al conducir bajo lluvia, ABS y BAS.\n✅ Programa electrónico de estabilidad ESP® con control de dinamismo en curvas.\n✅ Luz de freno adaptativa.\n✅ Freno de estacionamiento eléctrico.\n✅ Alerta de pérdida de presión en los neumáticos.\n✅ Alerta de cansancio ATTENTION ASSIST.\n✅ Windowbags (2)\n✅ Airbags laterales de tórax y cadera (2)\n✅ Pedales activos en caso de impacto.\n✅ Cinturones de seguridad delanteros y traseros laterales con pretensores.\n✅ Airbags frontales para conductor y acompañante (2)\n✅ Airbag de rodilla para el conductor (1)\n✅ Anclajes ISOFIX para sillas infantiles en plazas traseras con TopTether.\n✅ Faros LED High Perfomance.\n✅ Techo panorámico.\n✅ Portón trasero eléctrico.\n✅ Iluminación de ambiente.\n✅ Tapizados interior de cuero artico\n✅ KEYLESS-GO.\n✅ Tablero de instrumentos digital de 12.3\" y modos de visualización.\n✅ Climatizador automático THERMATIC.\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTE POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0 KM ❗️❗️❗️\n\n📲 Consultas 3471-562190 (Cristian)\n📲 Consultas 3471-585617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nNos encontras en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez."
+    "descripcion": "CHERY TIGGO 2 LUXURY. AÑO 2019 CON 42.000KM.\n\nMOTOR 1.5, CLIMATIZADOR AUTOMÁTICO, TECHO SOLAR, PANTALLA TÁCTIL, TAPIZADO CUERO-TELA, CÁMARA Y SENSORES DE ESTACIONAMIENTO, MUY BUENAS CUBIERTAS.\n\nSERVICIOS OFICIALES.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$19.000.000 EFECTIVO\n$19.800.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "6",
-    "name": "Peugeot 208 Style",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2023,
-    "kilometraje": 23000,
+    "name": "Volkswagen Gol Trend Msi",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2017,
+    "kilometraje": 73000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 13800000,
+      "moneda": "ARS"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
@@ -173,28 +166,26 @@
       "6-5.webp",
       "6-6.webp",
       "6-7.webp",
-      "6-8.webp",
-      "6-9.webp",
-      "6-10.webp"
+      "6-8.webp"
     ],
-    "descripcion": "🚗 208 STYLE 1.6L 5P MANUAL 2023 🚗\n\n📆 2023\n🆗 23.000 Kms\n✅ Excelente estado\n🔰 Documentación al día\n👑 Listo para transferir\n👑 Serivicios oficiales\n\n⚙️ Caja manual de 5 velocidades\n💣 Motor 1.6L de 115CV\n\n➖ Equipamiento:\n✅ Frenos ABS con REF (Repartidor Electrónico de Frenado)\n✅ Control de Estabilidad (ESP)\n✅ Control de Tracción (ASR)\n✅ Ayuda al arranque en pendiente\n✅ Airbags frontales conductor y pasajero\n✅ Airbags laterales delanteros\n✅ Sensores de estacionamiento traseros y cámara 180º\n✅ Fijaciones de Asientos para Niños (ISOFIX y TOP TETHER)\n✅ Columna de dirección regulable en altura y profundidad\n✅ Pantalla multimedia 10\" con Mirror Screen (Apple CarPlay/Android Auto)\n✅ Cargador inductivo de smartphones\n✅ Techo panorámico vidriado\n✅ Levantavidrios Delanteros y Traseros Eléctricos\n✅ Espejos exteriores con regulación eléctrica\n✅ Tapizado Tela con costuras azul \"Style\" Tela con costuras azul \"Style\"\n✅ Asiento conductor con regulación en altura\n✅ Faros delanteros full LED + colmillos DRL LED\n✅ Espejos exteriores Negro brillante Negro brillante\n✅ Alerón en portón trasero SI SI\n✅ Salida de escape Metálica oscura Metálica oscura\n✅ Llantas de 16\"\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTE POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0 KM ❗️❗️❗️\n\n📲 Consultas 3471-562-190 (Cristian)\n📲 Consultas 3471-585-617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nNos encontras en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez."
+    "descripcion": "VOLKSWAGEN GOL TREND MSI. AÑO 2017 CON 73.000KM.\n\nMOTOR 1.6, AIRE ACONDICIONADO, DIRECCIÓN, CIERRE CENTRALIZADO.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$13.800.000 EFECTIVO\n$14.300.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "7",
-    "name": "Toyota Corolla Cross Xli",
+    "name": "Toyota Corolla Xei Hev Automatico",
     "marca": "Toyota",
     "marcaId": "toyota",
-    "ano": 2025,
-    "kilometraje": 0,
+    "ano": 2021,
+    "kilometraje": 67000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 29800000,
+      "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "CVT",
-    "motor": "2.0L",
-    "combustible": "Gasolina",
-    "puertas": 5,
+    "categoria": "Sedán",
+    "transmision": "Automática",
+    "motor": "1.8L Híbrido",
+    "combustible": "Híbrido",
+    "puertas": 4,
     "images": [
       "7-1.webp",
       "7-2.webp",
@@ -204,27 +195,26 @@
       "7-6.webp",
       "7-7.webp",
       "7-8.webp",
-      "7-9.webp",
-      "7-10.webp"
+      "7-9.webp"
     ],
-    "descripcion": "🚗 COROLLA CROSS XLI 2.0L CVT 2025 🚗\n\n📆 2025\n🆗 Unidad 0km\n✅ A patentar\n👑 Disponible entrega INMEDIATA\n\n⚙️ Automática CVT de 7 velocidades pre-programadas\n💣 Motor 2.0L de 170CV\n\n➖ Equipamiento:\n✅ Equipo multimedia de 10\" con conectividad inalámbrica Apple CarPlay® y Android Auto®.\n✅ Paquete de seguridad Activa Toyota Safety Sense*.\n✅ Monitor con cámara de estacionamiento.\n✅ Airbags frontales para conductor yacompañante (x2) y de rodilla paraconductor (x1)\n✅ Airbags laterales (x2) y de cortina (x2)\n✅ Conectividad inalámbrica*: AppleCar Play ® & Android Auto ®\n✅ ABS con distribución electrónica de frenado (EBD) y asistente de frenado de emergencia (BA)\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTE POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0 KM ❗️❗️❗️\n\n📲 Consultas 3471-562190 (Cristian)\n📲 Consultas 3471-585617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nPodés encontrarnos en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez."
+    "descripcion": "TOYOTA COROLLA XEI HEV AUTOMATICO (HYBRIDO). AÑO 2021 CON 67.000KM.\n\nMOTOR A COMBUSTIBLE 1.8 COMBINADO CON UN MOTOR ELÉCTRICO.\n\nPANTALLA TÁCTIL, ENCENDIDO POR BOTÓN, CLIMATIZADOR BI-ZONA, FAROS LED, CONTROL DE VELOCIDAD CRUCERO, SISTEMA DE ALERTA DE CAMBIO DE CARRIL, CÁMARA DE ESTACIONAMIENTO CON SENSORES DELANTEROS Y TRASEROS, CONTROL ESTABILIDAD, 7 AIRBAGS.\n\nVEHÍCULO EN EXCELENTE ESTADO. NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$29.800.000 EFECTIVO\n$30.800.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "8",
-    "name": "Toyota Yaris S Cvt",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2023,
-    "kilometraje": 43800,
+    "name": "Volkswagen Virtus Highline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2018,
+    "kilometraje": 72000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 19000000,
+      "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "CVT",
-    "motor": "1.5L",
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "1.6L MSI",
     "combustible": "Gasolina",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "8-1.webp",
       "8-2.webp",
@@ -233,26 +223,24 @@
       "8-5.webp",
       "8-6.webp",
       "8-7.webp",
-      "8-8.webp",
-      "8-9.webp",
-      "8-10.webp"
+      "8-8.webp"
     ],
-    "descripcion": "🚗 YARIS S CVT 1.5L 5P 2023 🚗\n\n📆 2023\n🆗 43.800 Kms\n✅ Excelentísimo estado\n👑 1° mano\n✅ Servicios oficiales en concesionario oficial\n🔰 Documentación al día\n👑 Listo para transferir\n\n⚙️ Automática CVT de 7 velocidades pre-programadas\n💣 Motor 1.5L nafta de 107CV\n\n➖ Equipamiento:\n✅ Techo solar eléctrico\n✅ Sistema de pre-colisión frontal (PCS)\n✅ Sistema de alerta de cambio de carril (LDA)\n✅ Levas al volante\n✅ Sistema de encendido por botón (Push Start Button)\n✅ Sistema de ingreso inteligente (Smart Entry System)\n✅ Manijas exteriores cromadas\n✅ Asientos con costuras color rojo\n✅ Asientos con tapizado de cuero natural y ecológico\n✅ Espejos exteriores retráctiles eléctricamente\n✅ Luces de circulación diurnas LED (DRL)\n✅ Llantas de aleación de 16\"\n✅ Ópticas delanteras LED con regulación en altura\n✅ Aire acondicionado con climatizador automático digital\n✅ Computadora de abordo\n✅ Display de información múltiple de 4,2\"\n✅ Sensores de estacionamiento delanteros y traseros\n✅ Audio con pantalla táctil LCD 6.8\", USB (en consola central)\n✅ Conectividad*: Apple CarPlay® & Android Auto®\n✅ Control de velocidad crucero\n✅ Monitor con cámara de estacionamiento\n✅ ABS con distribución electrónica de frenado (EBD)\n✅ Asistente de frenado de emergencia (BA)\n✅ Airbags frontales (conductor y pasajero)\n✅ Airbags laterales (x2), de cortina (x2) y de rodilla (para conductor)\n✅ Control de estabilidad (VSC) y control de tracción (TRC)\n✅ Faros antiniebla delanteros\n✅ Faros antiniebla traseros\n✅ Tuerca de seguridad para llantas\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTE POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0 KM ❗️❗️❗️\n\n📲 Consultas 3471-562190 (Cristian)\n📲 Consultas 3471-585617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nPodés encontrarnos en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez."
+    "descripcion": "VOLKSWAGEN VIRTUS HIGHLINE. AÑO 2018 CON 72.000KM.\n\nMOTOR 1.6 MSI, SENSORES DE ESTACIONAMIENTO DELANTERO Y TRASERO CON CÁMARA. SENSOR DE LLUVIA Y SENSOR DE LUCES, PANTALLA TÁCTIL, CONTROL DE VELOCIDAD CRUCERO, 4 CUBIERTAS KUMHO 0KM.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$19.000.000 EFECTIVO\n$19.800.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "9",
-    "name": "Volkswagen Polo Trend",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2022,
-    "kilometraje": 31000,
+    "name": "Chery Tiggo 3 Confort",
+    "marca": "Chery",
+    "marcaId": "chery",
+    "ano": 2017,
+    "kilometraje": 90000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 16000000,
+      "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.6L MSI",
+    "motor": "1.6L",
     "combustible": "Gasolina",
     "puertas": 5,
     "images": [
@@ -263,26 +251,24 @@
       "9-5.webp",
       "9-6.webp",
       "9-7.webp",
-      "9-8.webp",
-      "9-9.webp",
-      "9-10.webp"
+      "9-8.webp"
     ],
-    "descripcion": "🔥💣 NUEVO INGRESO 💣🔥\n\n🚗 POLO TREND 1.6L MSI 5P MT 2022 🚗\n\n📆 2022\n🆗 31.000 Kms\n✅ Pintura original de fábrica\n✅ Excelente estado\n👑 Única mano\n🔰 Documentación al día\n🆗 Listo para transferir\n\n⚙️ Caja manual de 5 velocidades\n💣 Motor 1.6L MSI de 110CV\n\n➖ Equipamiento:\n✅ Aire acondicionado\n✅ Sensores de estacionamiento\n✅ Android Auto y Apple CarPlay\n✅ Airbag para conductor\n✅ Airbag acompañante\n✅ Airbag laterales delanteros\n✅ Levantavidrios eléctricos delanteros y traseros\n✅ Control de Estabilidad (ESP)\n✅ Control de tracción (ESC)\n✅ Distribución Electrónica de Fuerza Frenado (EBD)\n✅ Luz Diurna de Led (LED DRL)\n✅ Espejos eléctricos\n✅ Composition Touch, con display de 6,5″\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTA POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0KM ❗️❗️❗️\n\n📲 Consultas 3471-562190 (Cristian)\n📲 Consultas 3471-585617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nNos encontras en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez."
+    "descripcion": "CHERY TIGGO 3 CONFORT. AÑO 2017 CON 90.000KM.\n\nMOTOR 1.6, CADENERO, PANTALLA TÁCTIL, CÁMARA DE RETROCESO, SENSORES DE ESTACIONAMIENTO.\n\nVEHÍCULO EN EXCELENTE ESTADO. NADA POR HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$16.000.000 efectivo\n$16.500.000 lista\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476 59 8636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "10",
-    "name": "Ford Territory Sel",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2025,
-    "kilometraje": 0,
+    "name": "Chery Tiggo 5 Luxury",
+    "marca": "Chery",
+    "marcaId": "chery",
+    "ano": 2020,
+    "kilometraje": 50000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 21000000,
+      "moneda": "ARS"
     },
     "categoria": "SUV",
     "transmision": "Automática",
-    "motor": "1.8L EcoBoost",
+    "motor": "1.5L Turbo",
     "combustible": "Gasolina",
     "puertas": 5,
     "images": [
@@ -292,29 +278,26 @@
       "10-4.webp",
       "10-5.webp",
       "10-6.webp",
-      "10-7.webp",
-      "10-8.webp",
-      "10-9.webp",
-      "10-10.webp"
+      "10-7.webp"
     ],
-    "descripcion": "🚗 FORD TERRITORY SEL 1.8L AT MY2025 🚗\n\n📆 2025\n🆗 Unidad 0 kilómetro\n\n⚙️ Caja automática doble embrague de 7 velocidades\n💣 1.8L EcoBoost nafta de 185CV\n\n➖ Equipamiento:\n✅ Frenos a disco en las cuatro ruedas\n✅ ABS, EBD, EBA, ESP, TCS, RSC, etc.\n✅ Sistema de monitoreo de presión de neumáticos\n✅ Dirección asistida electrónica (EPAS)\n✅ Sensores de estacionamiento traseros\n✅ Camara de estacionamiento\n✅ Sistema de información de punto ciego (BLIS) con alerta de tráfico cruzado\n✅ Alerta de pre-colisión trasera\n✅ Control de velocidad crucero\n✅ Asistente al arranque en pendiente (HLA)\n✅ Asistente de descenso en pendiente (HDC)\n✅ Advertencia de salida de puertas\n✅ Airbags delanteros para conductor y acompañante\n✅ Airbags laterales de tórax en asientos delanteros\n✅ Airbags laterales tipo cortina\n✅ Alarma perimetral\n✅ Anclajes para sillas de bebé ISOFIX® en asientos traseros\n✅ Aviso de cinturones de seguridad delanteros y traseros desconectados\n✅ Cinturones de seguridad delanteros ajust. en altura, incerciales de 3 puntos con pretensores\n✅ Cinturones de seguridad traseros (3) inerciales de 3 puntos\n✅ Control electrónico de estabilidad (ESP) con control de Tracción (TCS)\n✅ Sistema multimedia SYNC Touch con pantalla Multi-Táctil de 12,3\", control por voz, Bluetooth y puertos USB\n✅ Tecnología Auto Start/Stop\n✅ Tapizado de asientos en tela\n✅ Climatizador con salida de aire para plazas traseras\n✅ Encendido de motor remoto\n✅ Apertura y cierre centralizado de puertas con comando a distancia\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTA POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0 KM❗️❗️❗️\n\nConsultas:\n📲 3471-562190 (Cristian)\n📲 3471-858617 (Gonzalo)\n\n📍 Bv. Centenario 1763 - Cañada de Gómez - Santa Fe."
+    "descripcion": "🚨 VENDIDO 🚨\n\nCHERY TIGGO 5 LUXURY 2020 AUTOMÁTICA CON 50.000KM.\n\nTAPIZADO EN CUERO, ASIENTOS DELANTEROS ELÉCTRICOS, AIRE ACONDICIONADO BIZONA, SENSOR DE ESTACIONAMIENTO, PANTALLA TÁCTIL CON NAVEGADOR, CÁMARA DE RETROCESO, VELOCIDAD CRUCERO, MANDOS AL VOLANTE. CONTROL DE TRACCIÓN. TECHO SOLAR\n\nNADA POR HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$21.000.000 efectivo\n$21.800.000 lista\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "11",
-    "name": "Chevrolet Cruze Lt",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2022,
-    "kilometraje": 59900,
+    "name": "Toyota Yaris Xls",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2021,
+    "kilometraje": 65000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 22900000,
+      "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "1.4T",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.5L",
     "combustible": "Gasolina",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "11-1.webp",
       "11-2.webp",
@@ -323,28 +306,26 @@
       "11-5.webp",
       "11-6.webp",
       "11-7.webp",
-      "11-8.webp",
-      "11-9.webp",
-      "11-10.webp"
+      "11-8.webp"
     ],
-    "descripcion": "🚗 CRUZE LT 1.4L 4P AT 2022 🚗\n\n📆 2022\n🆗 59.900 Kms\n✅ Excelente estado\n👑 Única mano\n🔰 Documentación al día\n👑 VTV al día\n\n⚙️ Caja automática de 6 velocidades\n💣 Motor 1.4T de 153CV\n\n➖ Equipamiento:\n✅ ABS condistribución electrónica de frenado\n✅ Airbags frontales para conductor y acompañante\n✅ Airbags laterales en asientos delanteros\n✅ Airbags laterales de cortina de techo\n✅ Alarma antirrobo\n✅ Control de tracción (TCM)\n✅ Control de estabilidad (ESC)\n✅ Luces antiniebla delanteras\n✅ Espejos exteriores eléctricos con luz de giro incorporada\n✅ Llantas de aleación de 17\"\n✅ Climatizador automático\n✅ Columna de dirección regulable en altura y profundidad\n✅ Computadora de a bordo con pantalla monocromática\n✅ Control de velocidad crucero\n✅ Sistema de monitoreo de presión de neumáticos en las 4 ruedas\n✅ Interiores del asiento tapizados en cuero Jet Black\n✅ Levantavidrios eléctricos delanteros y traseros\n✅ Regulación de altura de faros delanteros manual\n✅ Cámara de visión trasera\n✅ Sensores de estacionamiento traseros\n✅ MyLink: Pantalla táctil de 7 \", Bluetooth, USB, reconocimiento de voz, compatible con Android Auto y Apple Carplay\n✅ Volante de cuero multifunción\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTE POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0 KM ❗️❗️❗️\n\n📲 Consultas 3471-562190 (Cristian)\n📲 Consultas 3471-585617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nPodés encontrarnos en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez."
+    "descripcion": "TOYOTA YARIS XLS 2021 CON 65.000KM!\n\nMOTOR 1.5 NAFTA.\n\nLLANTAS, PANTALLA TÁCTIL, FAROS AUXILIARES, LEVANTA CRISTALES, 7 AIRBAGS, CÁMARA DE RETROCESO, VELOCIDAD CRUCERO, VEHICULO EN EXCELENTE ESTADO. MUY BIEN DE CUBIERTAS.\n\nNADA POR HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$22.900.000 efectivo\n$23.600.000 lista\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
   },
   {
     "id": "12",
-    "name": "Volkswagen Amarok Trendline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2025,
-    "kilometraje": 0,
+    "name": "Peugeot Partner Furgon",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2018,
+    "kilometraje": 109000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 15800000,
+      "moneda": "ARS"
     },
-    "categoria": "Pickup",
+    "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "2.0L Turbodiesel",
+    "motor": "1.6L HDI",
     "combustible": "Diesel",
-    "puertas": 4,
+    "puertas": 3,
     "images": [
       "12-1.webp",
       "12-2.webp",
@@ -352,11 +333,8 @@
       "12-4.webp",
       "12-5.webp",
       "12-6.webp",
-      "12-7.webp",
-      "12-8.webp",
-      "12-9.webp",
-      "12-10.webp"
+      "12-7.webp"
     ],
-    "descripcion": "🚗 AMAROK TRENDLINE 2.0L 4X2 2025 🚗\n\n📆 2025\n✅ Unidad 0 kilómetro\n👑 Blanco (consultar por más colores)\n\n➖ Equipamiento:\n✅ Motor Turbodiesel 4 cilindros en línea 2.0L de 140CV\n✅ Caja manual de 6 velocidades\n✅ Control de velocidad crucero\n✅ Alzacristales eléctricos con funcion \"one touch\" y temporizador\n✅ Llantas de aleación ligera Korama 16\"\n✅ Faros delanteros con tecnología \"VW LED\"\n✅ Portón trasero con cerradura manual y apertura amortiguada\n✅ Sistema multimedia Composition Touch 9\"\n✅ App Connect (Android auto & Apple car play)\n✅ Airbag para conductor y acompañante (2)\n✅ Airbags laterales (2)\n✅ Airbags de cortina (2)\n✅ Bloqueo mecánico del diferencial\n✅ Bloqueo electrónico del diferencial (EDS)\n✅ ABS off-road\n✅ Control de estabilidad (ESP)\n✅ Asistente de frenado de emergencia (BAS)\n✅ Sistema de frenado automático post colisión\n✅ Control de tracción (ASR)\n✅ Control de incercia (MSR)\n✅ Sistema de estabilización de remolque (TSA)\n✅ Asistente de ascenso de pendientes (HSA)\n\n♨️ ENTREGA TU USADO Y FINANCIÁ LA DIFERENCIA A LA MEJOR TASA ♨️\n\n❗️❗️❗️ CONSULTA POR MAS USADOS SELECCIONADOS Y TODA LA LINEA DE 0KM ❗️❗️❗️\n\n📲 Consultas 3471-562190 (Cristian)\n📲 Consultas 3471-585617 (Gonzalo)\n\nNuestras redes sociales:\n✔️ Instagram: Tapia_automotores\n✔️ Facebook: Tapia Automotores\n\nNos encontras en:\n📍 Bv. Centenario N° 1763 - Cañada de Gómez."
+    "descripcion": "🚨 VENDIDO 🚨\n\nPEUGEOT PARTNER 2018 FURGÓN, HDI 1.6 DIÉSEL CON 109.000KM!\n\nAIRE, DIRECCIÓN, AIRBAG, ABS, 4 CUBIERTAS NUEVAS.\n\nNADA POR HACERLE\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$15.800.000 efectivo\n$16.500.000 lista\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476 59 8636"
   }
 ]
