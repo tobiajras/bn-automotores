@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: true,
+  favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'shelbyautomotores',
-  name: 'Shelby Automotores',
-  adress: 'Santa Fe 3802',
-  city: 'Rosario',
-  email: 'gastonbarbarach@hotmail.com',
-  instagram: 'shelbyautomotores',
-  facebook: 'https://www.facebook.com/shelby3071/',
-  whatsapp: ['3415156089', '3416391160'],
-  googlemapsLink: 'https://maps.app.goo.gl/cfgnwBvbEHU3h3j97',
+  id: 'rodriguezcars',
+  name: 'Rodriguez Cars',
+  adress: 'Av. J D Perón 2446',
+  city: 'Pte Derqui',
+  email: 'rodriguezcars@gmail.com',
+  instagram: 'rodriguezcars_',
+  facebook: null,
+  whatsapp: ['1135073921'],
+  googlemapsLink: 'https://maps.app.goo.gl/3qhvTqyj2RckpS5w5',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2367.732390223438!2d-60.674792548883296!3d-32.93835398082649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab262431ebcd%3A0x249dad27ee22a241!2sShelby%20Automotores!5e0!3m2!1sen!2sar!4v1757877891819!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.400245245673!2d-58.86000002290145!3d-34.46736945031246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9d1427630577%3A0x3ba5fb18cb893861!2sRodr%C3%ADguez%20Cars!5e0!3m2!1ses!2sar!4v1758310728591!5m2!1ses!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 17:00hs',
-    'Sábados 09:00 a 13:00hs',
+    'Lunes a Viernes 09:00 a 19:00hs',
+    'Sábados 09:00 a 15:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://shelbyautomotores.vercel.app/',
-  title: 'Shelby Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://rodriguezcars.vercel.app/',
+  title: 'Rodriguez Cars - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

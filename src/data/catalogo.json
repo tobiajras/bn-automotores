@@ -1,18 +1,18 @@
 [
   {
     "id": "1",
-    "name": "Ford Focus Se Plus At",
+    "name": "Ford F-150 Raptor G3",
     "marca": "Ford",
     "marcaId": "ford",
-    "ano": 2015,
-    "kilometraje": 81000,
+    "ano": 2022,
+    "kilometraje": 27000,
     "precio": {
-      "valor": 16500000,
-      "moneda": "ARS"
+      "valor": 107000,
+      "moneda": "USD"
     },
-    "categoria": "Sedán",
+    "categoria": "Pickup",
     "transmision": "Automática",
-    "motor": "2.0L",
+    "motor": "3.5L V6",
     "combustible": "Gasolina",
     "puertas": 4,
     "images": [
@@ -24,25 +24,26 @@
       "1-6.webp",
       "1-7.webp",
       "1-8.webp",
-      "1-9.webp"
+      "1-9.webp",
+      "1-10.webp"
     ],
-    "descripcion": "FORD FOCUS SE PLUS AT 2015\n\nMOTOR 2.0 CON 81.000KM.\n\nTAPIZADO CUERO, CLIMATIZADOR BIZONA, TECHO SOLAR ELÉCTRICO, PANTALLA Y CONTROL POR VOZ, CONTROL DE VELOCIDAD CRUCERO, 7 AIRBAGS, SENSORES TRASEROS DE ESTACIONAMIENTO, 4 CUBIERTAS NUEVAS.\n\nNADA POR HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$16.500.000 EFECTIVO CONTADO\n$17.300.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nFORD F-150 RAPTOR G3 2022 - 27.000 KMS\n\nSERVICIOS OFICIALES EN GARANTÍA\n\nU$107.000...\n\n📍 Av Presidente Juan Domingo Perón 2446 - Pte Derqui\n📱 1135073921"
   },
   {
     "id": "2",
-    "name": "Volkswagen Gol Trend Msi",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2018,
-    "kilometraje": 49000,
+    "name": "Renault Kangoo Express Confor",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2023,
+    "kilometraje": 40000,
     "precio": {
-      "valor": 15500000,
-      "moneda": "ARS"
+      "valor": 20000,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
+    "categoria": "Utilitario",
     "transmision": "Manual",
     "motor": "1.6L",
-    "combustible": "Gasolina",
+    "combustible": "GNC",
     "puertas": 5,
     "images": [
       "2-1.webp",
@@ -53,24 +54,29 @@
       "2-6.webp",
       "2-7.webp",
       "2-8.webp",
-      "2-9.webp"
+      "2-9.webp",
+      "2-10.webp",
+      "2-11.webp",
+      "2-12.webp",
+      "2-13.webp",
+      "2-14.webp"
     ],
-    "descripcion": "VOLKSWAGEN GOL TREND MSI. AÑO 2018 CON 49.000KM.\n\nMOTOR 1.6, AIRE ACONDICIONADO, DIRECCIÓN, CIERRE CENTRALIZADO, 4 CUBIERTAS MUY BUENAS.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$15.500.000 EFECTIVO\n$16.000.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nRENAULT KANGOO EXPRESS CONFOR 2023 - 40.000 KMS\n\nASIENTOS TRASEROS GNC\n\nÚNICO DUEÑO\n\nU$20.000...\n\n📍 Av Presidente Juan Domingo Perón 2446 - Pte Derqui\n📱 1135073921"
   },
   {
     "id": "3",
-    "name": "Renault Clio Mio",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2013,
-    "kilometraje": 88000,
+    "name": "Honda HR-V 1.8",
+    "marca": "Honda",
+    "marcaId": "honda",
+    "ano": 2016,
+    "kilometraje": 170000,
     "precio": {
-      "valor": 10500000,
-      "moneda": "ARS"
+      "valor": 18000,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.2L",
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "1.8L",
     "combustible": "Gasolina",
     "puertas": 5,
     "images": [
@@ -82,24 +88,26 @@
       "3-6.webp",
       "3-7.webp",
       "3-8.webp",
-      "3-9.webp"
+      "3-9.webp",
+      "3-10.webp",
+      "3-1.webp"
     ],
-    "descripcion": "RENAULT CLIO MIO. AÑO 2013 CON 88.000KM.\n\nMOTOR 1.2, AIRE ACONDICIONADO, DIRECCIÓN, LEVANTA CRISTALES, ALARMA, CIERRE CENTRALIZADO, MUY BUENAS CUBIERTAS.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$10.500.000 EFECTIVO\n$11.000.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nHONDA HRV 1.8 2016 - 170.000 KMS\n\nAUTOMÁTICA CVT\n\nU$18.000...\n\n📍 Av Presidente Juan Domingo Perón 2446 - Pte Derqui\n📱 1135073921"
   },
   {
     "id": "4",
-    "name": "Fiat 500 X Pop",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2018,
-    "kilometraje": 74000,
+    "name": "Volkswagen Golf 1.6 Trendline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2017,
+    "kilometraje": 75000,
     "precio": {
-      "valor": 20000000,
-      "moneda": "ARS"
+      "valor": 15500,
+      "moneda": "USD"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.4L Turbo",
+    "motor": "1.6L",
     "combustible": "Gasolina",
     "puertas": 5,
     "images": [
@@ -110,26 +118,29 @@
       "4-5.webp",
       "4-6.webp",
       "4-7.webp",
-      "4-8.webp"
+      "4-8.webp",
+      "4-9.webp",
+      "4-10.webp",
+      "4-1.webp"
     ],
-    "descripcion": "FIAT 500 X POP. AÑO 2018 CON 74.000KM.\n\nMOTOR 1.4 TURBO, CLIMATIZADOR AUTOMÁTICO, TRACCIÓN DELANTERA, SENSORES DE ESTACIONAMIENTO, CÁMARA TRACERA, VELOCIDAD CRUCERO, PANTALLA TÁCTIL, 6 AIRBAGS.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$20.000.000 EFECTIVO\n$20.800.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nVOLKSWAGEN GOLF 1.6 TRENDLINE 2017 - 75.000 KM\n\nMANUAL\n\nU$15.500...\n\n📍 Av Presidente Juan Domingo Perón 2446 - Pte Derqui\n📱 1135073921"
   },
   {
     "id": "5",
-    "name": "Chery Tiggo 2 Luxury",
-    "marca": "Chery",
-    "marcaId": "chery",
-    "ano": 2019,
-    "kilometraje": 42000,
+    "name": "Volkswagen Up Black",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2015,
+    "kilometraje": 170000,
     "precio": {
-      "valor": 19000000,
-      "moneda": "ARS"
+      "valor": 10300,
+      "moneda": "USD"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.5L",
+    "motor": "1.0L",
     "combustible": "Gasolina",
-    "puertas": 5,
+    "puertas": 3,
     "images": [
       "5-1.webp",
       "5-2.webp",
@@ -138,26 +149,29 @@
       "5-5.webp",
       "5-6.webp",
       "5-7.webp",
-      "5-8.webp"
+      "5-8.webp",
+      "5-9.webp",
+      "5-10.webp",
+      "5-1.webp"
     ],
-    "descripcion": "CHERY TIGGO 2 LUXURY. AÑO 2019 CON 42.000KM.\n\nMOTOR 1.5, CLIMATIZADOR AUTOMÁTICO, TECHO SOLAR, PANTALLA TÁCTIL, TAPIZADO CUERO-TELA, CÁMARA Y SENSORES DE ESTACIONAMIENTO, MUY BUENAS CUBIERTAS.\n\nSERVICIOS OFICIALES.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$19.000.000 EFECTIVO\n$19.800.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nVOLKSWAGEN UP BLACK 2015 - 170.000 KMS\n\nU$10.300...\n\n📍 Av Presidente Juan Domingo Perón 2446 - Pte Derqui\n📱 1135073921"
   },
   {
     "id": "6",
-    "name": "Volkswagen Gol Trend Msi",
+    "name": "Volkswagen Amarok V6 Highline",
     "marca": "Volkswagen",
     "marcaId": "volkswagen",
-    "ano": 2017,
-    "kilometraje": 73000,
+    "ano": 2023,
+    "kilometraje": 50000,
     "precio": {
-      "valor": 13800000,
-      "moneda": "ARS"
+      "valor": 42000,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Gasolina",
-    "puertas": 5,
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "3.0L V6",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -166,25 +180,29 @@
       "6-5.webp",
       "6-6.webp",
       "6-7.webp",
-      "6-8.webp"
+      "6-8.webp",
+      "6-9.webp",
+      "6-10.webp",
+      "6-11.webp",
+      "6-1.webp"
     ],
-    "descripcion": "VOLKSWAGEN GOL TREND MSI. AÑO 2017 CON 73.000KM.\n\nMOTOR 1.6, AIRE ACONDICIONADO, DIRECCIÓN, CIERRE CENTRALIZADO.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$13.800.000 EFECTIVO\n$14.300.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nVOLKSWAGEN AMAROK V6 HIGHLINE 2023 - 50.000 KMS\n\nU$42.000...\n\n📍 Av Presidente Juan Domingo Perón 2446 - Pte Derqui\n📱 1135073921\n\n*VENDIDA*"
   },
   {
     "id": "7",
-    "name": "Toyota Corolla Xei Hev Automatico",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2021,
-    "kilometraje": 67000,
+    "name": "Volkswagen Amarok 2.0 Comforline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2014,
+    "kilometraje": 130000,
     "precio": {
-      "valor": 29800000,
-      "moneda": "ARS"
+      "valor": 22000,
+      "moneda": "USD"
     },
-    "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "1.8L Híbrido",
-    "combustible": "Híbrido",
+    "categoria": "Pickup",
+    "transmision": "Manual",
+    "motor": "2.0L",
+    "combustible": "Diésel",
     "puertas": 4,
     "images": [
       "7-1.webp",
@@ -194,27 +212,26 @@
       "7-5.webp",
       "7-6.webp",
       "7-7.webp",
-      "7-8.webp",
-      "7-9.webp"
+      "7-8.webp"
     ],
-    "descripcion": "TOYOTA COROLLA XEI HEV AUTOMATICO (HYBRIDO). AÑO 2021 CON 67.000KM.\n\nMOTOR A COMBUSTIBLE 1.8 COMBINADO CON UN MOTOR ELÉCTRICO.\n\nPANTALLA TÁCTIL, ENCENDIDO POR BOTÓN, CLIMATIZADOR BI-ZONA, FAROS LED, CONTROL DE VELOCIDAD CRUCERO, SISTEMA DE ALERTA DE CAMBIO DE CARRIL, CÁMARA DE ESTACIONAMIENTO CON SENSORES DELANTEROS Y TRASEROS, CONTROL ESTABILIDAD, 7 AIRBAGS.\n\nVEHÍCULO EN EXCELENTE ESTADO. NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$29.800.000 EFECTIVO\n$30.800.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nVOLKSWAGEN AMAROK 2.0 COMFORLINE 2014 - 130.000 KMS\n\n4X4 MANUAL\n\nU$22.000...\n\n📍 Av Presidente Juan Domingo Perón 2446 - Pte Derqui\n📱 1135073921"
   },
   {
     "id": "8",
-    "name": "Volkswagen Virtus Highline",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
+    "name": "BMW M2 3.0",
+    "marca": "BMW",
+    "marcaId": "bmw",
     "ano": 2018,
-    "kilometraje": 72000,
+    "kilometraje": 55000,
     "precio": {
-      "valor": 19000000,
-      "moneda": "ARS"
+      "valor": 95000,
+      "moneda": "USD"
     },
-    "categoria": "Sedán",
+    "categoria": "Deportivo",
     "transmision": "Manual",
-    "motor": "1.6L MSI",
+    "motor": "3.0L L6",
     "combustible": "Gasolina",
-    "puertas": 4,
+    "puertas": 2,
     "images": [
       "8-1.webp",
       "8-2.webp",
@@ -223,24 +240,26 @@
       "8-5.webp",
       "8-6.webp",
       "8-7.webp",
-      "8-8.webp"
+      "8-8.webp",
+      "8-9.webp",
+      "8-10.webp"
     ],
-    "descripcion": "VOLKSWAGEN VIRTUS HIGHLINE. AÑO 2018 CON 72.000KM.\n\nMOTOR 1.6 MSI, SENSORES DE ESTACIONAMIENTO DELANTERO Y TRASERO CON CÁMARA. SENSOR DE LLUVIA Y SENSOR DE LUCES, PANTALLA TÁCTIL, CONTROL DE VELOCIDAD CRUCERO, 4 CUBIERTAS KUMHO 0KM.\n\nVEHÍCULO EN EXCELENTE ESTADO NADA PARA HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$19.000.000 EFECTIVO\n$19.800.000 LISTA\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nBMW M2 3.0 2018 - 55.000 KMS\n\nU$95.000\n\nIMPECABLE ESTADO...\n\n📍 Av Presidente Juan Domingo Peron 2446 - Pte Derqui\n📱 1135073921"
   },
   {
     "id": "9",
-    "name": "Chery Tiggo 3 Confort",
-    "marca": "Chery",
-    "marcaId": "chery",
-    "ano": 2017,
-    "kilometraje": 90000,
+    "name": "BMW X6 3.5I",
+    "marca": "BMW",
+    "marcaId": "bmw",
+    "ano": 2013,
+    "kilometraje": 170000,
     "precio": {
-      "valor": 16000000,
-      "moneda": "ARS"
+      "valor": 37000,
+      "moneda": "USD"
     },
     "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.6L",
+    "transmision": "Automática",
+    "motor": "3.5L V6",
     "combustible": "Gasolina",
     "puertas": 5,
     "images": [
@@ -251,26 +270,27 @@
       "9-5.webp",
       "9-6.webp",
       "9-7.webp",
-      "9-8.webp"
+      "9-8.webp",
+      "9-9.webp"
     ],
-    "descripcion": "CHERY TIGGO 3 CONFORT. AÑO 2017 CON 90.000KM.\n\nMOTOR 1.6, CADENERO, PANTALLA TÁCTIL, CÁMARA DE RETROCESO, SENSORES DE ESTACIONAMIENTO.\n\nVEHÍCULO EN EXCELENTE ESTADO. NADA POR HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$16.000.000 efectivo\n$16.500.000 lista\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476 59 8636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nBMW X6 3.5I - 2013 - 170.000 KMS\n\nIMPECABLE ESTADO\n\nDOCUMENTACIÓN AL DÍA\n\nU$37.000...\n\nℹ️ Financiamos\n🤝 Permutamos\n📱 1135073921\n📍 Av Jose Dalco Domenech 1779 Pilar"
   },
   {
     "id": "10",
-    "name": "Chery Tiggo 5 Luxury",
-    "marca": "Chery",
-    "marcaId": "chery",
+    "name": "Volkswagen Amarok Highline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
     "ano": 2020,
-    "kilometraje": 50000,
+    "kilometraje": 160000,
     "precio": {
-      "valor": 21000000,
-      "moneda": "ARS"
+      "valor": 28000,
+      "moneda": "USD"
     },
-    "categoria": "SUV",
+    "categoria": "Pickup",
     "transmision": "Automática",
-    "motor": "1.5L Turbo",
-    "combustible": "Gasolina",
-    "puertas": 5,
+    "motor": "3.0L V6",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "10-1.webp",
       "10-2.webp",
@@ -278,24 +298,25 @@
       "10-4.webp",
       "10-5.webp",
       "10-6.webp",
-      "10-7.webp"
+      "10-7.webp",
+      "10-8.webp"
     ],
-    "descripcion": "🚨 VENDIDO 🚨\n\nCHERY TIGGO 5 LUXURY 2020 AUTOMÁTICA CON 50.000KM.\n\nTAPIZADO EN CUERO, ASIENTOS DELANTEROS ELÉCTRICOS, AIRE ACONDICIONADO BIZONA, SENSOR DE ESTACIONAMIENTO, PANTALLA TÁCTIL CON NAVEGADOR, CÁMARA DE RETROCESO, VELOCIDAD CRUCERO, MANDOS AL VOLANTE. CONTROL DE TRACCIÓN. TECHO SOLAR\n\nNADA POR HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$21.000.000 efectivo\n$21.800.000 lista\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nVW AMAROK HIGHLINE - 2020 - 160.000 KMS\n\nAUTOMÁTICA 4X2\n\nÚNICO DUEÑO\n\nSERVICIOS AL DÍA\n\nDOCUMENTACIÓN AL DÍA\n\nIMPECABLE ESTADO\n\nU$28.000...\n\nℹ️ Financiamos\n🤝 Permutamos\n📱 1135073921\n📍 Av Jose Dalco Domenech 1779 Pilar"
   },
   {
     "id": "11",
-    "name": "Toyota Yaris Xls",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2021,
-    "kilometraje": 65000,
+    "name": "Renault Kangoo Express II",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2023,
+    "kilometraje": 40000,
     "precio": {
-      "valor": 22900000,
-      "moneda": "ARS"
+      "valor": 19000,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
+    "categoria": "Utilitario",
     "transmision": "Manual",
-    "motor": "1.5L",
+    "motor": "1.6L",
     "combustible": "Gasolina",
     "puertas": 5,
     "images": [
@@ -308,24 +329,24 @@
       "11-7.webp",
       "11-8.webp"
     ],
-    "descripcion": "TOYOTA YARIS XLS 2021 CON 65.000KM!\n\nMOTOR 1.5 NAFTA.\n\nLLANTAS, PANTALLA TÁCTIL, FAROS AUXILIARES, LEVANTA CRISTALES, 7 AIRBAGS, CÁMARA DE RETROCESO, VELOCIDAD CRUCERO, VEHICULO EN EXCELENTE ESTADO. MUY BIEN DE CUBIERTAS.\n\nNADA POR HACERLE.\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$22.900.000 efectivo\n$23.600.000 lista\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476598636\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nRENAULT KANGOO EXPRESS II - 2023 - 40.000 KMS\n\nFURGÓN CON PORTONES VIDRIADOS\n\nCÁMARA REVERSA\n\nÚNICA MANO\n\nDOCUMENTACIÓN AL DÍA\n\nU$19.000...\n\nℹ️ Consulta por financiación\n🤝 Aceptamos permuta\n📱 1135073921\n📍 Av Jose Dalco Domenech 1779 Pilar\n\n*VENDIDA*"
   },
   {
     "id": "12",
-    "name": "Peugeot Partner Furgon",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2018,
-    "kilometraje": 109000,
+    "name": "Volkswagen Amarok V6 Extreme Black Style",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2023,
+    "kilometraje": 45000,
     "precio": {
-      "valor": 15800000,
-      "moneda": "ARS"
+      "valor": 45000,
+      "moneda": "USD"
     },
-    "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "1.6L HDI",
-    "combustible": "Diesel",
-    "puertas": 3,
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "3.0L V6",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "12-1.webp",
       "12-2.webp",
@@ -333,8 +354,11 @@
       "12-4.webp",
       "12-5.webp",
       "12-6.webp",
-      "12-7.webp"
+      "12-7.webp",
+      "12-8.webp",
+      "12-9.webp",
+      "12-10.webp"
     ],
-    "descripcion": "🚨 VENDIDO 🚨\n\nPEUGEOT PARTNER 2018 FURGÓN, HDI 1.6 DIÉSEL CON 109.000KM!\n\nAIRE, DIRECCIÓN, AIRBAG, ABS, 4 CUBIERTAS NUEVAS.\n\nNADA POR HACERLE\n\n🚙 TOMAMOS USADOS\n✅ LAS MEJORES TASAS DEL MERCADO\n🔺️ EL PRECIO DE EL VEHÍCULO ES:\n$15.800.000 efectivo\n$16.500.000 lista\n\n⚜️ BRB COMERCIALIZADORA INTEGRAL SRL ⚜️\n📍 SANTA FE 3802 (ESQUINA CASTELLANOS)\n✅ ⏰ LUNES A VIERNES DE 09 a 19 SÁBADOS DE 09 A 13\n\n📑 GESTIONAMOS SU CRÉDITO FÁCIL Y RÁPIDO SOLO CON DNI\n✴️ DADA LAS CIRCUNSTANCIAS DEL PAÍS LOS PRECIOS PUEDEN SUFRIR MODIFICACIONES SIN PREVIO AVISO\n\n☎️ LLAMADAS O WHATSAPP\nPABLO 341 639 1160\nLEONEL 3476 59 8636"
+    "descripcion": "🔥 NUEVO INGRESO! 🔥\n\nAMAROK V6 EXTREME BLACK STYLE - 2023 - 45.000 KMS\n\nSERVICIOS OFICIALES\n\nÚNICO DUEÑO\n\nIMPECABLE ESTADO\n\nDOCUMENTACIÓN AL DÍA\n\nU$45.000...\n\nℹ️ Financiamos\n🤝 Permutamos\n📱 1135073921\n📍 Av Jose Dalco Domenech 1779 Pilar"
   }
 ]
