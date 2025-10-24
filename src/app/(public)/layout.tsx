@@ -18,7 +18,7 @@ export default function PublicLayout({
       <div
         className='fixed inset-0 w-full h-screen bg-cover bg-center bg-no-repeat md:hidden'
         style={{
-          backgroundImage: 'url(/assets/inicio/background.jpg)',
+          backgroundImage: 'url(/assets/inicio/background.webp)',
         }}
       />
 
@@ -26,9 +26,12 @@ export default function PublicLayout({
       <div
         className='hidden md:block fixed inset-0 w-full h-screen bg-cover bg-center bg-no-repeat'
         style={{
-          backgroundImage: 'url(/assets/inicio/background.jpg)',
+          backgroundImage: 'url(/assets/inicio/background.webp)',
         }}
       />
+
+      {/* Overlay negro con opacidad */}
+      <div className='fixed inset-0 w-full h-screen bg-black bg-opacity-40' />
 
       {/* Contenido */}
       <div className='relative z-10'>

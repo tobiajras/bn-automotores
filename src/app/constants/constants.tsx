@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'rodriguezcars',
-  name: 'Rodriguez Cars',
-  adress: 'Av. J D Perón 2446',
-  city: 'Pte Derqui',
-  email: 'rodriguezcars@gmail.com',
-  instagram: 'rodriguezcars_',
-  facebook: null,
-  whatsapp: ['1135073921'],
-  googlemapsLink: 'https://maps.app.goo.gl/3qhvTqyj2RckpS5w5',
+  id: 'reveautomotores',
+  name: 'Revé Automotores',
+  adress: 'Av. 3 de Febrero 187',
+  city: 'Rojas',
+  email: 'reveautomotores@hotmail.com',
+  instagram: 'reveautomotores',
+  facebook: 'https://www.facebook.com/Andresazzaretti/',
+  whatsapp: ['2474665019'],
+  googlemapsLink: 'https://maps.app.goo.gl/5Dq43U2shmkrWWvF7',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.400245245673!2d-58.86000002290145!3d-34.46736945031246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9d1427630577%3A0x3ba5fb18cb893861!2sRodr%C3%ADguez%20Cars!5e0!3m2!1ses!2sar!4v1758310728591!5m2!1ses!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.963811298389!2d-60.72759962351938!3d-34.19840103620718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b85777430a7ad3%3A0x170f2fcdbe9ab94d!2sReve%20Automotores!5e0!3m2!1sen!2sar!4v1761252175290!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 19:00hs',
-    'Sábados 09:00 a 15:00hs',
+    'Lunes a Viernes 9 a 12:30 y 15 a 19hs',
+    'Sábados 9 a 12:30hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://rodriguezcars.vercel.app/',
-  title: 'Rodriguez Cars - Compra y Venta de Autos',
+  metadataBase: 'https://reveautomotores.vercel.app/',
+  title: 'Revé Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
