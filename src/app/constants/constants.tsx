@@ -3,22 +3,22 @@ export const company = {
   darkmode: true,
   shortAdress: true,
   favicon: false,
-  price: true,
+  price: false,
   objectCover: '50%',
-  id: 'reveautomotores',
-  name: 'Revé Automotores',
-  adress: 'Av. 3 de Febrero 187',
-  city: 'Rojas',
-  email: 'reveautomotores@hotmail.com',
-  instagram: 'reveautomotores',
-  facebook: 'https://www.facebook.com/Andresazzaretti/',
-  whatsapp: ['2474665019'],
-  googlemapsLink: 'https://maps.app.goo.gl/5Dq43U2shmkrWWvF7',
+  id: 'cumamotors',
+  name: 'Cuma Motors',
+  adress: 'Calle 153 e/ 11 y 12',
+  city: 'Berazategui',
+  email: 'cumamotors@gmail.com',
+  instagram: 'cumamotors',
+  facebook: 'https://www.facebook.com/cumacustomcars',
+  whatsapp: ['2216172578'],
+  googlemapsLink: 'https://maps.app.goo.gl/kwXge4a29Rdqbyg17',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.963811298389!2d-60.72759962351938!3d-34.19840103620718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b85777430a7ad3%3A0x170f2fcdbe9ab94d!2sReve%20Automotores!5e0!3m2!1sen!2sar!4v1761252175290!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.4872387909679!2d-58.206696307440055!3d-34.75688546666173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f4d5e073307%3A0x886766420cb780b0!2sCuma%20Motors!5e0!3m2!1sen!2sar!4v1760311690924!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 9 a 12:30 y 15 a 19hs',
-    'Sábados 9 a 12:30hs',
+    'Lunes a Viernes',
+    'Con cita Previa',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://reveautomotores.vercel.app/',
-  title: 'Revé Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://cumamotors.vercel.app/',
+  title: 'Cuma Motors - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

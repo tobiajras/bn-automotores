@@ -16,7 +16,7 @@ const HeroHome = () => {
         <HeroCarousel />
         {/* Overlay gradiente mejorado */}
         <div className='absolute inset-0 bg-gradient-to-br from-black/80 via-black/60 to-black/70 z-10'></div>
-        <div className='absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent z-10'></div>
+        <div className='absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-black/20 z-10'></div>
       </div>
 
       {/* Fondo adicional para la sección */}
