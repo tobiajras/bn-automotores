@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: false,
+  favicon: true,
   price: false,
   objectCover: '50%',
-  id: 'cumamotors',
-  name: 'Cuma Motors',
-  adress: 'Calle 153 e/ 11 y 12',
-  city: 'Berazategui',
-  email: 'cumamotors@gmail.com',
-  instagram: 'cumamotors',
-  facebook: 'https://www.facebook.com/cumacustomcars',
-  whatsapp: ['2216172578'],
-  googlemapsLink: 'https://maps.app.goo.gl/kwXge4a29Rdqbyg17',
+  id: 'modenamotors',
+  name: 'Modena Motors',
+  adress: 'Ruta 70 km 22',
+  city: 'Esperanza - Santa Fe',
+  email: 'mdnmotors@gmail.com',
+  instagram: 'modena_motors',
+  facebook: 'https://www.facebook.com/p/Modena-Motors-100048963383000/',
+  whatsapp: ['3496522848'],
+  googlemapsLink: 'https://maps.app.goo.gl/eCroKKrfYhcDuvLJ8',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.4872387909679!2d-58.206696307440055!3d-34.75688546666173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f4d5e073307%3A0x886766420cb780b0!2sCuma%20Motors!5e0!3m2!1sen!2sar!4v1760311690924!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.388449585046!2d-60.97518593160763!3d-31.43097128056773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b56d47d986acef%3A0xa63602f6f08aee72!2sModena%20motors!5e0!3m2!1sen!2sar!4v1760238473635!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes',
-    'Con cita Previa',
+    'Lunes a Viernes 08:00 a 20:00hs',
+    'Sábado y Domingo Cerrado',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://cumamotors.vercel.app/',
-  title: 'Cuma Motors - Compra y Venta de Autos',
+  metadataBase: 'https://modenamotors.vercel.app/',
+  title: 'Modena Motors - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
