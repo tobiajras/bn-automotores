@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: true,
+  favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'modenamotors',
-  name: 'Modena Motors',
-  adress: 'Ruta 70 km 22',
-  city: 'Esperanza - Santa Fe',
-  email: 'mdnmotors@gmail.com',
-  instagram: 'modena_motors',
-  facebook: 'https://www.facebook.com/p/Modena-Motors-100048963383000/',
-  whatsapp: ['3496522848'],
-  googlemapsLink: 'https://maps.app.goo.gl/eCroKKrfYhcDuvLJ8',
+  id: 'tridenteautomoviles',
+  name: 'Tridente Automoviles',
+  adress: 'Calle 59 1145',
+  city: 'Necochea',
+  email: 'ventas@tridenteautos.com.ar',
+  instagram: 'tridente_automoviles',
+  facebook: 'https://www.facebook.com/tridente.automoviles.necochea',
+  whatsapp: ['2262324770'],
+  googlemapsLink: 'https://maps.app.goo.gl/knUzVoWZ4sfTVt1f6',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.388449585046!2d-60.97518593160763!3d-31.43097128056773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b56d47d986acef%3A0xa63602f6f08aee72!2sModena%20motors!5e0!3m2!1sen!2sar!4v1760238473635!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1559.8076242754482!2d-58.726068628741245!3d-38.56567755050217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x958f97f00f5a522d%3A0x2c10ed3431d63097!2sAv.%2059%201145%2C%20B7630DRG%20Necochea%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1760242839236!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 08:00 a 20:00hs',
-    'Sábado y Domingo Cerrado',
+    'Lunes a Viernes 09:00 a 18:00hs',
+    'Sábado 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://modenamotors.vercel.app/',
-  title: 'Modena Motors - Compra y Venta de Autos',
+  metadataBase: 'https://tridenteautomoviles.vercel.app/',
+  title: 'Tridente Automoviles - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

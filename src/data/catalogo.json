@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "name": "Peugeot 208 Allure Pack",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2023,
-    "kilometraje": 22000,
+    "name": "Toyota Hilux SRV Cuero 4x4",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2012,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Pickup",
     "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "motor": "3.0L",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -23,26 +23,27 @@
       "1-5.webp",
       "1-6.webp",
       "1-7.webp",
-      "1-8.webp"
+      "1-8.webp",
+      "1-9.webp"
     ],
-    "descripcion": "Peugeot 208 Allure Pack - año 2023 - motor 1.6 con 22.000 kms - tablero digital 3D - climatizador - pantalla con carplay y camara de retroceso- control crucero - botón start/stop - cargador de celular inalambrico - techo panorámico- cuero . RECIBIMOS USADOS MENOR VALOR"
+    "descripcion": "Toyota Hilux SRV Cuero 4x4 Manual 2012\n\nImpecable estado! Para exigentes! Tomamos tu usado a mejor precio, y te financiamos la diferencia, consúltanos!"
   },
   {
     "id": "2",
-    "name": "Volkswagen Amarok Black Style",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2024,
-    "kilometraje": 0,
+    "name": "Renault Duster 2.0 Luxe 4x4",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2013,
+    "kilometraje": 110000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "3.0L V6",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "2.0L",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -50,27 +51,24 @@
       "2-4.webp",
       "2-5.webp",
       "2-6.webp",
-      "2-7.webp",
-      "2-8.webp",
-      "2-9.webp",
-      "2-10.webp"
+      "2-7.webp"
     ],
-    "descripcion": "Amarok Black Style 0km - CONSULTAR por otras versiones - recibimos usados menor valor- financiación directa."
+    "descripcion": "Renault Duster 2.0 Luxe 4x4\n\nÚnico dueño! 2013\nExcelente estado! VTV 2026\nTomamos tu usado a mejor precio y te financiamos la diferencia, con crédito bancario o personal, consúltanos!"
   },
   {
     "id": "3",
-    "name": "Renault Alaskan Intens",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2022,
-    "kilometraje": 47000,
+    "name": "Toyota Hilux 3.0 SR 4x4",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2010,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Pickup",
     "transmision": "Manual",
-    "motor": "2.3L Turbo",
+    "motor": "3.0L",
     "combustible": "Diésel",
     "puertas": 4,
     "images": [
@@ -82,27 +80,25 @@
       "3-6.webp",
       "3-7.webp",
       "3-8.webp",
-      "3-9.webp",
-      "3-10.webp",
-      "3-11.webp"
+      "3-9.webp"
     ],
-    "descripcion": "Renault Alaskan Intens - año 2022 - 47.000 kms - climatizador bizona - pantalla con camara de retroceso - control crucero- sensores de estacionamiento traseros . Recibimos vehiculos menor valor"
+    "descripcion": "Toyota Hilux 3.0 SR 4x4 2010\n\nImpecable estado para el año!\nCubiertas nuevas! VTV 2026\nTomamos tu usado a mejor precio y te financiamos la diferencia! Consúltanos!"
   },
   {
     "id": "4",
-    "name": "Toyota Hilux SRX A/T 4x4",
+    "name": "Toyota Corolla XEI Manual C/techo",
     "marca": "Toyota",
     "marcaId": "toyota",
-    "ano": 2023,
-    "kilometraje": 38000,
+    "ano": 2022,
+    "kilometraje": 244,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "2.8L Turbo",
-    "combustible": "Diésel",
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "1.8L",
+    "combustible": "Nafta",
     "puertas": 4,
     "images": [
       "4-1.webp",
@@ -113,25 +109,24 @@
       "4-6.webp",
       "4-7.webp",
       "4-8.webp",
-      "4-9.webp",
-      "4-10.webp"
+      "4-9.webp"
     ],
-    "descripcion": "Toyota Hilux SRX A/T 4x4 - año 2023 - 38.000 kms - climatizador - pantalla con navegador - camara de retroceso y 360 - control crucero adaptativo - audio JBL - butacas eléctricas con cuero y calefaccion - RECIBIMOS USADOS MENOR VALOR"
+    "descripcion": "Toyota Corolla XEI Manual C/techo 2022\n\nSolo 244 kms!!! Igual a nuevo!\nTomamos tu usado a mejor precio y te financiamos la diferencia, por banco o crédito personal!\nConsúltanos!"
   },
   {
     "id": "5",
-    "name": "Chevrolet Tracker",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
+    "name": "Peugeot 208 1.6 FELINE Tiptronic",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
     "ano": 2024,
-    "kilometraje": 0,
+    "kilometraje": 10000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Automática",
-    "motor": "1.2L Turbo",
+    "motor": "1.6L",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -144,24 +139,24 @@
       "5-7.webp",
       "5-8.webp"
     ],
-    "descripcion": "Nueva Tracker - Entrega inmediata en todas las versiones - recibimos usados - financiación directa a tasa 0%"
+    "descripcion": "Peugeot 208 1.6 FELINE Tiptronic 2024, solo 10000 kms!!! Igual a nuevo! El más completo! Sin detalles! Tomamos tu usado a mejor precio y te financiamos la diferencia! Consúltanos"
   },
   {
     "id": "6",
-    "name": "Honda HR-V EXL",
-    "marca": "Honda",
-    "marcaId": "honda",
-    "ano": 2018,
-    "kilometraje": 106000,
+    "name": "AUDI A4 2.0T Ambition Multitronoc",
+    "marca": "Audi",
+    "marcaId": "audi",
+    "ano": 2013,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Sedán",
     "transmision": "Automática",
-    "motor": "1.8L",
+    "motor": "2.0L Turbo",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -171,26 +166,27 @@
       "6-6.webp",
       "6-7.webp",
       "6-8.webp",
-      "6-9.webp"
+      "6-9.webp",
+      "6-10.webp"
     ],
-    "descripcion": "Honda HRV EXL - año 2018 - motor 1.8 con 106.00 kms - caja automatica con levas al volante - 8 airbags - climatizador digital- pantalla con navegador y camara de retroceso- control crucero - cuero - sensores de estacionamiento traseros . Recibimos usados menor valor"
+    "descripcion": "AUDI A4 2.0T Ambition Multitronoc 225cv 2013\n\nImpecable estado! Cubiertas nuevas! Para exigentes! Tomamos tu usado a mejor precio y te financiamos la diferencia, por Banco o personal, te esperamos!"
   },
   {
     "id": "7",
-    "name": "Ford EcoSport S",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2017,
-    "kilometraje": 51000,
+    "name": "Toyota Hilux DX Pack 4x4",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2010,
+    "kilometraje": 178000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Pickup",
     "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "motor": "3.0L",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "7-1.webp",
       "7-2.webp",
@@ -200,25 +196,26 @@
       "7-6.webp",
       "7-7.webp",
       "7-8.webp",
-      "7-9.webp"
+      "7-9.webp",
+      "7-10.webp"
     ],
-    "descripcion": "Ford Ecosport S - año 2017 - 51.000 kms - pack electrico completo- computadora de abordo - sensores de estacionamiento traseros- 4 cubiertas nuevas - RECIBIMOS USADOS MENOR VALOR"
+    "descripcion": "Hilux DX Pack solo 178000 kms, 4x4 con un montón de accesorios, jamás usada para trabajar, sensores y cama ta trasera, estribos, lona retráctil aluminio, impecable estado! Nada para hacerle! Tomamos tu usado a mejor precio y te financiamos la diferencia , consúltanos!"
   },
   {
     "id": "8",
-    "name": "Jeep Commander Blackhawk",
-    "marca": "Jeep",
-    "marcaId": "jeep",
-    "ano": 2023,
-    "kilometraje": 999999,
+    "name": "Peugeot 308 Feline HDI",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2015,
+    "kilometraje": 110000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.0L Turbo",
-    "combustible": "Nafta",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.6L",
+    "combustible": "Diésel",
     "puertas": 5,
     "images": [
       "8-1.webp",
@@ -232,22 +229,22 @@
       "8-9.webp",
       "8-10.webp"
     ],
-    "descripcion": "Jeep Commander Blackhawk - motor 2.0T con 272 cv 4x4- 7 plazas - climatizador - pantalla con navegador y camara de retroceso- control crucero adaptativo - techo panorámico- sensores de estacionamiento delanteros y traseros- portón trasero electrico - butacas eléctricas. RECIBIMOS USADOS MENOR VALOR"
+    "descripcion": "Peugeot 308 Feline HDI 2015 inmaculado! Absolutamente nada para hacerle ! 110000 kms, tomamos tu usado a mejor precio y te financiamos la diferencia! Consúltanos"
   },
   {
     "id": "9",
-    "name": "Fiat Argo Precision",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2018,
-    "kilometraje": 84000,
+    "name": "Toyota Rav 4 2.5 CVT",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2013,
+    "kilometraje": 110000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.8L",
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.5L",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -259,27 +256,26 @@
       "9-6.webp",
       "9-7.webp",
       "9-8.webp",
-      "9-9.webp",
-      "9-10.webp"
+      "9-9.webp"
     ],
-    "descripcion": "Fiat Argo Precision - año 2018 - motor 1.8 con 84.000 kms - climatizador - pantalla con camara de retroceso - botón start/stop - sensores de estacionamiento traseros. RECIBIMOS USADOS MENOR VALOR"
+    "descripcion": "Toyota Rav 4 2.5 CVT 2013 , Impecable estado! Solo 110000 kms! Tomamos tu usado a mejor precio, y te financiamos la diferencia, consúltanos!"
   },
   {
     "id": "10",
-    "name": "BMW 118I Sport",
-    "marca": "BMW",
-    "marcaId": "bmw",
-    "ano": 2016,
-    "kilometraje": 999999,
+    "name": "Renault Sandero Stepway Zen",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2021,
+    "kilometraje": 4600,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "1.6L Turbo",
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.6L",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "10-1.webp",
       "10-2.webp",
@@ -290,24 +286,24 @@
       "10-7.webp",
       "10-8.webp"
     ],
-    "descripcion": "BMW 118I Sport - AÑO 2016 - caja automatica -  climatizador bizona - pantalla con navegador - control crucero - sensores de estacionamiento delanteros y traseros. RECIBIMOS USADOS MENOR VALOR"
+    "descripcion": "Renault Sandero Stepway Zen  2021 Solo 4600 kms!!! Igual a 0km! Tomamos tu usado a mejor precio y te financiamos la diferencia, consúltanos !"
   },
   {
     "id": "11",
-    "name": "Fiat Pulse Impetus",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2022,
-    "kilometraje": 49800,
+    "name": "Toyota Hilux SR 3.0 TD 4x4",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2004,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "1.0L Turbo",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Pickup",
+    "transmision": "Manual",
+    "motor": "3.0L Turbo",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "11-1.webp",
       "11-2.webp",
@@ -317,38 +313,35 @@
       "11-6.webp",
       "11-7.webp",
       "11-8.webp",
-      "11-9.webp"
+      "11-9.webp",
+      "11-10.webp"
     ],
-    "descripcion": "Fiat Pulse Impetus - AÑO 2022 - motor 1.0 turbo con 49.800 kms - caja automatica - botón start/stop - tablero digital- pantalla con navegador y camara de retroceso- control crucero - ESP - control de carril- cargador de celular inalambrico - sensores de estacionamiento delanteros y traseros. RECIBIMOS USADOS MENOR VALOR"
+    "descripcion": "Toyota Hilux SR 3.0 TD 4x4 2004 Impecable! Excelente camioneta ! Usada como auto! Lona nueva, VTV 2026 , cubiertas nuevas! para exigentes! Vení a verla , te tomamos tu vehículo a mejor precio y te financiamos la diferencia! Consúltanos!"
   },
   {
     "id": "12",
-    "name": "Fiat Punto Sporting",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2016,
-    "kilometraje": 93000,
+    "name": "Toyota Hilux SRV Automática 4x4",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2023,
+    "kilometraje": 0,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "categoria": "Pickup",
+    "transmision": "Automática",
+    "motor": "2.8L Turbo",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "12-1.webp",
       "12-2.webp",
       "12-3.webp",
       "12-4.webp",
       "12-5.webp",
-      "12-6.webp",
-      "12-7.webp",
-      "12-8.webp",
-      "12-9.webp",
-      "12-10.webp"
+      "12-6.webp"
     ],
-    "descripcion": "Fiat Punto Sporting - año 2016 - motor 1.6 con 93.000 kms - climatizador - pantalla con navegador y camara de retroceso - control crucero - doble techo vidriado - sensores de estacionamiento traseros .RECIBIMOS USADOS MENOR VALOR"
+    "descripcion": "Toyota Hilos SRV Automática 4x4 2023 0km!\n\nTomamos tu usado a mejor precio! Y te financiamos la diferencia! Consúltanos!"
   }
 ]
