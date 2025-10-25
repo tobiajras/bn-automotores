@@ -129,9 +129,9 @@ const NosotrosPage = () => {
               viewport={{ once: true }}
               className='group relative'
             >
-              <div className='relative overflow-hidden bg-color-bg-primary-dark rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full border border-color-primary/20'>
+              <div className='bg-white/10 backdrop-blur-sm relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full border border-color-primary/20'>
                 {/* Fondo decorativo */}
-                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-color-primary/10 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
+                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-color-primary/20 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
 
                 <div className='relative p-8 lg:p-10'>
                   {/* Icono */}
@@ -172,9 +172,9 @@ const NosotrosPage = () => {
               viewport={{ once: true }}
               className='group relative'
             >
-              <div className='relative overflow-hidden bg-color-bg-primary-dark rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full border border-color-primary/20'>
+              <div className='bg-white/10 backdrop-blur-sm relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full border border-color-primary/20'>
                 {/* Fondo decorativo */}
-                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-color-primary/10 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
+                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-color-primary/20 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
 
                 <div className='relative p-8 lg:p-10'>
                   {/* Icono */}
@@ -215,8 +215,8 @@ const NosotrosPage = () => {
               viewport={{ once: true }}
               className='group relative'
             >
-              <div className='relative overflow-hidden bg-color-bg-primary-dark rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full border border-color-primary/20'>
-                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-color-primary/10 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
+              <div className='bg-white/10 backdrop-blur-sm relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full border border-color-primary/20'>
+                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-color-primary/20 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
 
                 <div className='relative p-8 lg:p-10'>
                   {/* Icono */}

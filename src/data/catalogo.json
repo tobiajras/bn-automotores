@@ -1,20 +1,20 @@
 [
   {
     "id": "1",
-    "name": "Renault Megane RS",
+    "name": "Renault Clio Campus Pack II",
     "marca": "Renault",
     "marcaId": "renault",
-    "ano": 2017,
-    "kilometraje": 999999,
+    "ano": 2012,
+    "kilometraje": 80000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 10500000,
+      "moneda": "ARS"
     },
-    "categoria": "Deportivo",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "2.0L Turbo",
+    "motor": "1.2L",
     "combustible": "Nafta",
-    "puertas": 3,
+    "puertas": 5,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -25,26 +25,36 @@
       "1-7.webp",
       "1-8.webp",
       "1-9.webp",
-      "1-10.webp"
+      "1-10.webp",
+      "1-11.webp",
+      "1-12.webp",
+      "1-13.webp",
+      "1-14.webp",
+      "1-15.webp",
+      "1-16.webp",
+      "1-17.webp",
+      "1-18.webp",
+      "1-19.webp",
+      "1-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nRENAULT MEGANE RS\n2017\n\nImpecable estado\nMantenimiento al día\nDistribución hecha\nCubiertas Michelin nuevas\nNunca Track day\nEscape completo\nStage 2\nAl día y lista para transferir\nPermuto\nFinancio"
+    "descripcion": "🚙 RENAULT CLIO CAMPUS PACK II 2012\n\nPRECIO CONTADO: $ 10.500.000\nPrecio de lista, permuta/financiado: $ 11.500.000\n\n____________________________________\n\nModelo: Renault Clio\nVersión: Campus Pack II\nAño: 2012\nKilometraje: 80.000\nMotor y combustible: 1.2 Nafta\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado, financiamos créditos TASA FIJA / UVA\n- Financiación BANCOR al 100%\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "2",
-    "name": "Citroen C4 Lounge Exclusive",
-    "marca": "Citroen",
-    "marcaId": "citroen",
-    "ano": 2016,
-    "kilometraje": 999999,
+    "name": "Chevrolet Corsa LT",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2011,
+    "kilometraje": 170000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 9000000,
+      "moneda": "ARS"
     },
-    "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "1.6L Turbo",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.4L",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -55,25 +65,35 @@
       "2-7.webp",
       "2-8.webp",
       "2-9.webp",
-      "2-10.webp"
+      "2-10.webp",
+      "2-11.webp",
+      "2-12.webp",
+      "2-13.webp",
+      "2-14.webp",
+      "2-15.webp",
+      "2-16.webp",
+      "2-17.webp",
+      "2-18.webp",
+      "2-19.webp",
+      "2-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nCITROEN C4 LOUNGE EXCLUSIVE\n2016\n\nTransmisión AT\n1.6 turbo\nVersion tope de gama\nCuero\nTecho corredizo\nExcelente estado\nAl día\nPermuto\nFinancio"
+    "descripcion": "🚗 CHEVROLET CORSA 1.4 LT 2011\n\nPRECIO CONTADO: $ 9.000.000\nPrecio de lista, permuta/financiado: $ 10.000.000\n\n____________________________________\n\nModelo: Chevrolet Corsa\nVersión: LT\nAño: 2011\nKilometraje: 170.000\nMotor y combustible: 1.4 Nafta\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado, financiamos créditos TASA FIJA / UVA\n- Financiación BANCOR al 100%\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "3",
-    "name": "Chevrolet Trailblazer LTZ",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2013,
-    "kilometraje": 999999,
+    "name": "Renault Clio Mio Dynamique",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2016,
+    "kilometraje": 120000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 13500000,
+      "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.8L Turbo",
-    "combustible": "Diésel",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.2L",
+    "combustible": "Nafta",
     "puertas": 5,
     "images": [
       "3-1.webp",
@@ -85,24 +105,34 @@
       "3-7.webp",
       "3-8.webp",
       "3-9.webp",
-      "3-10.webp"
+      "3-10.webp",
+      "3-11.webp",
+      "3-12.webp",
+      "3-13.webp",
+      "3-14.webp",
+      "3-15.webp",
+      "3-16.webp",
+      "3-17.webp",
+      "3-18.webp",
+      "3-19.webp",
+      "3-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nCHEVROLET TRAILBLAZER LTZ\n2013\n\nTope de gama\n7 asientos\nCaja automatica\n2.8 turbo diesel\n4x4\nExcelente estado\n4 cubiertas Bfgoodrich\nGancho de remolque\nAl día\nPermuto"
+    "descripcion": "💎 RENAULT CLIO MIO DYNAMIQUE 2016\n\nPRECIO CONTADO: $ 13.500.000\nPrecio de lista, permuta/financiado: $ 14.500.000\n\n____________________________________\n\nModelo: Renault Clio Mio\nVersión: Dynamique\nAño: 2016\nKilometraje: 120.000\nMotor y combustible: 1.2 Nafta\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado, financiamos créditos TASA FIJA / UVA\n- Financiación BANCOR al 100%\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "4",
-    "name": "Nissan Kicks Advance Plus",
-    "marca": "Nissan",
-    "marcaId": "nissan",
-    "ano": 2021,
-    "kilometraje": 999999,
+    "name": "Chevrolet Spin Activ 7 Pas AT",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2023,
+    "kilometraje": 45000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 26500000,
+      "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Minivan",
     "transmision": "Automática",
-    "motor": "1.6L",
+    "motor": "1.8L",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -115,26 +145,36 @@
       "4-7.webp",
       "4-8.webp",
       "4-9.webp",
-      "4-10.webp"
+      "4-10.webp",
+      "4-11.webp",
+      "4-12.webp",
+      "4-13.webp",
+      "4-14.webp",
+      "4-15.webp",
+      "4-16.webp",
+      "4-17.webp",
+      "4-18.webp",
+      "4-19.webp",
+      "4-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nNISSAN KICKS ADVANCE PLUS\n2021\n\nTransmisión AT\nImpecable estado\nUnico dueño\nAl día y lista para transferir\nPermuto"
+    "descripcion": "🚙 CHEVROLET SPIN 1.8 ACTIV 7 PAS 2023\n\nPRECIO CONTADO: $ 26.500.000\nPrecio de lista, permuta/financiado: $ 27.500.000\n\n____________________________________\n\nModelo: Chevrolet Spin\nVersión: Activ 7 Pas AT\nAño: 2023\nKilometraje: 45.000\nMotor y combustible: 1.8 Nafta\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado, financiamos créditos TASA FIJA / UVA\n- Financiación BANCOR al 100%\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "5",
-    "name": "Seat Ibiza FR",
-    "marca": "Seat",
-    "marcaId": "seat",
-    "ano": 2008,
-    "kilometraje": 999999,
+    "name": "Alfa Romeo Giulietta Progression",
+    "marca": "Alfa Romeo",
+    "marcaId": "alfa-romeo",
+    "ano": 2013,
+    "kilometraje": 90000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 18500000,
+      "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "1.9L TDI",
-    "combustible": "Diésel",
-    "puertas": 3,
+    "motor": "1.4L Turbo",
+    "combustible": "Nafta",
+    "puertas": 4,
     "images": [
       "5-1.webp",
       "5-2.webp",
@@ -145,24 +185,34 @@
       "5-7.webp",
       "5-8.webp",
       "5-9.webp",
-      "5-10.webp"
+      "5-10.webp",
+      "5-11.webp",
+      "5-12.webp",
+      "5-13.webp",
+      "5-14.webp",
+      "5-15.webp",
+      "5-16.webp",
+      "5-17.webp",
+      "5-18.webp",
+      "5-19.webp",
+      "5-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nSEAT IBIZA FR\n2008\n\n1.9tdi\n300hp\nManual 6ta\nImpecable estado\nBig turbo Garret\nintercooler Mishimoto\nInyectores Darkside\nMethanol Aem 5gal\nLeva Circelli\nEmbrague Barpren 700hp\nCañeria Simota\nEscape completo 3\" inox\nMultiple Escape inox\nMultiple admisión reformado\nSuspensión a medida\n4 cubiertas Dunlop nuevas\nDiscos y pastillas nuevas\nPERMUTO"
+    "descripcion": "🛞 ALFA ROMEO GIULIETTA PROGRESSION 2013\n\nPRECIO CONTADO: $ 18.500.000\nPrecio de lista, permuta/financiado: $ 19.500.000\n\n____________________________________\n\nModelo: Alfa Romeo\nVersión: Giulietta Progression\nAño: 2013\nKilometraje: 90.000\nMotor y combustible: 1.4 Nafta\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado, financiamos créditos TASA FIJA / UVA\n- Financiación BANCOR al 100%\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "6",
-    "name": "Ford Maverick Lariat",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2023,
-    "kilometraje": 999999,
+    "name": "Volkswagen Bora Highline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2011,
+    "kilometraje": 5000,
     "precio": {
-      "valor": 999999,
+      "valor": 19500,
       "moneda": "USD"
     },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "2.0L Turbo",
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "1.8L Turbo",
     "combustible": "Nafta",
     "puertas": 4,
     "images": [
@@ -179,26 +229,32 @@
       "6-11.webp",
       "6-12.webp",
       "6-13.webp",
-      "6-14.webp"
+      "6-14.webp",
+      "6-15.webp",
+      "6-16.webp",
+      "6-17.webp",
+      "6-18.webp",
+      "6-19.webp",
+      "6-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nFORD MAVERICK LARIAT\n2023\n\n4x4\n2.0t\ncaja AT\nUnico dueño\nImpecable estado\nCobertor Roll Pro\nAleron\nPermuto"
+    "descripcion": "🇩🇪 VW BORA 1.8T HIGHLINE 2011\n\nPRECIO CONTADO: 19.500 USD\nPrecio de lista, permuta/financiado: 20.500 USD\n\n____________________________________\n\nModelo: Volkswagen Bora\nVersión: Highline\nAño: 2011\nKilometraje: 5.000\nMotor y combustible: 1.8T Nafta\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado, financiamos créditos TASA FIJA / UVA\n- Financiación BANCOR al 100%\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "7",
-    "name": "Toyota SW4 SRX",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2022,
-    "kilometraje": 999999,
+    "name": "BMW R1150GS",
+    "marca": "BMW",
+    "marcaId": "bmw",
+    "ano": 2000,
+    "kilometraje": 135000,
     "precio": {
-      "valor": 999999,
+      "valor": 11800,
       "moneda": "USD"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.8L",
-    "combustible": "Diésel",
-    "puertas": 5,
+    "categoria": "Moto",
+    "transmision": "Manual",
+    "motor": "1150cc",
+    "combustible": "Nafta",
+    "puertas": 0,
     "images": [
       "7-1.webp",
       "7-2.webp",
@@ -209,26 +265,36 @@
       "7-7.webp",
       "7-8.webp",
       "7-9.webp",
-      "7-10.webp"
+      "7-10.webp",
+      "7-11.webp",
+      "7-12.webp",
+      "7-13.webp",
+      "7-14.webp",
+      "7-15.webp",
+      "7-16.webp",
+      "7-17.webp",
+      "7-18.webp",
+      "7-19.webp",
+      "7-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nTOYOTA SW4 SRX\n2022\n\nImpecable estado\nServicios oficiales toyota\ncaja AT\n7 asientos\nPermuto"
+    "descripcion": "🏍️ BMW R1150GS 2000\n\nPRECIO CONTADO: 11.800 USD\nFINANCIADO: 12.100 USD\n\n____________________________________\n\nModelo: BMW R1150GS\nAño: 2000\nKilometraje: 135.000\nCilindrada: 1150cc\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "8",
-    "name": "RAM 1500",
-    "marca": "RAM",
-    "marcaId": "ram",
+    "name": "Ford EcoSport Titanium",
+    "marca": "Ford",
+    "marcaId": "ford",
     "ano": 2018,
-    "kilometraje": 999999,
+    "kilometraje": 115000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 21000000,
+      "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "5.7L V8",
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.5L",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "8-1.webp",
       "8-2.webp",
@@ -239,26 +305,36 @@
       "8-7.webp",
       "8-8.webp",
       "8-9.webp",
-      "8-10.webp"
+      "8-10.webp",
+      "8-11.webp",
+      "8-12.webp",
+      "8-13.webp",
+      "8-14.webp",
+      "8-15.webp",
+      "8-16.webp",
+      "8-17.webp",
+      "8-18.webp",
+      "8-19.webp",
+      "8-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nRAM 1500\n2018\n\nImpoluta\nEstribos eléctricos Amp\nCobertor trifold undercover con luz led\nGancho original mopar\nLlantas 20 ram 1500 midnight USA\nCubiertas nuevas hankook\nAntena Ronin bala cal .50\nOpticas delanteras Apharex gen 5\nAuxiliares Alpharex con lupa led\nOpticas traseras y 3er stop Alpharex full led\nPlafones patente full led\nTodos los cromados pintados color carrocería\nEspejos color carrocería\nCamara delantera de estacionamiento\nMolduras interiores aluminio cepillado negro\nEscape completo inox con multiples\nKit de admisión k&n\nRepro stage 2 495hp banqueados\nPermuto"
+    "descripcion": "🚗 FORD ECOSPORT 1.5 TITANIUM 2018\n\nPRECIO CONTADO: $21.000.000\nPrecio de lista, permuta/financiado: $22.000.000\n\n____________________________________\n\nModelo: Ford EcoSport\nVersión: Titanium\nAño: 2018\nKilometraje: 115.000\nMotor y combustible: 1.5 Nafta\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado, financiamos créditos TASA FIJA / UVA\n- Financiación BANCOR al 100%\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "9",
-    "name": "Audi A4 Allroad",
-    "marca": "Audi",
-    "marcaId": "audi",
-    "ano": 2013,
-    "kilometraje": 999999,
+    "name": "Suzuki DL 1000 V-Strom",
+    "marca": "Suzuki",
+    "marcaId": "suzuki",
+    "ano": 2008,
+    "kilometraje": 34000,
     "precio": {
-      "valor": 999999,
+      "valor": 12500,
       "moneda": "USD"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.0L TFSI",
+    "categoria": "Moto",
+    "transmision": "Manual",
+    "motor": "1000cc",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 0,
     "images": [
       "9-1.webp",
       "9-2.webp",
@@ -269,24 +345,34 @@
       "9-7.webp",
       "9-8.webp",
       "9-9.webp",
-      "9-10.webp"
+      "9-10.webp",
+      "9-11.webp",
+      "9-12.webp",
+      "9-13.webp",
+      "9-14.webp",
+      "9-15.webp",
+      "9-16.webp",
+      "9-17.webp",
+      "9-18.webp",
+      "9-19.webp",
+      "9-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nAUDI A4 ALLROAD\n2013\n\n2.0tfsi\nStronic\nTraccion Quattro\nServicio completo recién realizado\nLlantas Enkei Raijin 18\"\nCubiertas Dunlop SP Sportmaxx 0km\nUnico dueño\nAl día\nLista para transferir\nPermuto"
+    "descripcion": "🏍️ SUZUKI DL 1000 V-STROM 2008\n\nPRECIO CONTADO: 12.500 USD\nFINANCIADO: 13.000 USD\n\n____________________________________\n\nModelo: Suzuki DL 1000 V-Strom\nAño: 2008\nKilometraje: 34.000\nCilindrada: 1000cc\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "10",
-    "name": "Ford Focus SE Plus AT",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2016,
-    "kilometraje": 999999,
+    "name": "Volkswagen CrossFox Comfortline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2007,
+    "kilometraje": 160000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 9000000,
+      "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "2.0L",
+    "categoria": "SUV",
+    "transmision": "Manual",
+    "motor": "1.6L",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -299,26 +385,36 @@
       "10-7.webp",
       "10-8.webp",
       "10-9.webp",
-      "10-10.webp"
+      "10-10.webp",
+      "10-11.webp",
+      "10-12.webp",
+      "10-13.webp",
+      "10-14.webp",
+      "10-15.webp",
+      "10-16.webp",
+      "10-17.webp",
+      "10-18.webp",
+      "10-19.webp",
+      "10-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nFORD FOCUS SE PLUS AT\n2016\n\nCaja AT\nExcelente estado\nCubiertas nuevas\nMantenimiento al día\nPermuto"
+    "descripcion": "🛞 VW CROSSFOX 1.6 COMFORTLINE 2007\n\nPRECIO CONTADO: $9.000.000\nPrecio de lista, permuta/financiado: $10.000.000\n\n____________________________________\n\nModelo: Volkswagen CrossFox\nVersión: Comfortline\nAño: 2007\nKilometraje: 160.000\nMotor y combustible: 1.6 Nafta\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado, financiamos créditos TASA FIJA / UVA\n- Financiación BANCOR al 100%\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "11",
-    "name": "Toyota Hilux SR",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2016,
-    "kilometraje": 999999,
+    "name": "Hyundai H1 9 Pasajeros",
+    "marca": "Hyundai",
+    "marcaId": "hyundai",
+    "ano": 2013,
+    "kilometraje": 250000,
     "precio": {
-      "valor": 999999,
+      "valor": 29000,
       "moneda": "USD"
     },
-    "categoria": "Pickup",
+    "categoria": "Minivan",
     "transmision": "Manual",
-    "motor": "2.4L Turbo",
+    "motor": "2.5L Turbo",
     "combustible": "Diésel",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "11-1.webp",
       "11-2.webp",
@@ -329,26 +425,36 @@
       "11-7.webp",
       "11-8.webp",
       "11-9.webp",
-      "11-10.webp"
+      "11-10.webp",
+      "11-11.webp",
+      "11-12.webp",
+      "11-13.webp",
+      "11-14.webp",
+      "11-15.webp",
+      "11-16.webp",
+      "11-17.webp",
+      "11-18.webp",
+      "11-19.webp",
+      "11-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nTOYOTA HILUX SR\n2016\n\nMotor 2.4 turbo diesel\nCaja manual de 6ta\n4x2\n2do dueño\nCubiertas Bridgestone semi nuevas\nPantalla multimedia con carplay/androidauto\nCámara trasera\nExcelente estado general\nPermuto"
+    "descripcion": "🚐 HYUNDAI H1 9 PASAJEROS AT 2013\n\nPRECIO CONTADO: 29.000 USD\nFINANCIADO: 30.000 USD\n\n____________________________________\n\nModelo: Hyundai H1\nVersión: 9 Pasajeros\nAño: 2013\nKilometraje: 250.000\nMotor y combustible: 2.5 TD\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado, financiamos créditos TASA FIJA / UVA\n- Financiación BANCOR al 100%\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   },
   {
     "id": "12",
-    "name": "VW Golf Comfortline",
+    "name": "Volkswagen Vento Comfortline Tiptronic",
     "marca": "Volkswagen",
     "marcaId": "volkswagen",
-    "ano": 2016,
-    "kilometraje": 999999,
+    "ano": 2018,
+    "kilometraje": 100000,
     "precio": {
-      "valor": 999999,
-      "moneda": "USD"
+      "valor": 25000000,
+      "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
+    "categoria": "Sedán",
+    "transmision": "Automática",
     "motor": "1.4L Turbo",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "12-1.webp",
       "12-2.webp",
@@ -359,8 +465,18 @@
       "12-7.webp",
       "12-8.webp",
       "12-9.webp",
-      "12-10.webp"
+      "12-10.webp",
+      "12-11.webp",
+      "12-12.webp",
+      "12-13.webp",
+      "12-14.webp",
+      "12-15.webp",
+      "12-16.webp",
+      "12-17.webp",
+      "12-18.webp",
+      "12-19.webp",
+      "12-20.webp"
     ],
-    "descripcion": "NUEVO INGRESO\n\nVW GOLF COMFORTLINE\n2016\n\n1.4T nafta\nCaja manual 6ta\nExcelente estado\nMantenimiento al día\nPermuto"
+    "descripcion": "🇩🇪 VOLKSWAGEN VENTO 1.4 TSI COMFORTLINE TIPTRONIC 2018\n\nPRECIO CONTADO: $25.000.000\nFINANCIADO: $26.000.000\n\n____________________________________\n\nModelo: Volkswagen Vento\nVersión: Comfortline Tiptronic\nAño: 2018\nKilometraje: 100.000\nMotor y combustible: 1.4 TSI Nafta\n\n____________________________________\n\n- Somos BL AUTOMOTORES\n- Recibimos tu usado, financiamos créditos TASA FIJA / UVA\n- Financiación BANCOR al 100%\n- Vendemos tu vehículo en consignación\n\n____________________________________\n\n¡ Nos ubicamos en zona norte Córdoba Capital, comunicate a nuestro WhatsApp para coordinar una cita !"
   }
 ]
