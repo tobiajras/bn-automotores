@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'tridenteautomoviles',
-  name: 'Tridente Automoviles',
-  adress: 'Calle 59 1145',
-  city: 'Necochea',
-  email: 'ventas@tridenteautos.com.ar',
-  instagram: 'tridente_automoviles',
-  facebook: 'https://www.facebook.com/tridente.automoviles.necochea',
-  whatsapp: ['2262324770'],
-  googlemapsLink: 'https://maps.app.goo.gl/knUzVoWZ4sfTVt1f6',
+  id: 'mafeautomotores',
+  name: 'Mafe Automotores',
+  adress: 'José Hernández 365',
+  city: 'Pehuajó',
+  email: 'mafeautomotores@gmail.com',
+  instagram: 'mafeautomotores',
+  facebook: 'https://www.facebook.com/mafeautomotorespehuajo',
+  whatsapp: ['2396440640'],
+  googlemapsLink: 'https://maps.app.goo.gl/wPwe5B9VfQ3S6d8W8',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1559.8076242754482!2d-58.726068628741245!3d-38.56567755050217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x958f97f00f5a522d%3A0x2c10ed3431d63097!2sAv.%2059%201145%2C%20B7630DRG%20Necochea%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1760242839236!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.534161603185!2d-61.89767242285772!3d-35.81136792227931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c0f9f746e690b7%3A0x1680105df182ef49!2sMafe%20Automotores!5e0!3m2!1sen!2sar!4v1760249255354!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 18:00hs',
-    'Sábado 09:00 a 13:00hs',
+    'Lunes a Viernes 9 a 12:30 y 16 a 20:30hs',
+    'Sábado 9 a 13hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://tridenteautomoviles.vercel.app/',
-  title: 'Tridente Automoviles - Compra y Venta de Autos',
+  metadataBase: 'https://mafeautomotores.vercel.app/',
+  title: 'Mafe Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

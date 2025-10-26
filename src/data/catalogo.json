@@ -1,152 +1,124 @@
 [
   {
     "id": "1",
-    "name": "Toyota Hilux SRV Cuero 4x4",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2012,
-    "kilometraje": 999999,
+    "name": "Peugeot 208 Allure",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2014,
+    "kilometraje": 120000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "3.0L",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": [
-      "1-1.webp",
-      "1-2.webp",
-      "1-3.webp",
-      "1-4.webp",
-      "1-5.webp",
-      "1-6.webp",
-      "1-7.webp",
-      "1-8.webp",
-      "1-9.webp"
-    ],
-    "descripcion": "Toyota Hilux SRV Cuero 4x4 Manual 2012\n\nImpecable estado! Para exigentes! Tomamos tu usado a mejor precio, y te financiamos la diferencia, consúltanos!"
+    "motor": "1.6L",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": ["1-1.webp", "1-2.webp", "1-3.webp", "1-4.webp", "1-5.webp"],
+    "descripcion": "🚘✨ ¡Disponible en Mafe Automotores!\nTenemos un Peugeot 208 Allure modelo 2014 con 120.000 km, una opción ideal para quienes buscan un auto confiable, moderno y económico.\n✔️ Diseño elegante y urbano\n✔️ Excelente rendimiento\n✔️ Perfecto para ciudad y ruta.\nEn Mafe Automotores seleccionamos los mejores autos usados en Pehuajó, con confianza y garantía para que elijas tu próximo vehículo sin dudas.\n📍 Visitános en Pehuajó y descubrí todas nuestras opciones."
   },
   {
     "id": "2",
-    "name": "Renault Duster 2.0 Luxe 4x4",
-    "marca": "Renault",
-    "marcaId": "renault",
+    "name": "Volkswagen Gol Trend",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
     "ano": 2013,
-    "kilometraje": 110000,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "2.0L",
+    "motor": "1.6L",
     "combustible": "Nafta",
     "puertas": 5,
-    "images": [
-      "2-1.webp",
-      "2-2.webp",
-      "2-3.webp",
-      "2-4.webp",
-      "2-5.webp",
-      "2-6.webp",
-      "2-7.webp"
-    ],
-    "descripcion": "Renault Duster 2.0 Luxe 4x4\n\nÚnico dueño! 2013\nExcelente estado! VTV 2026\nTomamos tu usado a mejor precio y te financiamos la diferencia, con crédito bancario o personal, consúltanos!"
+    "images": ["2-1.webp", "2-2.webp", "2-3.webp", "2-4.webp", "2-5.webp"],
+    "descripcion": "En Mafe Automotores tenemos disponible este Volkswagen Gol Trend 2013 ✔️\nUn clásico confiable, económico y perfecto para la ciudad o la ruta.\n💡 Ideal para quienes buscan:\n✅ Un auto en excelente estado\n✅ Bajo consumo y mantenimiento accesible\n✅ Seguridad y comodidad al mejor precio.\n👉 Lo encontrás en Pehuajó con la confianza y respaldo de Mafe Automotores.\n📍 Te asesoramos con financiación y todas las facilidades de pago.\n💬 Consultanos ahora y vení a conocerlo.\n🔑 Volkswagen Gol Trend usado 2013 en Pehuajó – Mafe Automotores\nEl auto que buscás, con la tranquilidad que necesitás"
   },
   {
     "id": "3",
-    "name": "Toyota Hilux 3.0 SR 4x4",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2010,
+    "name": "Volkswagen Amarok 180 HP Automática",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2022,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "3.0L",
+    "transmision": "Automática",
+    "motor": "2.0L Turbo",
     "combustible": "Diésel",
     "puertas": 4,
-    "images": [
-      "3-1.webp",
-      "3-2.webp",
-      "3-3.webp",
-      "3-4.webp",
-      "3-5.webp",
-      "3-6.webp",
-      "3-7.webp",
-      "3-8.webp",
-      "3-9.webp"
-    ],
-    "descripcion": "Toyota Hilux 3.0 SR 4x4 2010\n\nImpecable estado para el año!\nCubiertas nuevas! VTV 2026\nTomamos tu usado a mejor precio y te financiamos la diferencia! Consúltanos!"
+    "images": ["3-1.webp", "3-2.webp", "3-3.webp", "3-4.webp"],
+    "descripcion": "🚘 Disponible ahora:\nVolkswagen Amarok 180 HP Automática – Modelo 2022.\n💪 Potencia, tecnología y diseño que imponen.\n📍 Encontrala en Mafe Automotores.\nTu próxima aventura arranca acá. 🔑✨."
   },
   {
     "id": "4",
-    "name": "Toyota Corolla XEI Manual C/techo",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2022,
-    "kilometraje": 244,
+    "name": "Volkswagen Gol Trend",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2013,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.8L",
+    "motor": "1.6L",
     "combustible": "Nafta",
-    "puertas": 4,
-    "images": [
-      "4-1.webp",
-      "4-2.webp",
-      "4-3.webp",
-      "4-4.webp",
-      "4-5.webp",
-      "4-6.webp",
-      "4-7.webp",
-      "4-8.webp",
-      "4-9.webp"
-    ],
-    "descripcion": "Toyota Corolla XEI Manual C/techo 2022\n\nSolo 244 kms!!! Igual a nuevo!\nTomamos tu usado a mejor precio y te financiamos la diferencia, por banco o crédito personal!\nConsúltanos!"
+    "puertas": 5,
+    "images": ["4-1.webp", "4-2.webp", "4-3.webp", "4-4.webp", "4-5.webp"],
+    "descripcion": "🚘 Tu próximo auto está acá 🚘\nEn Mafe Automotores tenemos disponible este Volkswagen Gol Trend 2013 ✔️\nUn clásico confiable, económico y perfecto para la ciudad o la ruta.\n💡 Ideal para quienes buscan:\n✅ Un auto en excelente estado\n✅ Bajo consumo y mantenimiento accesible\n✅ Seguridad y comodidad al mejor precio.\n👉 Lo encontrás en Pehuajó con la confianza y respaldo de Mafe Automotores.\n📍 Te asesoramos con financiación y todas las facilidades de pago.\n💬 Consultanos ahora y vení a conocerlo.\n🔑 Volkswagen Gol Trend usado 2013 en Pehuajó – Mafe Automotores\nEl auto que buscás, con la tranquilidad que necesitás."
   },
   {
     "id": "5",
-    "name": "Peugeot 208 1.6 FELINE Tiptronic",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2024,
-    "kilometraje": 10000,
+    "name": "Fiat Cronos",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2021,
+    "kilometraje": 72000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.6L",
+    "categoria": "Sedán",
+    "transmision": "Manual",
+    "motor": "1.3L",
     "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "5-1.webp",
-      "5-2.webp",
-      "5-3.webp",
-      "5-4.webp",
-      "5-5.webp",
-      "5-6.webp",
-      "5-7.webp",
-      "5-8.webp"
-    ],
-    "descripcion": "Peugeot 208 1.6 FELINE Tiptronic 2024, solo 10000 kms!!! Igual a nuevo! El más completo! Sin detalles! Tomamos tu usado a mejor precio y te financiamos la diferencia! Consúltanos"
+    "puertas": 4,
+    "images": ["5-1.webp", "5-2.webp", "5-3.webp", "5-4.webp"],
+    "descripcion": "🔑 Un clásico argentino, listo para vos\nEn Mafe Automotores te espera un Fiat Cronos modelo 2021 con 72.000 km, un sedán que se destaca por su diseño moderno, eficiencia y confort en cada viaje.\n✔ Motor confiable y económico en consumo\n✔ Espacio interior ideal para ciudad y ruta\n✔ Solo 72.000 km, listo para seguir sumando historias.\nEl Fiat Cronos 2021 es la combinación perfecta de practicidad, estilo y rendimiento.\n📍 Vení a Mafe Automotores y descubrí por qué es uno de los autos más elegidos en Argentina."
   },
   {
     "id": "6",
-    "name": "AUDI A4 2.0T Ambition Multitronoc",
-    "marca": "Audi",
-    "marcaId": "audi",
-    "ano": 2013,
+    "name": "Nissan Frontier SE Plus 4x2",
+    "marca": "Nissan",
+    "marcaId": "nissan",
+    "ano": 2018,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Pickup",
+    "transmision": "Manual",
+    "motor": "2.5L",
+    "combustible": "Diésel",
+    "puertas": 4,
+    "images": ["6-1.webp", "6-2.webp", "6-3.webp", "6-4.webp"],
+    "descripcion": "💪 Potencia y estilo listos para la acción\nEn Mafe Automotores tenemos la Nissan Frontier SE Plus 4x2, Modelo 2018, la pick-up que combina diseño robusto, comodidad y la fuerza que necesitás para cualquier desafío.\n✔ Motor potente y confiable\n✔ Confort interior ideal para trabajo y ciudad.\nLa Nissan Frontier SE Plus 2018 es la elección perfecta para quienes buscan una camioneta que rinde tanto en la ruta como en el día a día.\n📍 Pasá por Mafe Automotores y descubrí el equilibrio ideal entre fuerza, confort y estilo."
+  },
+  {
+    "id": "7",
+    "name": "Toyota Corolla 1.8 Híbrido",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2023,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
@@ -154,194 +126,48 @@
     },
     "categoria": "Sedán",
     "transmision": "Automática",
-    "motor": "2.0L Turbo",
-    "combustible": "Nafta",
+    "motor": "1.8L Híbrido",
+    "combustible": "Híbrido",
     "puertas": 4,
-    "images": [
-      "6-1.webp",
-      "6-2.webp",
-      "6-3.webp",
-      "6-4.webp",
-      "6-5.webp",
-      "6-6.webp",
-      "6-7.webp",
-      "6-8.webp",
-      "6-9.webp",
-      "6-10.webp"
-    ],
-    "descripcion": "AUDI A4 2.0T Ambition Multitronoc 225cv 2013\n\nImpecable estado! Cubiertas nuevas! Para exigentes! Tomamos tu usado a mejor precio y te financiamos la diferencia, por Banco o personal, te esperamos!"
-  },
-  {
-    "id": "7",
-    "name": "Toyota Hilux DX Pack 4x4",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2010,
-    "kilometraje": 178000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "3.0L",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": [
-      "7-1.webp",
-      "7-2.webp",
-      "7-3.webp",
-      "7-4.webp",
-      "7-5.webp",
-      "7-6.webp",
-      "7-7.webp",
-      "7-8.webp",
-      "7-9.webp",
-      "7-10.webp"
-    ],
-    "descripcion": "Hilux DX Pack solo 178000 kms, 4x4 con un montón de accesorios, jamás usada para trabajar, sensores y cama ta trasera, estribos, lona retráctil aluminio, impecable estado! Nada para hacerle! Tomamos tu usado a mejor precio y te financiamos la diferencia , consúltanos!"
+    "images": ["7-1.webp", "7-2.webp", "7-3.webp", "7-4.webp"],
+    "descripcion": "✨ Innovación que transforma cada viaje\nEn Mafe Automotores presentamos el Toyota Corolla 1.8 Híbrido modelo 2023, la combinación perfecta de tecnología, diseño y eficiencia energética.\n✔ Motor híbrido 1.8 que reduce consumo y emisiones\n✔ Confort premium y equipamiento de última generación\n✔ Seguridad y confiabilidad Toyota en cada detalle.\nSi buscás un auto moderno, sustentable y con el respaldo de una marca líder, el Toyota Corolla 1.8 Híbrido 2023 es tu próximo destino.\n📍 Encontralo en Mafe Automotores y llevá tu manera de manejar al futuro."
   },
   {
     "id": "8",
-    "name": "Peugeot 308 Feline HDI",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2015,
-    "kilometraje": 110000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Diésel",
-    "puertas": 5,
-    "images": [
-      "8-1.webp",
-      "8-2.webp",
-      "8-3.webp",
-      "8-4.webp",
-      "8-5.webp",
-      "8-6.webp",
-      "8-7.webp",
-      "8-8.webp",
-      "8-9.webp",
-      "8-10.webp"
-    ],
-    "descripcion": "Peugeot 308 Feline HDI 2015 inmaculado! Absolutamente nada para hacerle ! 110000 kms, tomamos tu usado a mejor precio y te financiamos la diferencia! Consúltanos"
-  },
-  {
-    "id": "9",
-    "name": "Toyota Rav 4 2.5 CVT",
+    "name": "Toyota Corolla XEi Automático",
     "marca": "Toyota",
     "marcaId": "toyota",
-    "ano": 2013,
-    "kilometraje": 110000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.5L",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "9-1.webp",
-      "9-2.webp",
-      "9-3.webp",
-      "9-4.webp",
-      "9-5.webp",
-      "9-6.webp",
-      "9-7.webp",
-      "9-8.webp",
-      "9-9.webp"
-    ],
-    "descripcion": "Toyota Rav 4 2.5 CVT 2013 , Impecable estado! Solo 110000 kms! Tomamos tu usado a mejor precio, y te financiamos la diferencia, consúltanos!"
-  },
-  {
-    "id": "10",
-    "name": "Renault Sandero Stepway Zen",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2021,
-    "kilometraje": 4600,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "10-1.webp",
-      "10-2.webp",
-      "10-3.webp",
-      "10-4.webp",
-      "10-5.webp",
-      "10-6.webp",
-      "10-7.webp",
-      "10-8.webp"
-    ],
-    "descripcion": "Renault Sandero Stepway Zen  2021 Solo 4600 kms!!! Igual a 0km! Tomamos tu usado a mejor precio y te financiamos la diferencia, consúltanos !"
-  },
-  {
-    "id": "11",
-    "name": "Toyota Hilux SR 3.0 TD 4x4",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2004,
+    "ano": 2019,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "3.0L Turbo",
-    "combustible": "Diésel",
+    "categoria": "Sedán",
+    "transmision": "Automática",
+    "motor": "1.8L",
+    "combustible": "Nafta",
     "puertas": 4,
-    "images": [
-      "11-1.webp",
-      "11-2.webp",
-      "11-3.webp",
-      "11-4.webp",
-      "11-5.webp",
-      "11-6.webp",
-      "11-7.webp",
-      "11-8.webp",
-      "11-9.webp",
-      "11-10.webp"
-    ],
-    "descripcion": "Toyota Hilux SR 3.0 TD 4x4 2004 Impecable! Excelente camioneta ! Usada como auto! Lona nueva, VTV 2026 , cubiertas nuevas! para exigentes! Vení a verla , te tomamos tu vehículo a mejor precio y te financiamos la diferencia! Consúltanos!"
+    "images": ["8-1.webp", "8-2.webp", "8-3.webp", "8-4.webp", "8-5.webp"],
+    "descripcion": "🔑 Elegancia, confort y confianza en un solo auto\nEn Mafe Automotores tenemos el Toyota Corolla XEi automático modelo 2019, un clásico que combina diseño, tecnología y seguridad japonesa en cada detalle.\n✔ Motor confiable y eficiente\n✔ Transmisión automática para un manejo ágil y cómodo\n✔ Confort interior pensado para cada viaje.\nSi buscás un auto que nunca pase de moda y te acompañe en la ciudad o en la ruta, el Toyota Corolla XEi automático 2019 es tu mejor opción.\n📍 Encontralo en Mafe Automotores y descubrí por qué el Corolla sigue siendo un referente en Argentina."
   },
   {
-    "id": "12",
-    "name": "Toyota Hilux SRV Automática 4x4",
-    "marca": "Toyota",
-    "marcaId": "toyota",
+    "id": "9",
+    "name": "Renault Kangoo Furgón",
+    "marca": "Renault",
+    "marcaId": "renault",
     "ano": 2023,
-    "kilometraje": 0,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "2.8L Turbo",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": [
-      "12-1.webp",
-      "12-2.webp",
-      "12-3.webp",
-      "12-4.webp",
-      "12-5.webp",
-      "12-6.webp"
-    ],
-    "descripcion": "Toyota Hilos SRV Automática 4x4 2023 0km!\n\nTomamos tu usado a mejor precio! Y te financiamos la diferencia! Consúltanos!"
+    "categoria": "Utilitario",
+    "transmision": "Manual",
+    "motor": "1.6L",
+    "combustible": "Nafta",
+    "puertas": 3,
+    "images": ["9-1.webp", "9-2.webp", "9-3.webp", "9-4.webp"],
+    "descripcion": "Disponible: Renault Kangoo Furgón 2023 en Mafe Automotores\nEspacio, confort y potencia en un solo vehículo.\nIdeal para tu negocio, perfecta para tu día a día.\n📍 Te esperamos en José Hernández 365."
   }
 ]
