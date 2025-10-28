@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: true,
+  favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'taffiferreautomoviles',
-  name: 'Taffi Ferre Automoviles',
-  adress: 'Av. España 826',
-  city: 'Luján',
-  email: 'taffi.ferre.automoviles@gmail.com',
-  instagram: 'taffi.ferre.automoviles',
-  facebook: 'https://www.facebook.com/profile.php?id=100063644722121',
-  whatsapp: ['1123202236', '1132180572', '2323201443'],
-  googlemapsLink: 'https://maps.app.goo.gl/P4AgdjwxDhzzv7ui7',
+  id: 'sanvicenteautomotores',
+  name: 'San Vicente Automotores',
+  adress: 'Av. H. Yrigoyen 7802',
+  city: 'Banfield',
+  email: null,
+  instagram: 'sanvicenteautomotores',
+  facebook: 'https://www.facebook.com/profile.php?id=61576298228611',
+  whatsapp: ['1121701235'],
+  googlemapsLink: 'https://maps.app.goo.gl/N3CsWsEPPTCP4LCYA',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.271056865875!2d-59.11224055068984!3d-34.57200739073033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc7d8324fd37cb%3A0x295e0d25d0ae5970!2sTAFFI%20%26%20FERRE%20AUTOMOVILES!5e0!3m2!1ses!2sar!4v1761619336200!5m2!1ses!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.364760965001!2d-58.40195802289252!3d-34.746403265050034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd2df37af17483%3A0x69d0a8c83b6c06ad!2sSan%20Vicente%20Autos!5e0!3m2!1ses!2sar!4v1761655233803!5m2!1ses!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 19:00hs',
-    'Sábado 09:00 a 13:00hs',
+    'Lunes a Viernes 10:00 a 19:00hs',
+    'Sábado 10:00 a 15:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://taffiferreautomoviles.vercel.app/',
-  title: 'Taffi Ferre Automoviles - Compra y Venta de Autos',
+  metadataBase: 'https://sanvicenteautomotores.vercel.app/',
+  title: 'San Vicente Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

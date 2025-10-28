@@ -1,20 +1,50 @@
 [
   {
     "id": "1",
-    "name": "VW Saveiro 1.6 Cabina Simple",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2016,
-    "kilometraje": 999999,
+    "name": "Jeep Compass 2.0 TD AT9 4x4 Limited Plus",
+    "marca": "Jeep",
+    "marcaId": "jeep",
+    "ano": 2021,
+    "kilometraje": 74000,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Pickup",
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.0L Turbo Diésel",
+    "combustible": "Diésel",
+    "puertas": 5,
+    "images": [
+      "1-1.webp",
+      "1-2.webp",
+      "1-3.webp",
+      "1-4.webp",
+      "1-5.webp",
+      "1-6.webp",
+      "1-7.webp",
+      "1-8.webp",
+      "1-9.webp",
+      "1-10.webp"
+    ],
+    "descripcion": "🔥 Jeep Compass 2.0 TD AT9 4x4 Limited Plus 🔥\n📆 Año: 2021\n📍 74.000 km\n\nPotencia, elegancia y tecnología, todo en un solo SUV 💪🚙\n\nMotor 2.0 turbodiésel — 170 CV / 350 Nm\n⚙️ Caja automática de 9 velocidades\n🧭 Tracción 4x4 inteligente con modos de terreno\n🛞 Suspensión firme + gran despeje al suelo (21 cm)\n💺 Tapizado en cuero, climatizador bi-zona\n📱 Pantalla táctil 8.4″ con Android Auto / Apple CarPlay\n☀️ Techo panorámico doble\n🛡️ 7 airbags + ESP + cámara trasera + sensores\n\n✨ Premium, potente y lista para todo camino.\nEstado impecable ✅\n\n📲 Consultanos: 11 2170 1235\nSeguínos 👉 San Vicente Automotores\nTiktok | Facebook | Instagram"
+  },
+  {
+    "id": "2",
+    "name": "Fiat Palio Essence 1.6 16v",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2015,
+    "kilometraje": 85500,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.6L",
+    "motor": "1.6L 16v",
     "combustible": "Nafta",
-    "puertas": 2,
+    "puertas": 5,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -23,24 +53,30 @@
       "2-5.webp",
       "2-6.webp",
       "2-7.webp",
-      "2-8.webp"
+      "2-8.webp",
+      "2-9.webp",
+      "2-10.webp",
+      "2-11.webp",
+      "2-12.webp",
+      "2-13.webp",
+      "2-1.webp"
     ],
-    "descripcion": "VW SAVEIRO AÑO 2016\nNAFTA 1.6 CABINA SIMPLE\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
+    "descripcion": "✨ Fiat Palio Essence 1.6 16v 2015\n— 85.500 km ✨\n\nUn clásico moderno, confiable y ágil.\nMotor 1.6 de 115 CV, bajo consumo y toda la comodidad que buscás en un auto urbano.\n\n🚗 Caja manual de 5 velocidades\n🔋 Consumo eficiente: ~6 L/100 km en ruta\n🛞 Dirección eléctrica + ABS + Airbags\n🎵 Bluetooth, USB, AUX y cierre centralizado\n🌡️ Aire acondicionado y volante regulable\n\nPerfecto para moverte todos los días con estilo y seguridad.\nMecánica excelente y 86.000 km reales ✅\n\n💬 ¿Qué esperás para hacerlo tuyo?\n📱 Contactate al 11 2170 1235\n📲 Seguínos en nuestras redes:\nTiktok | Facebook | Instagram 👉 San Vicente Automotores"
   },
   {
-    "id": "2",
-    "name": "Ford Kuga SEL EcoBoost EcoNet",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2014,
-    "kilometraje": 999999,
+    "id": "3",
+    "name": "Renault Kwid Iconic Bitono",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2024,
+    "kilometraje": 0,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "2.0L EcoBoost",
+    "motor": "1.0L SCe",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -55,56 +91,27 @@
       "3-9.webp",
       "3-10.webp",
       "3-11.webp",
-      "3-12.webp"
+      "3-12.webp",
+      "3-13.webp"
     ],
-    "descripcion": "FORD KUGA SEL ECOBOOST ECONET\nAÑO 2014 NAFTA MANUAL\nRURAL 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
-  },
-  {
-    "id": "3",
-    "name": "Fiat Siena EL 1.4",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2013,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "1.4L",
-    "combustible": "Nafta",
-    "puertas": 4,
-    "images": [
-      "4-1.webp",
-      "4-2.webp",
-      "4-3.webp",
-      "4-4.webp",
-      "4-5.webp",
-      "4-6.webp",
-      "4-7.webp",
-      "4-8.webp",
-      "4-9.webp",
-      "4-10.webp"
-    ],
-    "descripcion": "FIAT SIENA EL\nAÑO 2013 NAFTA 1.4\nSEDAN 4 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
+    "descripcion": "🚗 Renault Kwid Iconic Bitono\n✨ Motor y rendimiento\n\n🔹 Motor 1.0 SCe naftero, 3 cilindros\n🔹 Potencia: 66 CV\n🔹 Torque: 93 Nm\n🔹 Caja manual de 5 velocidades\n🔹 Tracción delantera\n\n⚙️ Consumo eficiente\n⛽ Urbano: ~6,7 L/100 km\n🛣️ Ruta: ~5,0 L/100 km\n💰 ¡Económico y pensado para tu día a día!\n\n📏 Dimensiones y capacidades\n📦 Capacidad de baúl: 290 L (¡ampliable a 1.100 L con asientos rebatidos!)\n🛢️ Tanque: 38 L\n🚶‍♂️ Peso: 780 kg aprox.\n📏 Largo: 3.731 mm | Ancho: 1.579 mm | Alto: 1.490 mm\n🌄 Despeje al suelo: 18 cm\n\n🎨 Diseño y estilo\n✨ Techo bitono con detalles exclusivos Iconic\n💎 Llantas de aleación diamantadas\n💡 Luces LED DRL\n🚪 Manijas color carrocería y detalles cromados\n\n🛡️ Seguridad y tecnología\n💨 4 airbags (frontales y laterales delanteros)\n🛞 ABS + EBD\n⚙️ Control de estabilidad (ESP) y asistente de arranque en pendiente (HSA)\n📱 Pantalla táctil Media Evolution 8'' con Android Auto & Apple CarPlay inalámbrico\n🎙️ Cámara de retroceso y sensores traseros\n🔑 Llave inteligente / arranque por botón\n\n🌟 Compacto, moderno y listo para todo.\nEl nuevo Kwid Iconic Bitono combina estilo, seguridad y bajo consumo para que te muevas con libertad.\n\n📱 Contactanos: 11 2170 1235\nSeguinos 👇\n🎥 TikTok: San Vicente Automotores\n📘 Facebook: San Vicente Automotores\n📸 Instagram: @sanvicenteautomotores"
   },
   {
     "id": "4",
-    "name": "Fiat Fiorino 1.4 Furgoneta",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2015,
-    "kilometraje": 999999,
+    "name": "Renault Kardian Techno",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2024,
+    "kilometraje": 0,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "1.4L",
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "1.0L Turbo TCe",
     "combustible": "Nafta",
-    "puertas": 3,
+    "puertas": 5,
     "images": [
       "5-1.webp",
       "5-2.webp",
@@ -117,22 +124,59 @@
       "5-9.webp",
       "5-10.webp"
     ],
-    "descripcion": "FIAT FIORINO\nAÑO 2015 NAFTA 1.4\nFURGONETA\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
+    "descripcion": "|Renault Kardian Techno 0km| 🔥👏🏻\n\nMotor, performance y transmisión\nMotor naftero 1.0 L turbo TCe, 3 cilindros\nPotencia: 120 CV @ 5 000 rpm\nTorque: 200 Nm @ 1 750 rpm\nTransmisión automática de doble embrague EDC de 6 velocidades\nVelocidad máxima: alrededor de 180 km/h\nAceleración 0–100 km/h: unos 10,9 s\n\nEquipamiento y Confort\nAire acondicionado climatizador digital\nPalanca e-shifter (selector electrónico estilo joystick) y freno de mano eléctrico\nVolante multifunción regulable en altura y profundidad, con levas\nTablero digital de 7\"\nPantalla multimedia de 8\" con Apple CarPlay y Android Auto (inalámbricos)\nCargador inalámbrico de smartphones\n2 puertos USB-C traseros, 6 parlantes\nConsola elevada con apoyabrazos, tapizados en TEP o tela\n\nSeguridad y ADAS\n6 airbags (frontales, laterales y de cortina)\nABS, HSA (asistente de arranque), control de estabilidad (ESP), alerta de presión de neumáticos\nFreno de estacionamiento eléctrico, autodetección de seguridad (distancia segura), AEBS (frenado autónomo de emergencia), alerta de colisión frontal\n\nDiseño y dimensiones\nLlantas de aleación diamantadas bitono de 17\"\nBarras de techo modulares, spoiler trasero, iluminación LED completa\nLongitud: ~4 119 mm; ancho: ~1 773 mm (sin espejos); alto: ~1 544 mm; distancia entre ejes: ~2 604 mm\nBaúl: ~410 L; despeje: ~209 mm; tanque: 50 L\n\n--¿QUE ESPERAS PARA SUBIRTE A TU PRÓXIMO 0KM?💪🏻⚡️...\nCONTACTANOS AL 📲11 2170 1235\n¡SEGUÍNOS EN NUESTRAS REDES SOCIALES!\nFb: San Vicente Automotores\nTikTok: sanvicenteautomotores"
   },
   {
     "id": "5",
-    "name": "Kia Sportage EX 2.0",
-    "marca": "Kia",
-    "marcaId": "kia",
-    "ano": 2015,
+    "name": "Ford Maverick Lariat 2.0L 4×4 AT",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2023,
     "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Pickup",
     "transmision": "Automática",
-    "motor": "2.0L",
+    "motor": "2.0L EcoBoost Turbo",
+    "combustible": "Nafta",
+    "puertas": 4,
+    "images": [
+      "4-1.webp",
+      "4-2.webp",
+      "4-3.webp",
+      "4-4.webp",
+      "4-5.webp",
+      "4-6.webp",
+      "4-7.webp",
+      "4-8.webp",
+      "4-9.webp",
+      "4-10.webp",
+      "4-11.webp",
+      "4-12.webp",
+      "4-13.webp",
+      "4-14.webp",
+      "4-15.webp",
+      "4-16.webp",
+      "4-17.webp"
+    ],
+    "descripcion": "|Ford Maverick Lariat 2.0L 4×4 AT| [VENDIDA✖️]\n\nTipo: Naftero, EcoBoost 2.0L turbo, 4 cilindros en línea\nCilindrada: 1.999 cm³\nPotencia: 253 CV a 5.500 rpm\nTorque: 380 Nm a 3.000 rpm\nInyección: directa\n\n---Transmisión y Tracción\nCaja de cambios: automática de 8 velocidades, con convertidor de par\nTracción: 4×4 permanente/inteligente (versión Lariat lleva tracción 4×4)\n\n---Prestaciones y Consumos\nAceleración 0-100 km/h: ~6,7 segundos\nVelocidad máxima: aprox. 175 km/h (estimado o rondando ese valor)\nConsumo urbano: ~ 13,1 L/100 km\nConsumo a 100 km/h en ruta: ~ 6,7 L/100 km\nConsumo a 130 km/h: ~ 9,7 L/100 km\n\n---Dimensiones y Capacidades\nCapacidad del tanque de combustible: 64 litros\nPeso (vehículo en vacío o equipado): aprox. 1.748 kg\nCapacidad de carga útil: ~ 613 kg\nLargo / ancho / alto: ~ 5.072 mm / 1.979 mm / 1.745 mm\nDistancia entre ejes: ~ 3.076 mm\nDespeje al suelo: ~ 21,8 cm\n\n---Equipamiento y Seguridad\nAirbags: al menos 7 airbags en versiones de este rango.\nFrenos: discos ventilados delanteros, discos traseros; frenos en las 4 ruedas\nABS + EBD (distribución electrónica de frenado)\nAsistencias: control de descenso, modos de manejo off-road (\"arena, barro, resbaladizo, remolque, normal\")\nElementos de confort y comunicación: climatizador automático bi-zona; volante forrado en cuero; equipo multimedia con pantalla táctil con SYNC; Apple CarPlay y Android Auto; llave inteligente / arranque sin llave; cámara trasera; sensores de estacionamiento; etc.\n\n....¿Qué esperas para hacer tu próximo gran cambio? Contáctanos 📱11 2170 1235\nSeguínos en nuestras redes:\nTiktok: San Vicente Automotores\nFb: San Vicente Automotores\nIg: San Vicente Automotores"
+  },
+  {
+    "id": "6",
+    "name": "Renault Kwid Outsider 1.0",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2024,
+    "kilometraje": 0,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.0L SCe",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -145,130 +189,14 @@
       "6-7.webp",
       "6-8.webp",
       "6-9.webp",
-      "6-10.webp"
+      "6-10.webp",
+      "6-11.webp",
+      "6-12.webp",
+      "6-13.webp",
+      "6-14.webp",
+      "6-15.webp",
+      "6-16.webp"
     ],
-    "descripcion": "KIA SPORTAGE EX\nAÑO 2015 NAFTA 2.0\nAUTOMATICA RURAL 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
-  },
-  {
-    "id": "6",
-    "name": "Peugeot 308 Allure Nav 1.6",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2015,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "7-1.webp",
-      "7-2.webp",
-      "7-3.webp",
-      "7-4.webp",
-      "7-5.webp",
-      "7-6.webp",
-      "7-7.webp",
-      "7-8.webp",
-      "7-9.webp",
-      "7-10.webp"
-    ],
-    "descripcion": "PEUGEOT 308 ALLURE NAV\nAÑO 2015 NAFTA 1.6\nSEDAN 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
-  },
-  {
-    "id": "7",
-    "name": "Peugeot 208 Allure Tiptronic 1.6",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2022,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.6L",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "8-1.webp",
-      "8-2.webp",
-      "8-3.webp",
-      "8-4.webp",
-      "8-5.webp",
-      "8-6.webp",
-      "8-7.webp",
-      "8-8.webp",
-      "8-9.webp",
-      "8-10.webp",
-      "8-11.webp"
-    ],
-    "descripcion": "PEUGEOT 208 ALLURE TIPTRONIC\nAÑO 2022 NAFTA 1.6\nSEDAN 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
-  },
-  {
-    "id": "8",
-    "name": "Peugeot 207 Compact XS 1.4",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2012,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.4L",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "9-1.webp",
-      "9-2.webp",
-      "9-3.webp",
-      "9-4.webp",
-      "9-5.webp",
-      "9-6.webp",
-      "9-7.webp",
-      "9-8.webp",
-      "9-9.webp",
-      "9-10.webp"
-    ],
-    "descripcion": "PEUGEOT 207 COMPACT XS\nAÑO 2012 NAFTA 1.4\nSEDAN 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
-  },
-  {
-    "id": "9",
-    "name": "Ford Focus S 1.6",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2015,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "10-1.webp",
-      "10-2.webp",
-      "10-3.webp",
-      "10-4.webp",
-      "10-5.webp",
-      "10-6.webp",
-      "10-7.webp",
-      "10-8.webp",
-      "10-9.webp",
-      "10-10.webp",
-      "10-11.webp"
-    ],
-    "descripcion": "FORD FOCUS S\nAÑO 2015 NAFTA 1.6\nSEDAN 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
+    "descripcion": "|Renault Kwid Outsider 1.0| 😎🔥\n\nMotor:\n1.0L SCe 3 cilindros, 12 válvulas\nPotencia: 66 CV (nafta) / 70 CV (etanol)\nTorque: 93 Nm\nCaja manual de 5 velocidades\nVelocidad máxima aproximada: 155–160 km/h\n\nEquipamiento y Seguridad:\nFrenos ABS con repartidor electrónico (EBD)\nControl electrónico de estabilidad (ESP)\nAsistente de arranque en pendiente (HSA)\n4 airbags (2 frontales y 2 laterales)\nAnclajes ISOFIX para sillas infantiles\nCámara de visión trasera\nSensores de estacionamiento trasero\nAlarma antirrobo\nLimitador de velocidad\nToma 12V delantera\nLuces diurnas LED (DRL)\n\nCaracterísticas:\nLevantavidrios eléctricos delanteros\nVolante multifunción con ajuste de altura\nEspejos retrovisores manuales (no térmicos)\nSistema multimedia Media Evolution con pantalla táctil de 8\" y conectividad inalámbrica (Apple CarPlay / Android Auto)\nBarras de techo y diseño aventurero exclusivo Outsider\n\nConfia en lo que te lleva mas lejos, elegí Kwid Outsider. 💪🏻...\n\nCONTACTANOS YA POR TU PROXIMO VEHICULO📲11 2170 1235\n¡Seguinos en nuestras redes!\nTikTok: sanvicentrautomotores\nFb: San Vicente Automotores"
   }
 ]
