@@ -1,48 +1,20 @@
 [
   {
     "id": "1",
-    "name": "Renault Captur Intens 2.0 Nafta C/Gnc",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2018,
-    "kilometraje": 135000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "2.0L",
-    "combustible": "Nafta/GNC",
-    "puertas": 5,
-    "images": [
-      "1-1.webp",
-      "1-2.webp",
-      "1-3.webp",
-      "1-4.webp",
-      "1-5.webp",
-      "1-6.webp",
-      "1-7.webp",
-      "1-8.webp"
-    ],
-    "descripcion": "Renault Captur Intens, 2.0 nafta c/gnc, año 2018, km 135.000, full, excelente estado, cubiertas nuevas, pernuto, financio solo con dni, whatsaap 2916425459."
-  },
-  {
-    "id": "2",
-    "name": "Peugeot 308 Feline 1.6 Nafta Thp",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
+    "name": "VW Saveiro 1.6 Cabina Simple",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
     "ano": 2016,
-    "kilometraje": 75000,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Pickup",
     "transmision": "Manual",
-    "motor": "1.6L Turbo",
+    "motor": "1.6L",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 2,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -53,50 +25,56 @@
       "2-7.webp",
       "2-8.webp"
     ],
-    "descripcion": "Vendo, Peugeot 308 Feline, 1.6 nafta thp, año 2016, km 75.000, camara, pantalla, excelente estado, permuto financio solo con dni, consulta, whatsaap 2916425459"
+    "descripcion": "VW SAVEIRO AÑO 2016\nNAFTA 1.6 CABINA SIMPLE\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
   },
   {
-    "id": "3",
-    "name": "Fiat Siena Essence 1.6n C/Gnc",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2012,
-    "kilometraje": 150000,
+    "id": "2",
+    "name": "Ford Kuga SEL EcoBoost EcoNet",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2014,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Sedán",
+    "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Nafta/GNC",
-    "puertas": 4,
+    "motor": "2.0L EcoBoost",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "3-1.webp",
       "3-2.webp",
       "3-3.webp",
       "3-4.webp",
       "3-5.webp",
-      "3-6.webp"
+      "3-6.webp",
+      "3-7.webp",
+      "3-8.webp",
+      "3-9.webp",
+      "3-10.webp",
+      "3-11.webp",
+      "3-12.webp"
     ],
-    "descripcion": "Vendo, Fiat Siena Essence 1.6n, c/gnc, año 2012, km 150.000, cadenero, vtv, muy buen estado, permuto, financio solo con dni, whatsaap 2916425459"
+    "descripcion": "FORD KUGA SEL ECOBOOST ECONET\nAÑO 2014 NAFTA MANUAL\nRURAL 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
   },
   {
-    "id": "4",
-    "name": "Peugeot 308 Allure HDI",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2014,
-    "kilometraje": 82000,
+    "id": "3",
+    "name": "Fiat Siena EL 1.4",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2013,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "1.6L HDI",
-    "combustible": "Diésel",
-    "puertas": 5,
+    "motor": "1.4L",
+    "combustible": "Nafta",
+    "puertas": 4,
     "images": [
       "4-1.webp",
       "4-2.webp",
@@ -104,26 +82,29 @@
       "4-4.webp",
       "4-5.webp",
       "4-6.webp",
-      "4-7.webp"
+      "4-7.webp",
+      "4-8.webp",
+      "4-9.webp",
+      "4-10.webp"
     ],
-    "descripcion": "Vendo, Peugeot 308 Allure HDI, año 2014, km 82.000, excelente estado, permuto, financio solo con dni, consulta, whatsaap 2916425459"
+    "descripcion": "FIAT SIENA EL\nAÑO 2013 NAFTA 1.4\nSEDAN 4 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
   },
   {
-    "id": "5",
-    "name": "VW Nivus Comfortline 200 Tsi",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2021,
-    "kilometraje": 19500,
+    "id": "4",
+    "name": "Fiat Fiorino 1.4 Furgoneta",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2015,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "2.0L Turbo",
+    "categoria": "Utilitario",
+    "transmision": "Manual",
+    "motor": "1.4L",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 3,
     "images": [
       "5-1.webp",
       "5-2.webp",
@@ -133,45 +114,57 @@
       "5-6.webp",
       "5-7.webp",
       "5-8.webp",
-      "5-9.webp"
+      "5-9.webp",
+      "5-10.webp"
     ],
-    "descripcion": "Vendo, VW Nivus Comfortline 200 Tsi, automat. Año 2021, km 19.500, excelente estado, permuto, financio solo con dni, consulta, whatsaap 2916425459"
+    "descripcion": "FIAT FIORINO\nAÑO 2015 NAFTA 1.4\nFURGONETA\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
+  },
+  {
+    "id": "5",
+    "name": "Kia Sportage EX 2.0",
+    "marca": "Kia",
+    "marcaId": "kia",
+    "ano": 2015,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.0L",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "6-1.webp",
+      "6-2.webp",
+      "6-3.webp",
+      "6-4.webp",
+      "6-5.webp",
+      "6-6.webp",
+      "6-7.webp",
+      "6-8.webp",
+      "6-9.webp",
+      "6-10.webp"
+    ],
+    "descripcion": "KIA SPORTAGE EX\nAÑO 2015 NAFTA 2.0\nAUTOMATICA RURAL 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
   },
   {
     "id": "6",
-    "name": "Peugeot 408 Allure Plus 1.6thp",
+    "name": "Peugeot 308 Allure Nav 1.6",
     "marca": "Peugeot",
     "marcaId": "peugeot",
-    "ano": 2016,
-    "kilometraje": 65000,
+    "ano": 2015,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "1.6L Turbo",
+    "motor": "1.6L",
     "combustible": "Nafta",
-    "puertas": 4,
-    "images": ["6-1.webp", "6-2.webp", "6-3.webp", "6-4.webp", "6-5.webp"],
-    "descripcion": "Vendo Peugeot 408 Allure Plus, 1.6thp, año 2016, full, km 65.000, pantalla, camara, cubiertas nuevas, permuto, financio solo con dni, whatsaap 2916425459"
-  },
-  {
-    "id": "7",
-    "name": "VW Amarok Higland Pack 180hp",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2020,
-    "kilometraje": 79000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "2.0L Turbo",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "7-1.webp",
       "7-2.webp",
@@ -180,23 +173,25 @@
       "7-5.webp",
       "7-6.webp",
       "7-7.webp",
-      "7-8.webp"
+      "7-8.webp",
+      "7-9.webp",
+      "7-10.webp"
     ],
-    "descripcion": "Vendo, Vw Amarok Higland Pack, 180hp, automat. Full, 4x2 año 2020, km 79.000, excelente estado, permuto, financio solo con dni, consulta, whatsaap 2916425459"
+    "descripcion": "PEUGEOT 308 ALLURE NAV\nAÑO 2015 NAFTA 1.6\nSEDAN 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
   },
   {
-    "id": "8",
-    "name": "Ford Focus S 1.6nafta",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2015,
-    "kilometraje": 200000,
+    "id": "7",
+    "name": "Peugeot 208 Allure Tiptronic 1.6",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2022,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
-    "transmision": "Manual",
+    "transmision": "Automática",
     "motor": "1.6L",
     "combustible": "Nafta",
     "puertas": 5,
@@ -206,17 +201,52 @@
       "8-3.webp",
       "8-4.webp",
       "8-5.webp",
-      "8-6.webp"
+      "8-6.webp",
+      "8-7.webp",
+      "8-8.webp",
+      "8-9.webp",
+      "8-10.webp",
+      "8-11.webp"
     ],
-    "descripcion": "Ford Focus S, 1.6nafta, año 2015, km 200.000, cubiertas nuevas, vtv, permuto, financio solo con dni, consulta, whataaap 2916425459"
+    "descripcion": "PEUGEOT 208 ALLURE TIPTRONIC\nAÑO 2022 NAFTA 1.6\nSEDAN 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
+  },
+  {
+    "id": "8",
+    "name": "Peugeot 207 Compact XS 1.4",
+    "marca": "Peugeot",
+    "marcaId": "peugeot",
+    "ano": 2012,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.4L",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "9-1.webp",
+      "9-2.webp",
+      "9-3.webp",
+      "9-4.webp",
+      "9-5.webp",
+      "9-6.webp",
+      "9-7.webp",
+      "9-8.webp",
+      "9-9.webp",
+      "9-10.webp"
+    ],
+    "descripcion": "PEUGEOT 207 COMPACT XS\nAÑO 2012 NAFTA 1.4\nSEDAN 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
   },
   {
     "id": "9",
-    "name": "VW Suran Confort 1.6n",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2014,
-    "kilometraje": 103000,
+    "name": "Ford Focus S 1.6",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2015,
+    "kilometraje": 999999,
     "precio": {
       "valor": 999999,
       "moneda": "ARS"
@@ -227,96 +257,18 @@
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
-      "9-1.webp",
-      "9-2.webp",
-      "9-3.webp",
-      "9-4.webp",
-      "9-5.webp",
-      "9-6.webp"
-    ],
-    "descripcion": "Vendo, VW Suran Confort 1.6n. Año 2014, km 103.000, excelente estado, permuto, financio solo con dni, whatsaap 2916425459"
-  },
-  {
-    "id": "10",
-    "name": "Audi A4 2.0T Quattro",
-    "marca": "Audi",
-    "marcaId": "audi",
-    "ano": 2013,
-    "kilometraje": 129000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Sedán",
-    "transmision": "Manual",
-    "motor": "2.0L Turbo",
-    "combustible": "Nafta",
-    "puertas": 4,
-    "images": [
       "10-1.webp",
       "10-2.webp",
       "10-3.webp",
       "10-4.webp",
       "10-5.webp",
       "10-6.webp",
-      "10-7.webp"
+      "10-7.webp",
+      "10-8.webp",
+      "10-9.webp",
+      "10-10.webp",
+      "10-11.webp"
     ],
-    "descripcion": "Vendo, Audi A4, 2.0T, Quattro, año 2013, km 129.000, full, cuero, cubiertas nuevas, permuto, financio solo con dni, consulta. whatsaap 2916425459"
-  },
-  {
-    "id": "11",
-    "name": "VW Amarok Starline 140hp 4x2",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2016,
-    "kilometraje": 220000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "2.0L",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": [
-      "11-1.webp",
-      "11-2.webp",
-      "11-3.webp",
-      "11-4.webp",
-      "11-5.webp",
-      "11-6.webp",
-      "11-7.webp",
-      "11-8.webp"
-    ],
-    "descripcion": "Vendo, VW Amarok Starline 140hp, 4x2, año 2016, km 220.000, excelente estado, cobertor, estribos, permuto, financio solo con dni, consulta, whastaap 2916425459"
-  },
-  {
-    "id": "12",
-    "name": "VW Amarok Extreme V6 4x4",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2020,
-    "kilometraje": 100000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "3.0L V6",
-    "combustible": "Diésel",
-    "puertas": 4,
-    "images": [
-      "12-1.webp",
-      "12-2.webp",
-      "12-3.webp",
-      "12-4.webp",
-      "12-5.webp",
-      "12-6.webp",
-      "12-7.webp",
-      "12-8.webp"
-    ],
-    "descripcion": "Vendo, VW Amarok Extreme V6, full, año 2020, km 100.000, automatic, 4x4, cuero, cubiertas nuevas, permuto, financio solo con dni, consulta, whatsaap 2916425459"
+    "descripcion": "FORD FOCUS S\nAÑO 2015 NAFTA 1.6\nSEDAN 5 PUERTAS\n\n11 2320223611\n321805722323\n201443\ntaffi.ferre.automoviles@gmail.com"
   }
 ]
