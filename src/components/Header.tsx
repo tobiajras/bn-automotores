@@ -34,7 +34,7 @@ const Header = () => {
               <>
                 <Image
                   priority
-                  className='w-[65px] h-[65px] sm:w-[70px] sm:h-[70px] lg:w-[75px] lg:h-[75px] object-contain'
+                  className='w-[90px] h-[90px] sm:w-[100px] sm:h-[100px] lg:w-[110px] lg:h-[110px] object-contain'
                   // className={`w-[65px] h-[65px] sm:w-[70px] sm:h-[70px] lg:w-[75px] lg:h-[75px] ring-[1.5px] ${
                   //   company.darkmode
                   //     ? 'ring-color-bg-primary'

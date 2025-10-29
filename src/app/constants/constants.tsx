@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: false,
+  favicon: true,
   price: false,
   objectCover: '50%',
-  id: 'sanvicenteautomotores',
-  name: 'San Vicente Automotores',
-  adress: 'Av. H. Yrigoyen 7802',
-  city: 'Banfield',
-  email: null,
-  instagram: 'sanvicenteautomotores',
-  facebook: 'https://www.facebook.com/profile.php?id=61576298228611',
-  whatsapp: ['1121701235'],
-  googlemapsLink: 'https://maps.app.goo.gl/N3CsWsEPPTCP4LCYA',
+  id: 'latinautos',
+  name: 'Latin Autos',
+  adress: 'Duarte Quiros 4875',
+  city: 'Córdoba',
+  email: 'latinautos@outlook.com',
+  instagram: 'latin_autos',
+  facebook: 'https://www.facebook.com/latinautoscba/',
+  whatsapp: ['3515054000'],
+  googlemapsLink: 'https://maps.app.goo.gl/fK7qff1NHVmdzRk19',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.364760965001!2d-58.40195802289252!3d-34.746403265050034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd2df37af17483%3A0x69d0a8c83b6c06ad!2sSan%20Vicente%20Autos!5e0!3m2!1ses!2sar!4v1761655233803!5m2!1ses!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.5407219532594!2d-64.2453814!3d-31.3992251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a383976c3233%3A0xd5eb2becd856d5d1!2sLATIN%20AUTOS!5e0!3m2!1sen!2sar!4v1761691919968!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 10:00 a 19:00hs',
-    'Sábado 10:00 a 15:00hs',
+    'Lunes a Viernes 9 a 13 y 14:30 a 18:30hs',
+    'Sábado y Domingo Cerrado',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://sanvicenteautomotores.vercel.app/',
-  title: 'San Vicente Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://latinautos.vercel.app/',
+  title: 'Latin Autos - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
