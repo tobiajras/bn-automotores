@@ -5,20 +5,21 @@ export const company = {
   favicon: true,
   price: false,
   objectCover: '50%',
-  id: 'latinautos',
-  name: 'Latin Autos',
-  adress: 'Duarte Quiros 4875',
-  city: 'Córdoba',
-  email: 'latinautos@outlook.com',
-  instagram: 'latin_autos',
-  facebook: 'https://www.facebook.com/latinautoscba/',
-  whatsapp: ['3515054000'],
-  googlemapsLink: 'https://maps.app.goo.gl/fK7qff1NHVmdzRk19',
+  id: 'puntocero',
+  name: 'Punto Cero',
+  adress: 'Colectora Este Km 48.5',
+  city: 'Escobar',
+  email: 'puntocero@gmail.com',
+  instagram: 'automotores_puntocero',
+  facebook:
+    'https://www.facebook.com/p/Automotores-Punto-Cero-100057396620333/',
+  whatsapp: ['1153051560'],
+  googlemapsLink: 'https://maps.app.goo.gl/A95r32BLeRVJfeRg7',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.5407219532594!2d-64.2453814!3d-31.3992251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a383976c3233%3A0xd5eb2becd856d5d1!2sLATIN%20AUTOS!5e0!3m2!1sen!2sar!4v1761691919968!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3293.6070456018024!2d-58.79439462308744!3d-34.36047767304246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb61cf271758e7%3A0x78393ef63d6e10e!2sAutomotores%20Punto%20Cero!5e0!3m2!1sen!2sar!4v1761832253539!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 9 a 13 y 14:30 a 18:30hs',
-    'Sábado y Domingo Cerrado',
+    'Lunes a Viernes 09:00 a 18:00hs',
+    'Sábado 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +30,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://latinautos.vercel.app/',
-  title: 'Latin Autos - Compra y Venta de Autos',
+  metadataBase: 'https://puntocero.vercel.app/',
+  title: 'Punto Cero - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

@@ -1,156 +1,242 @@
 [
   {
     "id": "1",
-    "name": "Ford Territory 1.5T Titanium",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2022,
-    "kilometraje": 35000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "1.5L Turbo",
+    "name": "Toyota Yaris S CVT",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2025,
+    "kilometraje": 18000,
+    "precio": { "valor": 999999, "moneda": "ARS" },
+    "categoria": "Hatchback",
+    "transmision": "Automática CVT",
+    "motor": "1.5L",
     "combustible": "Nafta",
     "puertas": 5,
-    "images": ["1-1.webp", "1-2.webp", "1-3.webp", "1-4.webp", "1-5.webp"],
-    "descripcion": "FORD TERRITORY 1.5T TITANIUM / 2022 [DISPONIBLE] ✅️\n\nTope de gama.\n35.000km.\nPrimer Mano.\nIntacta, Impecable.\n\nOfrecemos financiación 100% Bancor 🔰🚩\n\nEstamos ubicados en Av. Duarte Quiros al 4875 🚩\n¡Te esperamos!.\n\n#carsales #latinautos #ventadeautos #creditosbancor #autoscordoba #cordobacapital #cba"
+    "images": [
+      "1-1.webp", "1-2.webp", "1-3.webp", "1-4.webp", "1-5.webp",
+      "1-6.webp", "1-7.webp", "1-8.webp", "1-9.webp", "1-10.webp",
+      "1-11.webp", "1-12.webp", "1-13.webp", "1-14.webp", "1-15.webp",
+      "1-16.webp", "1-17.webp"
+    ],
+    "descripcion": "Toyota Yaris S CVT 2025 – 18.000 km\n\n✔️ Motor 1.5 Dual VVT-i 16v\n✔️ Caja automática CVT\n✔️ Versión S (tope de gama)\n✔️ Android Auto / Apple CarPlay\n✔️ Cámara de retroceso y sensores\n✔️ Llantas de aleación 16”\n✔️ Climatizador automático\n✔️ Volante multifunción y control crucero\n✔️ Airbags frontales, laterales, de cortina y rodilla\n\nExcelente estado – Mantenimiento oficial Toyota"
   },
   {
     "id": "2",
-    "name": "Kia Picanto 1.2 EX",
-    "marca": "Kia",
-    "marcaId": "kia",
-    "ano": 2016,
-    "kilometraje": 88500,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
+    "name": "Toyota Etios XLS CVT 5 Puertas",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2023,
+    "kilometraje": 16000,
+    "precio": { "valor": 999999, "moneda": "ARS" },
     "categoria": "Hatchback",
-    "transmision": "Automática",
-    "motor": "1.2L",
+    "transmision": "Automática CVT",
+    "motor": "1.5L",
     "combustible": "Nafta",
     "puertas": 5,
-    "images": ["2-1.webp", "2-2.webp", "2-3.webp", "2-4.webp"],
-    "descripcion": "KIA PICANTO 1.2 ⛔️NO DISPONIBLE⛔️ [VENDIDO]🚩\n\n¡Llévalo Financiado 100%! 🤑\nAño: 2016\nVersión: EX 1.2AT\nKm: 88.500\nCaja: Automatica\n\nImpecable Estado, primera mano.\n☝🏻¡Listo para transferir y disfrutar! 🤗\n\nVen a verlo en Av. Duarte Quiroz al 4875 🚩.\n\n#latinautos #carsales #creditoscordoba #ventadeautoscordoba #autos0km #autoscba #usadosseleccionados #córdoba"
+    "images": [
+      "2-1.webp", "2-2.webp", "2-3.webp", "2-4.webp", "2-5.webp",
+      "2-6.webp", "2-7.webp", "2-8.webp", "2-9.webp", "2-10.webp",
+      "2-11.webp", "2-12.webp"
+    ],
+    "descripcion": "‼️VENDIDO‼️ Toyota Etios XLS CVT 2023 – 16.000 km\n\n✔️ Motor 1.5 VVT-i (107 cv)\n✔️ Caja automática CVT\n✔️ Versión XLS – full equipamiento\n✔️ Pantalla multimedia con cámara\n✔️ Llantas de aleación\n✔️ Doble airbag + ESP y TCS\n\nÚnico dueño – Mantenimiento oficial"
   },
   {
     "id": "3",
-    "name": "Fiat Cronos 1.8 Precision",
-    "marca": "Fiat",
-    "marcaId": "fiat",
-    "ano": 2022,
-    "kilometraje": 51910,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
+    "name": "Toyota Corolla XEi MT",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2018,
+    "kilometraje": 80000,
+    "precio": { "valor": 999999, "moneda": "ARS" },
     "categoria": "Sedán",
-    "transmision": "Manual",
+    "transmision": "Manual 6 velocidades",
     "motor": "1.8L",
-    "combustible": "Nafta/GNC",
+    "combustible": "Nafta",
     "puertas": 4,
     "images": [
-      "3-1.webp",
-      "3-2.webp",
-      "3-3.webp",
-      "3-4.webp",
-      "3-5.webp",
-      "3-6.webp",
-      "3-7.webp"
+      "3-1.webp", "3-2.webp", "3-3.webp", "3-4.webp", "3-5.webp",
+      "3-6.webp", "3-7.webp", "3-8.webp", "3-9.webp", "3-10.webp",
+      "3-11.webp", "3-12.webp", "3-13.webp", "3-14.webp", "3-15.webp",
+      "3-16.webp", "3-17.webp"
     ],
-    "descripcion": "⛔️[NO DISPONIBLE] ⛔️FIAT CRONOS 1.8 PRECISION | 2022 | 51.910 km\n\nImpecable Estado\nMotor: 1.8\nCaja: Manual\nCombustible: Nafta/GNC\nKilometraje: 51.910 km\nAño: 2022\nEstado: Sin detalles\n\nComputadora de abordo, sensores traseros, delanteros.\nEncendido one touch, mando a distancia para apertura de baúl.\n\n✅ Único dueño\n✅ Servicios al día\n✅ Listo para transferir\n\n🚩Estamos ubicados en Av. Duarte Quiroz al 4875 🚩.\n👉🏼Podes escribir a nuestro WhatsApp al 351-5054000 📲\n\n#Ventadeautos #carsales #creditoscordoba #autosacredito #bancor #bancodecordoba #córdoba #latinautos #autosnuevos #autosusados"
+    "descripcion": "Toyota Corolla XEi MT 2018 – 80.000 km\n\n✔️ Motor 1.8 VVT-i\n✔️ Caja manual de 6 velocidades\n✔️ Versión XEi\n✔️ Pantalla con cámara de retroceso\n✔️ Control de velocidad crucero\n✔️ Climatizador automático\n✔️ Airbags múltiples\n\nMuy buen estado general, mantenimiento al día"
   },
   {
     "id": "4",
-    "name": "Renault Kangoo Stepway 1.6 Intens",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2024,
+    "name": "Toyota Hilux SR 4x2",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2025,
     "kilometraje": 0,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Utilitario",
-    "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "precio": { "valor": 999999, "moneda": "ARS" },
+    "categoria": "Pickup",
+    "transmision": "Manual 6 velocidades",
+    "motor": "2.4L TDI",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
-      "4-1.webp",
-      "4-2.webp",
-      "4-3.webp",
-      "4-4.webp",
-      "4-5.webp",
-      "4-6.webp",
-      "4-7.webp",
-      "4-8.webp",
-      "4-9.webp"
+      "4-1.webp", "4-2.webp", "4-3.webp", "4-4.webp", "4-5.webp",
+      "4-6.webp", "4-7.webp", "4-8.webp", "4-9.webp", "4-10.webp",
+      "4-11.webp", "4-12.webp", "4-13.webp", "4-14.webp", "4-15.webp",
+      "4-16.webp", "4-17.webp", "4-18.webp"
     ],
-    "descripcion": "✅[DISPONIBLE] Renault kangoo stepway\n\nmotor: 1.6\nversion: stepway intens\nmodelo: 2024\ntransmisión: manual\nkilometraje: 0km\n\n📞3513138488\n\n✔️CREDITOS PERSONALES\n✔️CREDITOS MEDIANTE BANCOR\n✔️CREDITOS MEDIANTE SANTANDER\n\nvisitanos en: Av. Duarte Quirós 4875"
+    "descripcion": "Toyota Hilux SR 4x2 – 0 km\n\n✔️ Motor 2.4 TDI 150 cv\n✔️ Caja manual de 6 velocidades\n✔️ Tracción 4x2\n✔️ Entrega inmediata\n✔️ Multimedia y seguridad (ESP/TC)\n\nRobustez, bajo consumo y mantenimiento económico"
   },
   {
     "id": "5",
-    "name": "Renault Sandero 1.6 Volcom",
-    "marca": "Renault",
-    "marcaId": "renault",
+    "name": "Toyota Hilux SRV 4x2 Manual",
+    "marca": "Toyota",
+    "marcaId": "toyota",
     "ano": 2019,
-    "kilometraje": 10600,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "kilometraje": 200000,
+    "precio": { "valor": 999999, "moneda": "ARS" },
+    "categoria": "Pickup",
+    "transmision": "Manual 6 velocidades",
+    "motor": "2.8L TDI",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
-      "5-1.webp",
-      "5-2.webp",
-      "5-3.webp",
-      "5-4.webp",
-      "5-5.webp",
-      "5-6.webp",
-      "5-7.webp",
-      "5-8.webp",
-      "5-9.webp",
-      "5-10.webp"
+      "5-1.webp", "5-2.webp", "5-3.webp", "5-4.webp", "5-5.webp",
+      "5-6.webp", "5-7.webp", "5-8.webp", "5-9.webp", "5-10.webp",
+      "5-11.webp", "5-12.webp", "5-13.webp", "5-14.webp", "5-15.webp",
+      "5-16.webp"
     ],
-    "descripcion": "✅[DISPONIBLE] Renault sandero\n\nMotor: 1.6\nVersion: Volcom\nModelo: 2019\nTransmisión: Manual\nKilometraje: 10.600\n\n✔️CREDITOS PERSONALES\n✔️CREDITOS MEDIANTE BANCOR\n✔️CREDITOS MEDIANTE SANTANDER\n\nvisitanos en: Av. Duarte Quirós 4875"
+    "descripcion": "Toyota Hilux SRV 4x2 Manual 2019 – 200.000 km\n\n✔️ Motor 2.8 TDI 177 cv\n✔️ Caja manual 6°\n✔️ Versión SRV full\n✔️ Multimedia con cámara\n✔️ Llantas de aleación 17”\n✔️ Control crucero, climatizador\n\nExcelente estado, lista para trabajar o disfrutar"
   },
   {
     "id": "6",
-    "name": "Chevrolet Corsa Classic 1.4 LTZ Pack",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2014,
-    "kilometraje": 143150,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.4L",
-    "combustible": "Nafta/GNC",
+    "name": "Ford Ranger Limited V6",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2024,
+    "kilometraje": 5400,
+    "precio": { "valor": 999999, "moneda": "ARS" },
+    "categoria": "Pickup",
+    "transmision": "Automática 10 velocidades",
+    "motor": "3.0L V6 TDI",
+    "combustible": "Diésel",
+    "puertas": 4,
+    "images": [
+      "6-1.webp", "6-2.webp", "6-3.webp", "6-4.webp", "6-5.webp",
+      "6-6.webp", "6-7.webp", "6-8.webp", "6-9.webp", "6-10.webp",
+      "6-11.webp", "6-12.webp"
+    ],
+    "descripcion": "Ford Ranger Limited V6 2024 – 5.400 km\n\n🔹 V6 3.0L turbo diésel – 4x4\n🔹 Caja automática de 10 velocidades\n🔹 Interior full cuero, climatizador bizona, asientos eléctricos calefaccionados\n🔹 SYNC 4 con CarPlay/Android Auto inalámbrico\n🔹 Cámara 360°, ADAS, sensores y más\n\nWsp: 1153051560"
+  },
+  {
+    "id": "7",
+    "name": "Vehículo Vendido",
+    "marca": "N/D",
+    "marcaId": "nd",
+    "ano": 999999,
+    "kilometraje": 999999,
+    "precio": { "valor": 999999, "moneda": "ARS" },
+    "categoria": "Otro",
+    "transmision": "N/D",
+    "motor": "N/D",
+    "combustible": "N/D",
     "puertas": 5,
     "images": [
-      "6-1.webp",
-      "6-2.webp",
-      "6-3.webp",
-      "6-4.webp",
-      "6-5.webp",
-      "6-6.webp",
-      "6-7.webp",
-      "6-8.webp",
-      "6-9.webp",
-      "6-10.webp"
+      "7-1.webp", "7-2.webp", "7-3.webp", "7-4.webp", "7-5.webp",
+      "7-6.webp", "7-7.webp", "7-8.webp", "7-9.webp", "7-10.webp",
+      "7-11.webp", "7-12.webp"
     ],
-    "descripcion": "✅[DISPONIBLE] Chevrolet corsa Clasicc\n\nMotor: 1.4\nVersion: Ltz pack\nModelo: 2014\nTransmisión: Manual\nKilometraje: 143.150\nCombustible: Nafta con GNC\n\n✔️CREDITOS PERSONALES\n✔️CREDITOS MEDIANTE BANCOR\n✔️CREDITOS MEDIANTE SANTANDER\n\nvisitanos en: Av. Duarte Quirós 4875"
+    "descripcion": "‼️Vendida‼️"
+  },
+  {
+    "id": "8",
+    "name": "Toyota Yaris XLS CVT",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2021,
+    "kilometraje": 999999,
+    "precio": { "valor": 999999, "moneda": "ARS" },
+    "categoria": "Sedán",
+    "transmision": "Automática CVT",
+    "motor": "1.5L",
+    "combustible": "Nafta",
+    "puertas": 4,
+    "images": [
+      "8-1.webp", "8-2.webp", "8-3.webp", "8-4.webp", "8-5.webp",
+      "8-6.webp", "8-7.webp", "8-8.webp", "8-9.webp"
+    ],
+    "descripcion": "Toyota Yaris XLS CVT 2021\n\n✔️ Motor 1.5 VVTi\n✔️ Caja automática CVT\n✔️ Versión XLS full\n✔️ Faros LED, climatizador\n✔️ Pantalla con cámara de retroceso\n✔️ ESP y múltiples airbags\n\nExcelente consumo y bajo mantenimiento"
+  },
+  {
+    "id": "9",
+    "name": "Fiat Pulse Impetus CVT",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2022,
+    "kilometraje": 51000,
+    "precio": { "valor": 999999, "moneda": "ARS" },
+    "categoria": "SUV",
+    "transmision": "Automática CVT",
+    "motor": "1.0L Turbo",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "9-1.webp", "9-2.webp", "9-3.webp", "9-4.webp", "9-5.webp",
+      "9-6.webp", "9-7.webp", "9-8.webp", "9-9.webp", "9-10.webp", "9-11.webp"
+    ],
+    "descripcion": "Fiat Pulse Impetus CVT 2022 – 51.000 km\n\n✔️ Tope de gama\n✔️ Motor 1.0 Turbo + caja CVT\n✔️ Servicios oficiales\n✔️ Interior full cuero, pintura bicolor\n✔️ Multimedia 10.1” + tablero digital\n✔️ ADAS y cámara con sensores"
+  },
+  {
+    "id": "10",
+    "name": "Vehículo Vendido",
+    "marca": "N/D",
+    "marcaId": "nd",
+    "ano": 999999,
+    "kilometraje": 999999,
+    "precio": { "valor": 999999, "moneda": "ARS" },
+    "categoria": "Otro",
+    "transmision": "N/D",
+    "motor": "N/D",
+    "combustible": "N/D",
+    "puertas": 5,
+    "images": [
+      "10-1.webp", "10-2.webp", "10-3.webp", "10-4.webp", "10-5.webp",
+      "10-6.webp", "10-7.webp", "10-8.webp", "10-9.webp"
+    ],
+    "descripcion": "‼️Vendida‼️"
+  },
+  {
+    "id": "11",
+    "name": "Volkswagen Amarok V6 Comfortline 3.0 TDI 4x4 AT",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2022,
+    "kilometraje": 999999,
+    "precio": { "valor": 999999, "moneda": "ARS" },
+    "categoria": "Pickup",
+    "transmision": "Automática 8 velocidades",
+    "motor": "3.0L V6 TDI",
+    "combustible": "Diésel",
+    "puertas": 4,
+    "images": [
+      "11-1.webp", "11-2.webp", "11-3.webp", "11-4.webp", "11-5.webp",
+      "11-6.webp", "11-7.webp", "11-8.webp", "11-9.webp", "11-10.webp",
+      "11-11.webp"
+    ],
+    "descripcion": "Volkswagen Amarok V6 Comfortline 3.0 TDI 4x4 AT – 2022\n\n✔️ 258 cv, 4Motion\n✔️ Caja automática 8°\n✔️ Pantalla, sensores, control crucero, climatizador\n\nMantenimiento al día – Lista para transferir\nDisponible en Escobar\nTomamos usado – Consultá por financiación"
+  },
+  {
+    "id": "12",
+    "name": "Automotores Punto Cero",
+    "marca": "N/D",
+    "marcaId": "nd",
+    "ano": 999999,
+    "kilometraje": 999999,
+    "precio": { "valor": 999999, "moneda": "ARS" },
+    "categoria": "Otro",
+    "transmision": "N/D",
+    "motor": "N/D",
+    "combustible": "N/D",
+    "puertas": 5,
+    "images": [
+      "12-1.webp", "12-2.webp", "12-3.webp", "12-4.webp", "12-5.webp",
+      "12-6.webp", "12-7.webp", "12-8.webp", "12-9.webp", "12-10.webp"
+    ],
+    "descripcion": "Automotores Punto Cero"
   }
 ]
