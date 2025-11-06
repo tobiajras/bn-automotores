@@ -1,17 +1,17 @@
 [
   {
     "id": "1",
-    "name": "Toyota Hilux Dx",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2019,
-    "kilometraje": 130000,
+    "name": "Ford Bronco Sport",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2024,
+    "kilometraje": 35000,
     "precio": { "valor": 999999, "moneda": "ARS" },
-    "categoria": "Pickup",
-    "transmision": "Manual",
-    "motor": "2.4L",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "categoria": "SUV",
+    "transmision": "Automática",
+    "motor": "2.0L",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "1-1.webp",
       "1-2.webp",
@@ -19,23 +19,25 @@
       "1-4.webp",
       "1-5.webp",
       "1-6.webp",
-      "1-7.webp"
+      "1-7.webp",
+      "1-8.webp",
+      "1-9.webp"
     ],
-    "descripcion": "SE VENDE Toyota Hilux Dx 2.4 4x4\n\nAño: 2019\nKM: 130.000\n\n✓ Única mano\n✓ VTV 2026\n✓ 4 Cubiertas recién colocadas"
+    "descripcion": "Nuevo ingreso\n\nFord Bronco Sport 2.0L Ecoboost Wildtrak\n\n✔ 2024\n✔ 35.000 km\n✔ Único dueño\n✔ Services oficiales\n\nMecánica:\n🔹 1.996 cc\n🔹 253 CV\n🔹 4 cilindros turbo\n🔹 Caja automática 8 velocidades\n🔹 4WD con bloqueo de diferencial trasero\n\nPrestaciones:\n🔸 Aceleración de 0-100: 7,2 s\n🔸 Velocidad máxima: 205 km/h (limitada electrónicamente)\n🔸 Consumo medio: 9,8 l/100km\n\nDestacados:\n🔺 Faros full led\n🔺 Asientos de cuero calefaccionados\n🔺 Butaca conductor eléctrica\n🔺 Llave de presencia con arranque por botón Start/Stop\n🔺 Freno de mano electrónico\n🔺 Camara de retroceso\n🔺 Velocidad crucero adaptativo\n🔺 Climatizador bi-zona\n🔺 9 airbags\n🔺 Pantalla multimedia 12¨\n🔺 Techo panorámico\n🔺 Sistema de 10 parlantes Bang & Olufsen\n🔺 Cargador inalámbrico de celular\n🔺 Sistema GOAT: 7 modos de manejo (Normal, Eco, Deportivo, Resbaladizo, Arena, Lodo y Rocas)\n🔺 Asistencias a la conducción Ford Co-Pilot: detector de puntos ciegos, alerta de cambio involuntario de carril, advertencia de colisión frontal, detección de peatones, asistente de dirección evasiva y seña de luces altas automáticas.\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "2",
-    "name": "Toyota Hilux 2.8 Srv",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2022,
-    "kilometraje": 96000,
+    "name": "Chevrolet Onix Plus Black",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2020,
+    "kilometraje": 50000,
     "precio": { "valor": 999999, "moneda": "ARS" },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "2.8L",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.4L",
+    "combustible": "Nafta",
+    "puertas": 5,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -44,44 +46,48 @@
       "2-5.webp",
       "2-6.webp",
       "2-7.webp",
-      "2-8.webp"
+      "2-8.webp",
+      "2-9.webp"
     ],
-    "descripcion": "SE VENDE Toyota Hilux 2.8 Srv 204Cv 4x4 AT\n\nAño: 2022\nKM: 96.000\n\n✓ Única mano\n✓ VTV 2026\n✓ Lona\n✓ Separadores\n✓ 4 Cubiertas recién colocadas"
+    "descripcion": "Nuevo ingreso\n\nChevrolet Onix 1.4 Plus Black\n\n✔ 2020\n✔ 50.000 km\n✔ Único dueño\n✔ Services oficiales\n\nMecánica:\n🔹 1.389cc\n🔹 98 CV\n🔹 4 cilindros\n🔹 Caja manual de 5 marchas\n\nPrestaciones:\n🔸 Aceleración de 0-100: 11,5 s\n🔸 Velocidad máxima: 179 km/h\n🔸 Consumo medio: 10,8 l/100km\n\nDestacados:\n🔺 Levanta cristales eléctricos delanteros\n🔺 Cierre centralizado\n🔺 Computadora de abordo\n🔺 2 airbags\n🔺 Paquete Black Edition: apliques en negro brillante en espejos, parrilla y el logo de Chevrolet.\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "3",
-    "name": "Jeep Cherokee Limited",
-    "marca": "Jeep",
-    "marcaId": "jeep",
-    "ano": 2008,
-    "kilometraje": 220000,
+    "name": "Ford Ranger Limited",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2025,
+    "kilometraje": 0,
     "precio": { "valor": 999999, "moneda": "ARS" },
-    "categoria": "SUV",
+    "categoria": "Pickup",
     "transmision": "Automática",
-    "motor": "3.7L",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "motor": "2.0L",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "3-1.webp",
       "3-2.webp",
       "3-3.webp",
       "3-4.webp",
       "3-5.webp",
-      "3-6.webp"
+      "3-6.webp",
+      "3-7.webp",
+      "3-8.webp",
+      "3-9.webp"
     ],
-    "descripcion": "SE VENDE Jeep Cherokee Limited 4x4 3.7\n\nAño: 2008\nKm: 220.000\n\n✓ Cubiertas nuevas"
+    "descripcion": "Nuevo ingreso\n\nFord Ranger Limited 2.0 Biturbo 4x4 AT\n\n✔ 2025\n✔ 0 km\n✔ 5 años de garantía o 150.000km\n\nMecánica:\n🔹 1.996 cc\n🔹 210 CV\n🔹 4 cilindros bi-turbo\n🔹 Caja automática 10 velocidades\n🔹 Bloqueo de diferencial trasero\n\nPrestaciones:\n🔸 Aceleración de 0-100: 10,2 s\n🔸 Velocidad máxima: 180 km/h (limitada electrónicamente)\n🔸 Consumo medio: 8,8 l/100km\n\nDestacados:\n🔺 Faros led\n🔺 Asientos de cuero\n🔺 Butaca conductor eléctrica\n🔺 Llave de presencia con arranque por botón Start/Stop\n🔺 Freno de mano electrónico\n🔺 Camara de retroceso\n🔺 Velocidad crucero\n🔺 Climatizador bi-zona\n🔺 7 airbags\n🔺 Pantalla multimedia 12¨\n🔺 Iluminación en caja y cierre centralizado de portón\n🔺 Sistema de gestión de terrenos con seis modos de conducción\n🔺 Asistencias a la conducción Ford Co-Pilot: alerta de cambio involuntario de carril, advertencia de colisión frontal, detección de peatones y luces altas automáticas\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "4",
-    "name": "Audi Q8",
-    "marca": "Audi",
-    "marcaId": "audi",
-    "ano": 2020,
-    "kilometraje": 22000,
+    "name": "Fiat Argo HGT EtorQ",
+    "marca": "Fiat",
+    "marcaId": "fiat",
+    "ano": 2018,
+    "kilometraje": 91000,
     "precio": { "valor": 999999, "moneda": "ARS" },
-    "categoria": "SUV",
-    "transmision": "Automática",
-    "motor": "3.0L",
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.8L",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -92,23 +98,24 @@
       "4-5.webp",
       "4-6.webp",
       "4-7.webp",
-      "4-8.webp"
+      "4-8.webp",
+      "4-9.webp"
     ],
-    "descripcion": "SE VENDE Audi Q8 3.0 55 Tfsi Quattro\n\nAño: 2020\nkm: 22.000\n\n✓ Único Dueño\n✓ Service Al día"
+    "descripcion": "Nuevo ingreso\n\nFiat Argo 1.8 HGT EtorQ\n\n✔ 2018\n✔ 91.000 km\n✔ Único dueño\n✔ 4 cubiertas nuevas\n\nMecánica:\n🔹 1.747cc\n🔹 130 CV\n🔹 4 cilindros\n🔹 Caja manual de 5 marchas\n\nPrestaciones:\n🔸 Aceleración de 0-100: 8,5 s\n🔸 Velocidad máxima: 188 km/h\n🔸 Consumo medio: 8,7 l/100km\n\nDestacados:\n🔺 Asientos de cuero\n🔺 Llave de presencia con boton Start/Stop\n🔺 Velocidad crucero\n🔺 Sensor crepuscular y de lluvia\n🔺 Levanta cristales eléctricos\n🔺 Espejos eléctricos\n🔺 Espejo retrovisor fotocromatico\n🔺 Faros antiniebla\n🔺 Llantas de aleación\n🔺 Cámara de retroceso\n🔺 Climatizador\n🔺 Sensor de estacionamiento\n🔺 Pantalla multimedia 7¨\n🔺 4 airbags\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "5",
-    "name": "Peugeot 208 Allure",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2025,
-    "kilometraje": 17000,
+    "name": "Toyota Hilux SRV",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2017,
+    "kilometraje": 145000,
     "precio": { "valor": 999999, "moneda": "ARS" },
-    "categoria": "Hatchback",
+    "categoria": "Pickup",
     "transmision": "Manual",
-    "motor": "1.6L",
-    "combustible": "Nafta",
-    "puertas": 5,
+    "motor": "2.8L",
+    "combustible": "Diésel",
+    "puertas": 4,
     "images": [
       "5-1.webp",
       "5-2.webp",
@@ -117,45 +124,49 @@
       "5-5.webp",
       "5-6.webp",
       "5-7.webp",
-      "5-8.webp"
+      "5-8.webp",
+      "5-9.webp"
     ],
-    "descripcion": "SE VENDE Peugeot 208 Allure PK T200\n\nAño: 2025\nKM: 17.000\n\n✓ Único dueño\n✓ Cadenero"
+    "descripcion": "Nuevo ingreso\n\nToyota Hilux SRV 2.8 4x2 MT\n\n✔ 2017\n✔ 145.000 km\n✔ Segundo dueño\n\nMecánica:\n🔹 2.755 CC\n🔹 177 CV\n🔹 4 cilindros turbo\n🔹 Caja manual de 6 velocidades\n\nPrestaciones:\n🔸 Aceleración de 0-100: 10,7 s\n🔸 Velocidad máxima: 185 km/h\n🔸 Consumo medio: 8,6 l/100km\n\nDestacados:\n🔺 7 airbags\n🔺 Pantalla multimedia 7¨\n🔺 Butaca conductor eléctrica\n🔺 Asientos de cuero\n🔺 Velocidad crucero\n🔺 Climatizador\n🔺 Camara de retroceso\n🔺 Faros antiniebla\n🔺 Espejos eléctricos\n✅ Agregado| Enganche\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "6",
-    "name": "Volkswagen Saveiro",
+    "name": "Volkswagen Gol Trend Comfortline",
     "marca": "Volkswagen",
     "marcaId": "volkswagen",
-    "ano": 2016,
-    "kilometraje": 130000,
+    "ano": 2017,
+    "kilometraje": 74500,
     "precio": { "valor": 999999, "moneda": "ARS" },
-    "categoria": "Pickup",
+    "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.6L",
     "combustible": "Nafta",
-    "puertas": 4,
+    "puertas": 5,
     "images": [
       "6-1.webp",
       "6-2.webp",
       "6-3.webp",
       "6-4.webp",
       "6-5.webp",
-      "6-6.webp"
+      "6-6.webp",
+      "6-7.webp",
+      "6-8.webp",
+      "6-9.webp"
     ],
-    "descripcion": "Se Vende Volkswagen Saveiro 1.6 Cabina Doble\n\nAño: 2016\n130.000 KM\n\n✓ Aire acondicionado\n✓ Dirección asistida\n✓ Cierre centralizado\n✓ Levantavidrios eléctricos\n✓ Estéreo con Bluetooth\n✓ Airbags frontales\n✓ Frenos ABS\n✓ Llantas de aleación"
+    "descripcion": "Nuevo ingreso\n\nVolkswagen Gol Trend Comfortline 1.6 Msi\n\n✔ 2017\n✔ 74.500 km\n\nMecánica:\n🔹 1.598 cc\n🔹 101 CV\n🔹 Caja manual de 5 velocidades\n\nPrestaciones:\n🔸 Aceleración de 0-100: 10,1 s\n🔸 Velocidad máxima: 186 km/h\n🔸 Consumo medio: 7,9 l/100km\n\nDestacados:\n🔺 Levantacristales electricos delanteros\n🔺 Faros antiniebla\n🔺 Llantas de aleacion\n🔺 Comandos de la radio en el volante\n🔺 Pantalla multimedia\n🔺 Computadora de abordo\n🔺 ABS\n🔺 2 airbags\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "7",
-    "name": "Citroën Jumpy",
-    "marca": "Citroën",
-    "marcaId": "citroen",
+    "name": "Nissan Versa Exclusive",
+    "marca": "Nissan",
+    "marcaId": "nissan",
     "ano": 2021,
-    "kilometraje": 36000,
+    "kilometraje": 77000,
     "precio": { "valor": 999999, "moneda": "ARS" },
-    "categoria": "Utilitario",
-    "transmision": "Manual",
+    "categoria": "Sedán",
+    "transmision": "Automática CVT",
     "motor": "1.6L",
-    "combustible": "Diésel",
+    "combustible": "Nafta",
     "puertas": 4,
     "images": [
       "7-1.webp",
@@ -165,46 +176,50 @@
       "7-5.webp",
       "7-6.webp",
       "7-7.webp",
-      "7-8.webp"
+      "7-8.webp",
+      "7-9.webp"
     ],
-    "descripcion": "SE VENDE Citroën Jumpy 1.6 Hdi 115 Business Mixto\n\nAño: 2021\nKm: 36.000\n\n✓ Único Dueño\n✓ AdBlue anulado\n✓ Cámara de Reversa"
+    "descripcion": "Nuevo ingreso\n\nNissan Versa Exclusive 1.6 CVT\n\n✔ 2021\n✔ 77.000 km\n✔ Único dueño\n✔ Services oficiales\n\nMecánica:\n🔹 1598 CC\n🔹 119 CV\n🔹 4 cilindros\n🔹 Caja automatica CVT\n\nPrestaciones:\n🔸 Aceleración de 0-100: 10,1 s\n🔸 Velocidad máxima: 190 km/h\n🔸 Consumo medio: 8,6 l/100km\n\nDestacados:\n🔺 Faros full LED\n🔺 Alerta de colisión frontal\n🔺 Frenado autónomo de emergencia\n🔺 Sistema de cámaras 360°\n🔺 Alerta de punto ciego en espejos\n🔺 Arranque con botón Start/Stop\n🔺 Tablero digital\n🔺 Climatizador\n🔺 Asientos de cuero\n🔺 Pantalla multimedia 7¨\n🔺 Sensor crepuscular y de lluvia\n🔺 Sensor de estacionamiento\n🔺 Velocidad crucero\n🔺 6 airbags\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "8",
-    "name": "Ford EcoSport",
-    "marca": "Ford",
-    "marcaId": "ford",
+    "name": "Chevrolet Cruze LT",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
     "ano": 2022,
-    "kilometraje": 20000,
+    "kilometraje": 66800,
     "precio": { "valor": 999999, "moneda": "ARS" },
-    "categoria": "SUV",
+    "categoria": "Sedán",
     "transmision": "Manual",
-    "motor": "1.5L",
+    "motor": "1.4L Turbo",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "8-1.webp",
       "8-2.webp",
       "8-3.webp",
       "8-4.webp",
       "8-5.webp",
-      "8-6.webp"
+      "8-6.webp",
+      "8-7.webp",
+      "8-8.webp",
+      "8-9.webp"
     ],
-    "descripcion": "Se Vende Ford EcoSport 1.5 SE MT\n\nAño: 2022\nKm: 20.000\n\n✓ Pantalla táctil con SYNC y conectividad Bluetooth/USB\n✓ Control de velocidad crucero\n✓ Aire acondicionado y dirección asistida\n✓ Faros antiniebla y llantas de aleación"
+    "descripcion": "Nuevo ingreso\n\nChevrolet Cruze LT 1.4 Mt\n\n✔ 2022\n✔ 66.800 km\n✔ Único dueño\n\nMecánica:\n🔹 1399 CC\n🔹 153 CV\n🔹 4 cilindros turbo\n🔹 Caja manual de 6 velocidades\n\nPrestaciones:\n🔸 Aceleración de 0-100: 8,5 s\n🔸 Velocidad máxima: 210 km/h\n🔸 Consumo medio: 8,2 l/100km\n\nDestacados:\n🔺 Espejos electricos\n🔺 Sistema Onstar\n🔺 Climatizador\n🔺 Asientos de cuero\n🔺 Pantalla multimedia 7¨\n🔺 Sensor crepuscular y de lluvia\n🔺 Sensor de estacionamiento\n🔺 Cámara de retroceso\n🔺 Velocidad crucero\n🔺 Sensor de presion de neumaticos\n🔺 6 airbags\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "9",
-    "name": "Ford Ranger Raptor",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2024,
-    "kilometraje": 27000,
+    "name": "Suzuki V-Strom XT 650",
+    "marca": "Suzuki",
+    "marcaId": "suzuki",
+    "ano": 2025,
+    "kilometraje": 340,
     "precio": { "valor": 999999, "moneda": "ARS" },
-    "categoria": "Pickup",
-    "transmision": "Automática",
-    "motor": "3.0L V6",
-    "combustible": "Diésel",
-    "puertas": 4,
+    "categoria": "Utilitario",
+    "transmision": "Manual",
+    "motor": "650cc",
+    "combustible": "Nafta",
+    "puertas": 0,
     "images": [
       "9-1.webp",
       "9-2.webp",
@@ -212,22 +227,21 @@
       "9-4.webp",
       "9-5.webp",
       "9-6.webp",
-      "9-7.webp",
-      "9-8.webp"
+      "9-7.webp"
     ],
-    "descripcion": "SE VENDE Ford Ranger Raptor V6\n\nAño: 2024\nKm: 27.000\n\n✓ Tapa Retráctil\n✓ Único Dueño\n✓ Service oficiales (En Garantía)\n✓ Jaula Kraken\n\nConsultas al MD o al 2494585374"
+    "descripcion": "Nuevo ingreso\n\nSuzuki V-Strom XT 650\n\n✔ 2025\n✔ 340 km\n✔ En garantia oficial\n\nMecánica:\n🔹 645 cc\n🔹 70 CV\n🔹 Transmisión de 6 velocidades\n🔹 Bicilíndrico en V 4 tiempos\n🔹 8 valvulas, DOHC\n\nPrestaciones:\n🔸 Tablero digital con tacometro analógico\n🔸 Control de traccion con dos modos de conduccion (TCS)\n🔸 Ayuda a la conduccion: Low RPM Assist, mantiene las revoluciones estables facilitando el arranque y la conduccion a bajas velocidades.\n🔸 Suspensión de largo recorrido\n🔸 Tanque de combustible de 20 lts\n🔸 Chasis doble viga de aluminio\n🔸 ABS doble canal\n🔸 Llantas de rayos\n🔸 Parabrisas\n🔸 Doble disco de freno delantero\n🔸 Toma de 12v\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "10",
-    "name": "Mercedes Benz E-350 AMG",
-    "marca": "Mercedes Benz",
-    "marcaId": "mercedes-benz",
-    "ano": 2014,
-    "kilometraje": 60000,
+    "name": "Toyota Corolla XEI",
+    "marca": "Toyota",
+    "marcaId": "toyota",
+    "ano": 2011,
+    "kilometraje": 138000,
     "precio": { "valor": 999999, "moneda": "ARS" },
     "categoria": "Sedán",
-    "transmision": "Automática",
-    "motor": "3.5L",
+    "transmision": "Manual",
+    "motor": "1.8L",
     "combustible": "Nafta",
     "puertas": 4,
     "images": [
@@ -238,43 +252,47 @@
       "10-5.webp",
       "10-6.webp",
       "10-7.webp",
-      "10-8.webp"
+      "10-8.webp",
+      "10-9.webp"
     ],
-    "descripcion": "SE VENDE Mercedes Benz E-350 AMG\n\nAño: 2014\n60.000 KM\n\n✓ Único Dueño\n✓ 2 Llaves\n✓ Manuales de Fábrica\n✓ VTV 10/2026\n✓ Toda la pintura de fábrica"
+    "descripcion": "Nuevo ingreso\n\nToyota Corolla XEI 1.8 Mt l/12\n\n✔ 2011\n✔ 138.000 km\n✔ Único dueño\n\nMecánica:\n🔹 1.798 cc\n🔹 136 CV\n🔹 4 cilindros\n🔹 Caja manual de 5 velocidades\n\nPrestaciones:\n🔸 Aceleración de 0-100: 10,5 s\n🔸 Velocidad máxima: 204 km/h\n🔸 Consumo medio: 9,2 l/100km\n\nDestacados:\n🔺 Levantacristales eléctricos\n🔺 Alarma periferica\n🔺 Computadora de abordo\n🔺 4 airbags\n🔺 Faros antiniebla\n🔺 Espejos eléctricos\n🔺 Climatizador\n🔺 Sensor crepuscular\n✅ Agregado:| Enganche\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "11",
-    "name": "Renault Clio Mío",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2013,
-    "kilometraje": 80000,
+    "name": "Honda PCX 150",
+    "marca": "Honda",
+    "marcaId": "honda",
+    "ano": 2017,
+    "kilometraje": 24900,
     "precio": { "valor": 999999, "moneda": "ARS" },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.2L",
+    "categoria": "Utilitario",
+    "transmision": "Automática CVT",
+    "motor": "150cc",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 0,
     "images": [
       "11-1.webp",
       "11-2.webp",
       "11-3.webp",
       "11-4.webp",
-      "11-5.webp"
+      "11-5.webp",
+      "11-6.webp",
+      "11-7.webp",
+      "11-8.webp"
     ],
-    "descripcion": "Se Vende Renault Clio Mío 1.2\n\nAño: 2013\n80.000 KM"
+    "descripcion": "Nuevo ingreso\n\nScooter Honda PCX 150\n\n✔ 2017\n✔ 24.900 km\n\nMecánica:\n🔹 149,32 cc\n🔹 12 cv\n🔹 Transmisión CVT\n🔹 Mono cilíndrico 4 tiempos\n🔹 Refrigeración liquida\n\nPrestaciones:\n🔸 Llave de presencia\n🔸 Tablero digital\n🔸 Full led\n🔸 Velocidad máxima: 110 km/h\n🔸 Tanque de combustible de 8lts\n🔸 Bajo consumo 30 km/l\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   },
   {
     "id": "12",
-    "name": "Audi Q5",
-    "marca": "Audi",
-    "marcaId": "audi",
-    "ano": 2022,
-    "kilometraje": 40000,
+    "name": "Volkswagen Nivus Highline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2025,
+    "kilometraje": 0,
     "precio": { "valor": 999999, "moneda": "ARS" },
     "categoria": "SUV",
     "transmision": "Automática",
-    "motor": "2.0L",
+    "motor": "1.0L Turbo",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -284,8 +302,10 @@
       "12-4.webp",
       "12-5.webp",
       "12-6.webp",
-      "12-7.webp"
+      "12-7.webp",
+      "12-8.webp",
+      "12-9.webp"
     ],
-    "descripcion": "SE VENDE Audi Q5 2.0 45 Tfsi Security 252cv\n\nAño: 2022\nkm: 40.000\n\n✓ Único Dueño\n✓ Service Al día\n✓ Cubiertas 60%"
+    "descripcion": "Nuevo ingreso\n\nVolkswagen Nivus 200 TSI Highline At\n\n✔ 2025\n✔ 0 km\n✔ 3 años de garantía o 100.000km\n\nMecánica:\n🔹 999 CC\n🔹 116 CV\n🔹 3 cilindros turbo\n🔹 Caja automática 6 velocidades\n\nPrestaciones:\n🔸 Aceleración de 0-100: 10,5 s\n🔸 Velocidad máxima: 191 km/h\n🔸 Consumo medio: 7,4 l/100km\n\nDestacados:\n🔺 Faros full LED\n🔺 Parrilla frontal LED\n🔺 6 airbags\n🔺 Cargador inalámbrico de celular\n🔺 Tablero digital\n🔺 Botón Start/Stop\n🔺 Climatizador\n🔺 Asientos de cuero\n🔺 Pantalla multimedia 10¨\n🔺 Levas detrás del volante\n🔺 Sensor crepuscular y de lluvia\n🔺 Sensores de estacionamiento\n🔺 Velocidad crucero adaptativa\n🔺 Asistentes a la conduccion ADAS\n🔺 Cámara de retroceso\n\nContacto: whatsapp\nAgustín\n📞 3364 529314"
   }
 ]

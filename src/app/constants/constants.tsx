@@ -2,23 +2,23 @@ export const company = {
   dark: false,
   darkmode: true,
   shortAdress: true,
-  favicon: true,
+  favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'legarretaautomotores',
-  name: 'Legarreta Automotores',
-  adress: 'Sarmiento 655',
-  city: 'Tandil',
-  email: 'legarretaautomotores@gmail.com',
+  id: 'adgautos',
+  name: 'ADG Autos',
+  adress: 'Belgrano 245',
+  city: 'San Nicolás de los Arroyos',
+  email: 'adgautos@gmail.com',
   instagram: 'legarretaautomotores',
-  facebook: 'https://www.facebook.com/legarretaautomotores/',
-  whatsapp: ['2494585374', '1133438645'],
-  googlemapsLink: 'https://maps.app.goo.gl/4WKTJ5iEKLLrp53HA',
+  facebook: 'https://www.facebook.com/profile.php?id=61557091590962',
+  whatsapp: ['3364529314'],
+  googlemapsLink: 'https://maps.app.goo.gl/AozHJwbsnJ3h3cxSA',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.738550936865!2d-59.13644600000001!3d-37.3250203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911f9b3f40739b%3A0x443cbdfb39ce0f2!2sLegarreta%20Automotores!5e0!3m2!1ses-419!2sar!4v1762128165822!5m2!1ses-419!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.5552485241665!2d-60.22337772344007!3d-33.33044099137776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7678dbbe0133d%3A0xf8bdcdca0cce882b!2sBelgrano%20245%2C%20B2900%20San%20Nicol%C3%A1s%20de%20Los%20Arroyos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1762112819197!5m2!1ses-419!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 17:00hs',
-    'Sábado y Domingo Cerrado',
+    'Lunes a Viernes 09:00 a 18:00hs',
+    'Sábado 09:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://legarretaautomotores.vercel.app/',
-  title: 'Legarreta Automotores - Compra y Venta de Autos',
+  metadataBase: 'https://adgautos.vercel.app/',
+  title: 'ADG Autos - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
