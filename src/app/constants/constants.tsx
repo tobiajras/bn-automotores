@@ -10,7 +10,7 @@ export const company = {
   adress: 'Belgrano 245',
   city: 'San Nicolás de los Arroyos',
   email: 'adgautos@gmail.com',
-  instagram: 'legarretaautomotores',
+  instagram: 'adgautos',
   facebook: 'https://www.facebook.com/profile.php?id=61557091590962',
   whatsapp: ['3364529314'],
   googlemapsLink: 'https://maps.app.goo.gl/AozHJwbsnJ3h3cxSA',
