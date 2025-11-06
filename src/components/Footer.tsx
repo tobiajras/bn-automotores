@@ -32,7 +32,7 @@ const Footer = () => {
 
         <div className='relative z-10'>
           {/* Sección principal */}
-          <div className='max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10 py-16 md:py-24 lg:py-32'>
+          <div className='max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10 py-16 md:py-24 lg:py-32'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12'>
               {/* Columna 1 - Logo y descripción */}
               <div className='lg:col-span-2'>
