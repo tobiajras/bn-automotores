@@ -23,7 +23,7 @@ export default function PublicLayout({
       />
 
       {/* Overlay negro con opacidad */}
-      <div className='fixed inset-0 w-full h-screen bg-black bg-opacity-70' />
+      <div className='fixed inset-0 w-full h-screen bg-black bg-opacity-60' />
 
       {/* Contenido */}
       <div className='relative z-10'>

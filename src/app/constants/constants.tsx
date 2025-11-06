@@ -5,21 +5,20 @@ export const company = {
   favicon: true,
   price: false,
   objectCover: '50%',
-  id: 'puntocero',
-  name: 'Punto Cero',
-  adress: 'Colectora Este Km 48.5',
-  city: 'Escobar',
-  email: 'puntocero@gmail.com',
-  instagram: 'automotores_puntocero',
-  facebook:
-    'https://www.facebook.com/p/Automotores-Punto-Cero-100057396620333/',
-  whatsapp: ['1153051560'],
-  googlemapsLink: 'https://maps.app.goo.gl/A95r32BLeRVJfeRg7',
+  id: 'legarretaautomotores',
+  name: 'Legarreta Automotores',
+  adress: 'Sarmiento 655',
+  city: 'Tandil',
+  email: 'legarretaautomotores@gmail.com',
+  instagram: 'legarretaautomotores',
+  facebook: 'https://www.facebook.com/legarretaautomotores/',
+  whatsapp: ['2494585374', '1133438645'],
+  googlemapsLink: 'https://maps.app.goo.gl/4WKTJ5iEKLLrp53HA',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3293.6070456018024!2d-58.79439462308744!3d-34.36047767304246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb61cf271758e7%3A0x78393ef63d6e10e!2sAutomotores%20Punto%20Cero!5e0!3m2!1sen!2sar!4v1761832253539!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.738550936865!2d-59.13644600000001!3d-37.3250203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911f9b3f40739b%3A0x443cbdfb39ce0f2!2sLegarreta%20Automotores!5e0!3m2!1ses-419!2sar!4v1762128165822!5m2!1ses-419!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 18:00hs',
-    'Sábado 09:00 a 13:00hs',
+    'Lunes a Viernes 09:00 a 17:00hs',
+    'Sábado y Domingo Cerrado',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -30,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://puntocero.vercel.app/',
-  title: 'Punto Cero - Compra y Venta de Autos',
+  metadataBase: 'https://legarretaautomotores.vercel.app/',
+  title: 'Legarreta Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
@@ -41,33 +40,33 @@ export const metadataCompany = {
 export const preguntas = [
   {
     id: 'preg-1',
-    question: '¿Qué opciones de pago ofrecen?',
+    question: '¿Trabajan con financiación?',
     answer:
-      'Ofrecemos diferentes opciones de pago para adaptarnos a tus necesidades. Consultanos sobre las alternativas disponibles y te asesoramos para encontrar la mejor opción.',
+      'Sí, trabajamos con opciones de financiación para que puedas acceder al vehículo que buscás. Te asesoramos sobre las mejores alternativas disponibles según tu situación. Contactanos para conocer los planes y requisitos.',
   },
   {
     id: 'preg-2',
-    question: '¿Cómo verifican el estado de los vehículos?',
+    question: '¿Los autos pasan por alguna revisión técnica?',
     answer:
-      'Todos nuestros vehículos son revisados antes de ser ofrecidos. Realizamos las verificaciones necesarias para asegurar que estén en las mejores condiciones para nuestros clientes.',
+      'Todos los vehículos que ofrecemos son inspeccionados por nuestro equipo técnico. Revisamos el estado general, mecánica, documentación y funcionamiento para asegurarte un auto en las mejores condiciones posibles.',
   },
   {
     id: 'preg-3',
-    question: '¿Incluyen algún tipo de garantía?',
+    question: '¿Qué documentación necesito para comprar?',
     answer:
-      'Sí, nuestros vehículos incluyen garantía según corresponda. Te informamos sobre los términos y condiciones al momento de la compra para tu tranquilidad.',
+      'Necesitás tu DNI vigente y constancia de ingresos. Si vas a financiar, pueden pedirte documentación adicional. Te detallamos todos los requisitos cuando te contactes con nosotros y te ayudamos con el proceso.',
   },
   {
     id: 'preg-4',
-    question: '¿Puedo ver el vehículo antes de decidir?',
+    question: '¿Puedo probar el auto antes de comprarlo?',
     answer:
-      'Por supuesto, te invitamos a conocer nuestros vehículos personalmente. Coordina una visita con nuestro equipo y te mostramos todo lo que necesites saber.',
+      'Por supuesto, podés venir a conocer y probar el vehículo que te interese. Agendamos una cita para que lo veas personalmente, lo pruebes y resuelvas todas tus consultas. Te invitamos a visitarnos.',
   },
   {
     id: 'preg-5',
-    question: '¿Brindan asesoramiento después de la compra?',
+    question: '¿Dan algún tipo de respaldo después de la compra?',
     answer:
-      'Sí, nuestro compromiso continúa después de la compra. Estamos disponibles para resolver tus dudas y brindarte el apoyo que necesites con tu vehículo.',
+      'Sí, seguimos acompañándote después de la compra. Si tenés alguna consulta o necesitás asesoramiento sobre el mantenimiento o cualquier tema relacionado con tu vehículo, podés contactarnos cuando quieras.',
   },
 ];
 

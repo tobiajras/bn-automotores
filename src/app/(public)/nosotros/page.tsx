@@ -27,21 +27,23 @@ const NosotrosPage = () => {
 
         {/* Contenido centrado */}
         <div className='relative z-10 text-center px-4 max-w-4xl mx-auto'>
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className='text-2xl md:text-3xl lg:text-4xl font-semibold text-color-primary-light mb-3 md:mb-4 lg:mb-6'
+            className='inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full mb-4 md:mb-6'
           >
-            Sobre Nosotros
-          </motion.h1>
+            <span className='text-base md:text-lg text-white/90 font-medium'>
+              Sobre Nosotros
+            </span>
+          </motion.div>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className='text-xl md:text-2xl text-white/90 font-medium leading-relaxed'
           >
-            Conectando personas con sus vehículos ideales
+            Tu socio de confianza para encontrar el vehículo perfecto
           </motion.p>
         </div>
       </section>
@@ -58,7 +60,7 @@ const NosotrosPage = () => {
               viewport={{ once: true }}
               className='relative'
             >
-              <div className='mx-auto relative max-w-md lg:max-w-full rounded-md md:rounded-lg overflow-hidden shadow-lg aspect-[4/3]'>
+              <div className='mx-auto relative max-w-md lg:max-w-full rounded-xl md:rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] border border-white/10 group'>
                 <Image
                   src='/assets/nosotros/nosotros-1.webp'
                   alt={`Equipo de ${company.name}`}
@@ -66,6 +68,8 @@ const NosotrosPage = () => {
                   className='object-cover w-full h-full'
                 />
               </div>
+              {/* Elemento decorativo */}
+              <div className='absolute -bottom-4 -right-4 w-24 h-24 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full -z-10 hidden lg:block'></div>
             </motion.div>
 
             {/* Texto */}
@@ -76,22 +80,32 @@ const NosotrosPage = () => {
               viewport={{ once: true }}
               className='max-w-lg flex flex-col items-center lg:items-start justify-center text-center lg:text-left'
             >
-              <h2 className='text-3xl md:text-4xl font-bold text-color-title-light mb-6'>
+              <h2 className='text-3xl md:text-4xl font-bold text-color-title-light mb-6 relative'>
                 {company.name}
+                <div className='absolute -bottom-2 left-0 w-16 h-0.5 bg-gradient-to-r from-white via-white/80 to-transparent hidden lg:block'></div>
               </h2>
-              <div className='space-y-4 text-color-text-light text-lg leading-relaxed'>
+              <div className='space-y-5 text-color-text-light text-lg leading-relaxed'>
                 <p>
-                  Somos una concesionaria comprometida con ofrecer la mejor
-                  experiencia en la compra y venta de vehículos. Nuestro equipo
-                  trabaja día a día para brindar un servicio personalizado y de
-                  calidad a cada uno de nuestros clientes.
+                  En {company.name}, nos especializamos en hacer realidad el
+                  sueño de cada cliente de encontrar su vehículo ideal. Con un
+                  catálogo cuidadosamente seleccionado de vehículos usados y
+                  0km, ofrecemos opciones para todos los gustos y presupuestos.
                 </p>
                 <p>
-                  Con años de experiencia en el mercado automotriz, nos hemos
-                  consolidado como una empresa confiable que prioriza la
-                  satisfacción del cliente, ofreciendo una amplia variedad de
-                  vehículos con opciones de financiamiento.
+                  Nuestro compromiso va más allá de la venta: brindamos
+                  asesoramiento personalizado, facilitamos procesos de
+                  financiamiento accesibles y garantizamos la calidad de cada
+                  unidad. Trabajamos con transparencia y dedicación para que tu
+                  experiencia sea excepcional desde el primer contacto.
                 </p>
+                <div className='flex flex-wrap justify-center lg:justify-start gap-3 pt-2'>
+                  <span className='px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white/90 text-lg font-medium'>
+                    ✓ Vehículos Certificados
+                  </span>
+                  <span className='px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white/90 text-lg font-medium'>
+                    ✓ Financiación Flexible
+                  </span>
+                </div>
               </div>
             </motion.div>
           </div>
@@ -113,9 +127,9 @@ const NosotrosPage = () => {
               Valores que nos definen
             </h2>
             <p className='text-color-text-light text-lg md:text-xl max-w-3xl mx-auto leading-relaxed'>
-              Los principios fundamentales que guían cada decisión y acción en{' '}
-              {company.name}, construyendo confianza y excelencia en cada
-              interacción.
+              Los pilares que sostienen nuestro compromiso con la calidad y la
+              satisfacción del cliente. Cada valor refleja nuestra dedicación a
+              brindar una experiencia excepcional en cada paso del proceso.
             </p>
           </motion.div>
 
@@ -127,17 +141,19 @@ const NosotrosPage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
               viewport={{ once: true }}
-              className='group relative'
+              className='relative'
             >
-              <div className='bg-white/10 backdrop-blur-sm relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full border border-color-primary/20'>
+              <div className='bg-white/10 backdrop-blur-sm relative overflow-hidden rounded-2xl shadow-xl h-full border border-white/20'>
                 {/* Fondo decorativo */}
-                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-color-primary/20 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
+                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-white/10 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
+                {/* Línea decorativa inferior */}
+                <div className='absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-white/20 to-transparent'></div>
 
                 <div className='relative p-8 lg:p-10'>
                   {/* Icono */}
-                  <div className='w-20 h-20 bg-gradient-to-br from-color-primary to-neutral-500 rounded-2xl flex items-center justify-center mb-8'>
+                  <div className='w-20 h-20 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl flex items-center justify-center mb-8'>
                     <svg
-                      className='w-10 h-10 text-black'
+                      className='w-10 h-10 text-white'
                       fill='none'
                       viewBox='0 0 24 24'
                       stroke='currentColor'
@@ -156,9 +172,11 @@ const NosotrosPage = () => {
                     Excelencia
                   </h3>
                   <p className='text-color-text-light leading-relaxed text-base lg:text-lg'>
-                    Buscamos la perfección en cada detalle, desde la selección
-                    de vehículos hasta el servicio postventa, garantizando la
-                    mejor experiencia posible para nuestros clientes.
+                    Cada vehículo en nuestro catálogo pasa por un riguroso
+                    proceso de selección y revisión. Nos aseguramos de que solo
+                    ofrezcamos unidades en óptimas condiciones, con historial
+                    verificado y garantía de calidad. La excelencia no es un
+                    objetivo, es nuestro estándar.
                   </p>
                 </div>
               </div>
@@ -170,17 +188,19 @@ const NosotrosPage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              className='group relative'
+              className='relative'
             >
-              <div className='bg-white/10 backdrop-blur-sm relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full border border-color-primary/20'>
+              <div className='bg-white/10 backdrop-blur-sm relative overflow-hidden rounded-2xl shadow-xl h-full border border-white/20'>
                 {/* Fondo decorativo */}
-                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-color-primary/20 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
+                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-white/10 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
+                {/* Línea decorativa inferior */}
+                <div className='absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-white/20 to-transparent'></div>
 
                 <div className='relative p-8 lg:p-10'>
                   {/* Icono */}
-                  <div className='w-20 h-20 bg-gradient-to-br from-color-primary to-neutral-500 rounded-2xl flex items-center justify-center mb-8'>
+                  <div className='w-20 h-20 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl flex items-center justify-center mb-8'>
                     <svg
-                      className='w-10 h-10 text-black'
+                      className='w-10 h-10 text-white'
                       fill='none'
                       viewBox='0 0 24 24'
                       stroke='currentColor'
@@ -199,9 +219,11 @@ const NosotrosPage = () => {
                     Confianza
                   </h3>
                   <p className='text-color-text-light leading-relaxed text-base lg:text-lg'>
-                    Construimos relaciones duraderas basadas en la
-                    transparencia, honestidad y el cumplimiento de cada promesa
-                    que hacemos a nuestros clientes.
+                    La confianza se construye con acciones, no con palabras. Por
+                    eso, cada transacción se realiza con total transparencia:
+                    información clara sobre el estado del vehículo, procesos
+                    documentales simples y un equipo siempre disponible para
+                    resolver tus dudas. Tu tranquilidad es nuestra prioridad.
                   </p>
                 </div>
               </div>
@@ -213,16 +235,18 @@ const NosotrosPage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
               viewport={{ once: true }}
-              className='group relative'
+              className='relative'
             >
-              <div className='bg-white/10 backdrop-blur-sm relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 h-full border border-color-primary/20'>
-                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-color-primary/20 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
+              <div className='bg-white/10 backdrop-blur-sm relative overflow-hidden rounded-2xl shadow-xl h-full border border-white/20'>
+                <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-white/10 to-transparent rounded-full -translate-y-16 translate-x-16'></div>
+                {/* Línea decorativa inferior */}
+                <div className='absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-white/20 to-transparent'></div>
 
                 <div className='relative p-8 lg:p-10'>
                   {/* Icono */}
-                  <div className='w-20 h-20 bg-gradient-to-br from-color-primary to-neutral-500 rounded-2xl flex items-center justify-center mb-8'>
+                  <div className='w-20 h-20 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl flex items-center justify-center mb-8'>
                     <svg
-                      className='w-10 h-10 text-black'
+                      className='w-10 h-10 text-white'
                       fill='none'
                       viewBox='0 0 24 24'
                       stroke='currentColor'
@@ -241,9 +265,11 @@ const NosotrosPage = () => {
                     Innovación
                   </h3>
                   <p className='text-color-text-light leading-relaxed text-base lg:text-lg'>
-                    Nos mantenemos a la vanguardia de las tendencias del
-                    mercado, implementando nuevas tecnologías y procesos para
-                    mejorar continuamente nuestros servicios.
+                    Estamos en constante evolución para ofrecerte las mejores
+                    soluciones. Desde plataformas digitales que facilitan la
+                    búsqueda hasta opciones de financiamiento adaptadas a tus
+                    necesidades. Innovamos para que encuentres tu vehículo ideal
+                    de la forma más simple y eficiente posible.
                   </p>
                 </div>
               </div>

@@ -1,100 +1,109 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
-import { company } from '@/app/constants/constants';
-
-const galleryImages = [
-  {
-    src: '/assets/gallery/gallery-1000-1.webp',
-    alt: 'Imagen 1 Galería',
-  },
-  {
-    src: '/assets/gallery/gallery-1000-2.webp',
-    alt: 'Imagen 2 Galería',
-  },
-  {
-    src: '/assets/gallery/gallery-1000-3.webp',
-    alt: 'Imagen 3 Galería',
-  },
-];
 
 const Gallery = () => {
-  const autoplayOptions = {
-    delay: 3500,
-    stopOnInteraction: false,
-    stopOnMouseEnter: false,
-  };
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [
-    Autoplay(autoplayOptions),
-  ]);
-  const [clicked, setClicked] = useState(false);
-
   return (
-    <section className='mt-10 mb-16 md:mt-16 md:mb-24 relative overflow-hidden'>
-      {/* Patrón de fondo sutil */}
-      <div className='absolute inset-0 bg-grid-pattern opacity-5'></div>
-      <div className='max-w-4xl mx-auto px-4 sm:px-6 relative z-10'>
-        {/* Título y subtítulo */}
-        <div className='text-center mb-5 md:mb-8 lg:mb-10'>
-          <motion.h2
-            initial={{ opacity: 0, y: 30 }}
+    <section className='py-16 md:py-24 lg:py-32 relative overflow-hidden'>
+      <div className='flex justify-center w-full'>
+        <div className='max-w-7xl w-full mx-4 sm:mx-6 md:mx-8 lg:mx-10 flex justify-center'>
+          {/* Contenedor con imagen de fondo */}
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.8 }}
             viewport={{ once: true, margin: '0px 0px -100px 0px' }}
-            className='text-2xl md:text-3xl lg:text-4xl font-extrabold bg-gradient-to-r from-white to-neutral-300 bg-clip-text text-transparent mb-2 max-w-xl mx-auto'
+            className='relative w-full max-w-[1000px] md:aspect-[5/4] rounded-2xl md:rounded-3xl overflow-hidden'
           >
-            Somos {company.name}
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true, margin: '0px 0px -100px 0px' }}
-            className='text-color-text-light max-w-2xl mx-auto md:text-lg font-medium'
-          >
-            Cada vehículo seleccionado con el cuidado y la calidad que nos
-            caracteriza.
-          </motion.p>
-        </div>
-        <motion.article
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true, margin: '0px 0px -100px 0px' }}
-          onMouseUp={() => setClicked(false)}
-          onMouseDown={() => setClicked(true)}
-          className={`overflow-hidden relative ${
-            clicked ? 'cursor-grabbing' : 'cursor-grab'
-          }`}
-          ref={emblaRef}
-        >
-          <div className='flex'>
-            {galleryImages.map((img, idx) => (
-              <div
-                key={idx}
-                className='flex-[0_0_75%] sm:flex-[0_0_65%] md:flex-[0_0_60%] lg:flex-[0_0_65%] mr-3 sm:mr-5 md:mr-8 lg:mr-10'
+            {/* Imagen de fondo - solo en desktop */}
+            <div className='hidden md:block absolute inset-0'>
+              <Image
+                src='/assets/gallery/gallery-1000-1.webp'
+                alt='Showroom de {company.name}'
+                fill
+                className='object-cover'
+                priority
+                sizes='(max-width: 768px) 0vw, (max-width: 1200px) 1000px, 1000px'
+              />
+              {/* Overlay oscuro para legibilidad */}
+              <div className='absolute inset-0 bg-black/30'></div>
+            </div>
+
+            {/* Cartel sobre la imagen */}
+            <div className='relative md:absolute inset-0 flex items-center justify-center'>
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true, margin: '0px 0px -100px 0px' }}
+                className='bg-black md:bg-black/50 backdrop-blur-md border border-white/20 rounded-xl md:rounded-2xl p-5 sm:p-6 md:p-10 lg:p-12 w-full max-w-[90%] sm:max-w-md md:max-w-xl lg:max-w-2xl shadow-2xl flex flex-col items-center text-center'
               >
-                <div className='relative w-full rounded-lg md:rounded-xl overflow-hidden border border-neutral-600'>
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    width={1000}
-                    height={800}
-                    className='object-cover w-full h-full'
-                    priority
-                  />
-                  <div className='absolute inset-0 bg-gradient-to-t from-black/30 to-transparent z-10'></div>
+                <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold mb-3 sm:mb-4 md:mb-6 text-white'>
+                  Confianza y Experiencia
+                </h2>
+                <p className='text-sm sm:text-base md:text-lg lg:text-xl text-white/90 leading-relaxed mb-4 sm:mb-5 md:mb-6 lg:mb-8'>
+                  Años de trayectoria en el mercado nos respaldan. Conocé
+                  nuestra historia y descubrí por qué somos la mejor opción para
+                  encontrar tu próximo vehículo.
+                </p>
+                <div className='flex flex-col md:flex-row gap-3 sm:gap-4 items-center'>
+                  <div className='flex items-center gap-2 sm:gap-3'>
+                    <div className='w-10 h-10 sm:w-12 sm:h-12 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0'>
+                      <svg
+                        className='w-5 h-5 sm:w-6 sm:h-6 text-white'
+                        fill='none'
+                        stroke='currentColor'
+                        viewBox='0 0 24 24'
+                      >
+                        <path
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          strokeWidth={2}
+                          d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                        />
+                      </svg>
+                    </div>
+                    <div className='text-left'>
+                      <p className='text-white font-semibold text-xs sm:text-sm md:text-base'>
+                        Años de Experiencia
+                      </p>
+                      <p className='text-white/70 text-xs sm:text-sm'>
+                        Trayectoria comprobada
+                      </p>
+                    </div>
+                  </div>
+                  <div className='flex items-center gap-2 sm:gap-3'>
+                    <div className='w-10 h-10 sm:w-12 sm:h-12 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0'>
+                      <svg
+                        className='w-5 h-5 sm:w-6 sm:h-6 text-white'
+                        fill='none'
+                        stroke='currentColor'
+                        viewBox='0 0 24 24'
+                      >
+                        <path
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          strokeWidth={2}
+                          d='M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z'
+                        />
+                      </svg>
+                    </div>
+                    <div className='text-left'>
+                      <p className='text-white font-semibold text-xs sm:text-sm md:text-base'>
+                        Confianza Garantizada
+                      </p>
+                      <p className='text-white/70 text-xs sm:text-sm'>
+                        Transparencia total
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
-          <div className='absolute w-3 sm:w-5 md:w-10 h-full top-0 left-0 bg-gradient-to-r from-color-bg-primary'></div>
-          <div className='absolute w-3 sm:w-5 md:w-10 h-full top-0 right-0 bg-gradient-to-l from-color-bg-primary'></div>
-        </motion.article>
+              </motion.div>
+            </div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );

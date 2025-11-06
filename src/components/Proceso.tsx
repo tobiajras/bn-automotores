@@ -21,7 +21,7 @@ const beneficios = [
     ),
   },
   {
-    titulo: 'Revisión y acomodación',
+    titulo: 'Revisión vehicular',
     descripcion:
       'Todos los vehículos pasan por una exhaustiva inspección para garantizar un óptimo funcionamiento de los vehículos.',
     icono: (
@@ -54,64 +54,61 @@ const beneficios = [
 
 const Proceso = () => {
   return (
-    <section
-      className={`flex flex-col items-center justify-center py-10 md:py-16 `}
-    >
-      <div className='max-w-7xl w-full flex flex-col px-4 md:px-8'>
-        {/* Título */}
-        <div className='text-center mb-8 md:mb-12'>
-          <motion.h2
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true, margin: '0px 0px -100px 0px' }}
-            className={`text-2xl md:text-3xl lg:text-4xl font-extrabold mb-4 ${
-              company.darkmode ? 'text-color-title-light' : 'text-blue-900'
-            }`}
-          >
-            ¿Por qué comprar en {company.name}?
-          </motion.h2>
-        </div>
-
-        {/* Layout de tres columnas */}
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 lg:gap-12'>
-          {beneficios.map((b, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              viewport={{ once: true, margin: '0px 0px -100px 0px' }}
-              className='flex flex-col items-center text-center'
-            >
-              {/* Icono */}
-              <div
-                className={`flex items-center justify-center w-16 h-16 md:w-20 md:h-20 mb-4 md:mb-6 ${
-                  company.darkmode ? 'text-color-primary' : 'text-blue-600'
-                }`}
+    <section className='flex flex-col items-center justify-center py-16 md:py-24 lg:py-32 bg-color-bg-secondary-dark'>
+      <div className='flex justify-center w-full'>
+        <div className='max-w-7xl w-full flex flex-col mx-4 sm:mx-6 md:mx-8 lg:mx-10'>
+          {/* Layout alternado - zigzag */}
+          <div className='space-y-8 md:space-y-12 lg:space-y-16'>
+            {beneficios.map((b, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: i * 0.15 }}
+                viewport={{ once: true, margin: '0px 0px -100px 0px' }}
+                className={`flex flex-col ${
+                  i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                } items-center gap-8 md:gap-12 lg:gap-16`}
               >
-                {b.icono}
-              </div>
+                {/* Lado izquierdo - Icono y número */}
+                <div className='flex-shrink-0 w-full md:w-auto flex justify-center'>
+                  <div className='relative'>
+                    {/* Número grande de fondo */}
+                    <div className='absolute -top-12 -left-12 md:-top-16 md:-left-16 lg:-top-20 text-8xl md:text-9xl font-black text-white/30 select-none'>
+                      {String(i + 1).padStart(2, '0')}
+                    </div>
+                    {/* Contenedor del icono */}
+                    <div className='relative w-24 h-24 md:w-32 md:h-32 bg-white rounded-2xl flex items-center justify-center shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-300'>
+                      <div className='w-12 h-12 md:w-16 md:h-16 text-black'>
+                        {b.icono}
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-              {/* Título */}
-              <h3
-                className={`text-xl md:text-2xl font-bold mb-3 md:mb-4 ${
-                  company.darkmode ? 'text-color-title-light' : 'text-blue-900'
-                }`}
-              >
-                {b.titulo}
-              </h3>
+                {/* Línea divisoria vertical (solo desktop) */}
+                <div className='hidden md:block w-px h-24 bg-gradient-to-b from-transparent via-white/30 to-transparent'></div>
 
-              {/* Descripción */}
-              <p
-                className={`text-sm md:text-base leading-relaxed max-w-sm ${
-                  company.darkmode ? 'text-color-text-light' : 'text-gray-600'
-                }`}
-              >
-                {b.descripcion}
-              </p>
-            </motion.div>
-          ))}
+                {/* Lado derecho - Contenido */}
+                <div
+                  className={`flex-1 text-center ${
+                    i % 2 === 0 ? 'md:text-left' : 'md:text-right'
+                  }`}
+                >
+                  <h3 className='text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-white'>
+                    {b.titulo}
+                  </h3>
+                  <p
+                    className={`text-base md:text-lg leading-relaxed text-white/80 max-w-2xl ${
+                      i % 2 !== 0 ? 'md:ml-auto' : ''
+                    }`}
+                  >
+                    {b.descripcion}
+                  </p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
