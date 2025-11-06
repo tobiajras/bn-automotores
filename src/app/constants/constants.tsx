@@ -5,20 +5,20 @@ export const company = {
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'adgautos',
-  name: 'ADG Autos',
-  adress: 'Belgrano 245',
-  city: 'San Nicolás de los Arroyos',
-  email: 'adgautos@gmail.com',
-  instagram: 'adgautos',
-  facebook: 'https://www.facebook.com/profile.php?id=61557091590962',
-  whatsapp: ['3364529314'],
-  googlemapsLink: 'https://maps.app.goo.gl/AozHJwbsnJ3h3cxSA',
+  id: 'bnautomotores',
+  name: 'BN Automotores',
+  adress: 'Colectora Macaya 1099',
+  city: 'Tandil',
+  email: 'briancastellani@hotmail.com',
+  instagram: 'bn_automotores',
+  facebook: 'https://www.facebook.com/p/BN-automotores-100064063353926/',
+  whatsapp: ['2494002479', '2345498100'],
+  googlemapsLink: 'https://maps.app.goo.gl/mSPA9QiWDd9RzMH3A',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.5552485241665!2d-60.22337772344007!3d-33.33044099137776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7678dbbe0133d%3A0xf8bdcdca0cce882b!2sBelgrano%20245%2C%20B2900%20San%20Nicol%C3%A1s%20de%20Los%20Arroyos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1762112819197!5m2!1ses-419!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.336077540247!2d-59.11483597466206!3d-37.31086614421959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911ff9edf1b781%3A0x1628df8c82531097!2sBN%20AUTOMOTORES!5e0!3m2!1sen!2sar!4v1762031349161!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 09:00 a 18:00hs',
-    'Sábado 09:00 a 13:00hs',
+    'Lunes a Viernes 09:30 a 18:00hs',
+    'Sábado 09:30 a 14:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://only-motors.agenciagrvity.com';
 export const TENANT = 'pozner';
 
 export const metadataCompany = {
-  metadataBase: 'https://adgautos.vercel.app/',
-  title: 'ADG Autos - Compra y Venta de Autos',
+  metadataBase: 'https://bnautomotores.vercel.app/',
+  title: 'BN Automotores - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
